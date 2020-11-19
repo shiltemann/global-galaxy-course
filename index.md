@@ -7,7 +7,7 @@ title: "GTN Smörgåsbord: A Global Galaxy Course"
 
 In February 2021, we will organize a global 5-day Galaxy Training event showcasing a wide variety of GTN tutorials. This will be an online event, spanning all time zones. All training sessions are pre-recorded, so you can work through them at your own pace, and manage your own time. A large community of GTN trainers will be available online for support to answer all your questions.
 
-The program focuses on NGS analyses, but features a *Choose your own adventure* day on Friday, where we encourage you to explore all the tutorials available on the GTN, covering topics from NGS to ecology, climate science or visualization, or any of the other 16 topics that might interest you.
+The program covers a general introduction into the Galaxy platform, NGS Analysis (DNA-seq and RNA-seq), Proteomics, and also features a **Choose your own adventure** day on Friday, where we encourage you to explore all the tutorials that the GTN training repository has to offer, and follow those that are of interest to you. The GTN tutorials cover a wide range of scientific topics, from NGS to ecology, climate science, machine learning, visualization, and many more. All the tutorials can be found on the [GTN website](https://training.galaxyproject.org)
 
 # Practical Information
 
@@ -15,7 +15,7 @@ The program focuses on NGS analyses, but features a *Choose your own adventure* 
 **Who:** Open for everybody \\
 **Cost:** Free \\
 **Format:** Virtual event, all training session are pre-recorded, you can work through these at your own pace, with instructors available online for support \\
-**Support:** Slack Channel (link will be provided before the course) \\
+**Support:** Slack Channel (link will be provided here before the course) \\
 **Organizers:** The Galaxy Training Network (GTN), CINECA, The Galaxy Project, BioCommons, Erasmus Medical Center, University of Freiburg, Avans Hogeschool, GalaxyP team, ProteoRE team, INAB-CERTH, EMBL-EBI
 
 # Registration
@@ -38,6 +38,8 @@ Please fill out the [registration form](https://forms.gle/TN3Tuet8wm4i2umv5) to 
 
 ## Day 4: Proteomics
 
-## Day 5: Choose your own adventure
+## Day 5: Choose your own Adventure!
+
+
 
 
