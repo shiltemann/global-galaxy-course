@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Global Galaxy Course: GTN Smörgåsbord"
+title: "GTN Training Event"
 email: saskiahiltemann@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Website for the Global Galaxy Workshop running on February 15-19, 2021.
