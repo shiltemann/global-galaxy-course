@@ -1,13 +1,13 @@
 ---
 layout: page
 title: "GTN Smörgåsbord: A Global Galaxy Course"
-
 ---
 
+![GTN logo](assets/images/logos/00_GTNLogo300.png){: style="float: right"}
 
 In February 2021, we will organize a global 5-day [Galaxy](https://galaxyproject.org) Training event showcasing a wide variety of GTN (Galaxy Training Network) [tutorials](https://training.galaxyproject.org). This will be an **online** event, spanning **all time zones**. All training sessions are pre-recorded, so you can work through them **at your own pace**, and manage your own time. A large community of GTN trainers will be available via **online support** to answer all your questions.
 
-The program covers a general introduction into the Galaxy platform, NGS Analysis (DNA-seq and RNA-seq), Proteomics, and also features a [**Choose your own adventure**](https://en.wikipedia.org/wiki/Choose_Your_Own_Adventure) day on Friday, where we encourage you to explore all the tutorials that the GTN training repository has to offer, and follow those that are of interest to you. The GTN tutorials cover a wide range of scientific topics, from NGS to ecology, climate science, machine learning, visualization, and many more. All the tutorials can be found on the [GTN website](https://training.galaxyproject.org)
+The [program](#program) covers a general **introduction to the Galaxy platform**, **NGS Analysis (DNA-seq and RNA-seq)**, **Proteomics**, and also features a [**Choose your own adventure**](https://en.wikipedia.org/wiki/Choose_Your_Own_Adventure) day on Friday, where we encourage you to explore all the tutorials that the GTN training repository has to offer, and follow those that are of interest to you. The GTN tutorials cover a wide range of scientific topics, from NGS to ecology, climate science, machine learning, visualization, and many more. All the tutorials can be found on the [GTN website](https://training.galaxyproject.org)
 
 ## Practical Information
 
@@ -32,9 +32,9 @@ Please fill out the [registration form](https://forms.gle/TN3Tuet8wm4i2umv5) to 
 | Welcome & Course information | Saskia Hiltemann | lecture   | 15m      |       |             |
 | What is Galaxy?              | Anton Nekrutenko | lecture   | 30m      |       |             |
 | Using Galaxy: An introduction to NGS analysis | Anton Nekrutenko | practical | 1h30m | | |
-| Quality Control              | Florian Heyl     | practical | 1h30m    |       |             |
-| Mapping                      | Saskia Hiltemann | lecture   | 30m      |       |             |
-| Mapping                      | Saskia Hiltemann | practical | 45m      |       |             |
+| Quality Control              | Florian Heyl     | practical | 1h30m    |       | [Tutorial](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html) |
+| Mapping                      | Saskia Hiltemann | lecture   | 30m      |       | [Slides](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html)  |
+| Mapping                      | Saskia Hiltemann | practical | 45m      |       | [Tutorial](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html)  |
 | Assembly                     | Simon Gladman    | practical |          |       |             |
 
 
@@ -42,19 +42,20 @@ Please fill out the [registration form](https://forms.gle/TN3Tuet8wm4i2umv5) to 
 
 | Topic                              | Presentor        | Type      | Duration | Video | GTN material|
 |------------------------------------|------------------|-----------|----------|-------|-------------|
-| Introduction to RNA-seq            | Fotis Psomopoulos / Bérénice Batut| lecture   | 30m      |       |             |
-| Reference-based RNA-seq with Galaxy| Fotis Psomopoulos / Bérénice Batut| practical | 3h       |       |             |
-| Introduction to R                  | Fotis Psomopoulos / Bérénice Batut| practical | 1h30m    |       |             |
-| RNA-seq post-processing with R       | Fotis Psomopoulos / Bérénice Batut| practical | 1h       |       |             |
+| Introduction to RNA-seq            | Fotis Psomopoulos / Bérénice Batut| lecture   | 30m      |       |  [Slides](https://training.galaxyproject.org/training-material/topics/transcriptomics/slides/introduction.html) |
+| Reference-based RNA-seq with Galaxy| Fotis Psomopoulos / Bérénice Batut| practical | 3h       |       | [Tutorial](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html)  |
+| Introduction to R in Galaxy        | Fotis Psomopoulos / Bérénice Batut| practical | 1h    |       | [Tutorial](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/r-basics/tutorial.html) |
+| Advanced R in Galaxy               | Fotis Psomopoulos / Bérénice Batut| practical | 30m    | | [Tutorial](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/r-advanced/tutorial.html) |
+| RNA-seq post-processing with R     | Fotis Psomopoulos / Bérénice Batut| practical | 1h       |       | [Tutorial](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html)|
 
 ### Day 3: Single-cell RNA-seq
 
 | Topic                        | Presentor        | Type      | Duration | Video | GTN material|
 |------------------------------|------------------|-----------|----------|-------|-------------|
 | Introduction to scRNA-seq    | Wendi Bacon / Mehmet Tekman | lecture   | 30m |   |   |
-| Understanding Barcodes       | Wendi Bacon / Mehmet Tekman | practical | 2h  |   |   |
-| Pre-processing of 10X Single-Cell RNA Datasets | Wendi Bacon / Mehmet Tekman | practical | 2h | | |
-| Clustering 3K PBMCs with Scanpy | Wendi Bacon / Mehmet Tekman | practical | 3h | | |
+| Understanding Barcodes       | Wendi Bacon / Mehmet Tekman | practical | 2h  |   | [Tutorial](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-umis/tutorial.html)   |
+| Pre-processing of 10X Single-Cell RNA Datasets | Wendi Bacon / Mehmet Tekman | practical | 2h | | [Tutorial](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html) |
+| Clustering 3K PBMCs with Scanpy | Wendi Bacon / Mehmet Tekman | practical | 3h | |[Tutorial](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html) |
 
 ### Day 4: Proteomics
 
@@ -64,10 +65,10 @@ Please fill out the [registration form](https://forms.gle/TN3Tuet8wm4i2umv5) to 
 | Introduction to Protein quantification and stats      | Melanie Föll| lecture   | 15min |  | |
 | Maxquant + MSstats on a clinical cohort               | Melanie Föll| practical | 1h30m |  | |
 | Introduction to Proteogenomics | Tim Griffin | lecture | 15min | | |
-| Proteogenomics 1: Database Creation | James Johnson | practical | 1h | | |
-| Proteogenomics 2: Database search | Pratik Jagtap | practical | 45min | | |
-| Proteogenomics 3: Novel peptide analysis | Subina Mehta | practical | 1h | | |
-| Metaproteomics | Pratik Jagtap | practical | 1h | | |
+| Proteogenomics 1: Database Creation | James Johnson | practical | 1h | | [Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html) |
+| Proteogenomics 2: Database search | Pratik Jagtap | practical | 45min | | [Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html) |
+| Proteogenomics 3: Novel peptide analysis | Subina Mehta | practical | 1h | | [Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html) |
+| Metaproteomics | Pratik Jagtap | practical | 1h | |[Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaproteomics/tutorial.html)|
 | ProteoRE workflow | ProteoRE Team | practical | | | |
 
 
@@ -88,9 +89,9 @@ NOTE: more training sessions may be added here over time!
 
 | Topic                             | Presentor        | Type      | Duration | Video | GTN material|
 |-----------------------------------|------------------|-----------|----------|-------|-------------|
-| AMR detections with Nanopore Data | Astrid Heikema / Willem de Koning | lecture & practical  | 2h  |       |             |
-| 16S Microbial analysis with mothur | Saskia Hiltemann | lecture & practical | 2h | | |
-| Circos visualization in Galaxy     | Helena Rasche / Saskia Hiltemann | practical | 1h | | |
+| Antibiotic Resistance Detection with Nanopore Data | Astrid Heikema / Willem de Koning | lecture & practical  | 2h  |       | [Tutorial](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html) |
+| 16S Microbial analysis with mothur | Saskia Hiltemann | practical | 2h | | [Tutorial](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html) |
+| Circos visualization in Galaxy     | Helena Rasche / Saskia Hiltemann | practical | 1h | | [Slides](https://training.galaxyproject.org/training-material/topics/visualisation/tutorials/circos/slides.html), [Tutorial](https://training.galaxyproject.org/training-material/topics/visualisation/tutorials/circos/tutorial.html) |
 
 #### Recommended Tutorials
 
@@ -98,7 +99,7 @@ These tutorials do not have videos, but there are experienced instructors online
 
 | Tutorial                     |  Duration | GTN material |
 |------------------------------|-----------|--------------|
-| Genomic Data Visualization with JBrowse | 1h | [tutorial](https://training.galaxyproject.org/training-material/topics/visualisation/tutorials/jbrowse/tutorial.html)|
+| Genomic Data Visualization with JBrowse | 1h | [Tutorial](https://training.galaxyproject.org/training-material/topics/visualisation/tutorials/jbrowse/tutorial.html)|
 
 
 ## Acknowledgements
