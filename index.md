@@ -16,8 +16,8 @@ The program covers a general introduction into the Galaxy platform, NGS Analysis
 **Cost:** Free \\
 **Format:** Virtual event, all training session are pre-recorded, you can work through these at your own pace, with instructors available online for support \\
 **Support:** Slack Channel (link will be provided here before the course) \\
-**Organized by:** [The Galaxy Training Network (GTN)](https://training.galaxyproject.org/training-material/hall-of-fame), [CINECA](https://www.cineca-project.eu/), [The Galaxy Project](https://galaxyproject.org), [Australian BioCommons](https://www.biocommons.org.au/), [Erasmus Medical Center](https://erasmusmc.nl),
-[Albert-Ludwigs-Universität Freiburg](https://uni-freiburg.de/), [Avans Hogeschool](https://www.avans.nl), [The GalaxyP Team](http://galaxyp.org/), [The ProteoRE Team](http://www.proteore.org/), [INAB-CERTH](https://www.inab.certh.gr/), [EMBL-EBI](https://www.ebi.ac.uk/), [Institute of Surgical Pathology - University Medical Center Freiburg](https://www.uniklinik-freiburg.de/pathologie-en.html).
+**Organized by:** [The Galaxy Training Network (GTN)](https://training.galaxyproject.org/training-material/hall-of-fame), [CINECA](https://www.cineca-project.eu/), [The Galaxy Project](https://galaxyproject.org), [Australian BioCommons](https://www.biocommons.org.au/), [Erasmus Medical Center](https://www.erasmusmc.nl),
+[Albert-Ludwigs-Universität Freiburg](https://uni-freiburg.de/), [Avans Hogeschool](https://www.avans.nl), [The Gallantries Project](https://gallantries.github.io/), [The GalaxyP Team](http://galaxyp.org/), [The ProteoRE Team](http://www.proteore.org/), [INAB-CERTH](https://www.inab.certh.gr/), [EMBL-EBI](https://www.ebi.ac.uk/), [Institute of Surgical Pathology - University Medical Center Freiburg](https://www.uniklinik-freiburg.de/pathologie-en.html).
 
 ## Registration
 
@@ -81,6 +81,8 @@ This day is a little bit different; today, YOU create the program. There are a f
 2. Follow one of the **recommended tutorials**; these do not have videos, but there are expert instructors online for support today
 3. Follow any other tutorial from the [GTN website](https://training.galaxyproject.org) that looks interesting to you, and we will do our best to guide you!
 
+NOTE: more training sessions may be added here over time!
+
 #### Video Tutorials
 
 
@@ -98,3 +100,17 @@ These tutorials do not have videos, but there are experienced instructors online
 |------------------------------|-----------|--------------|
 | Genomic Data Visualization with JBrowse | 1h | [tutorial](https://training.galaxyproject.org/training-material/topics/visualisation/tutorials/jbrowse/tutorial.html)|
 
+
+## Acknowledgements
+
+This Global Galaxy course is only possible thanks to a Global network of instructors and institutes.
+
+<div class="row" style='padding: 2em; content-width: 90%'>
+ <div>
+ {% for image in site.static_files %}
+  {% if image.path contains 'images/logos' %}
+   <img src="{{ site.baseurl }}{{ image.path }}" alt="logo" style="height:5em; margin: 1em;"/>
+  {% endif %}
+ {% endfor %}
+ </div>
+</div>
