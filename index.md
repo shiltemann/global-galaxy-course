@@ -21,7 +21,8 @@ The [program](#program) covers a general **introduction to the Galaxy platform**
 
 ## Registration
 
-Please fill out the [registration form](https://forms.gle/TN3Tuet8wm4i2umv5) to sign up for this course.
+Please fill out the **[registration form](https://forms.gle/TN3Tuet8wm4i2umv5)** to sign up for this course.
+
 
 ## Program
 
@@ -82,7 +83,7 @@ This day is a little bit different; today, YOU create the program. There are a f
 2. Follow one of the **recommended tutorials**; these do not have videos, but there are expert instructors online for support today
 3. Follow any other tutorial from the [GTN website](https://training.galaxyproject.org) that looks interesting to you, and we will do our best to guide you!
 
-NOTE: more training sessions may be added here over time!
+**NOTE:** more training sessions may be added here over time!
 
 #### Video Tutorials
 
