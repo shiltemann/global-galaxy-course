@@ -16,6 +16,7 @@ The [program](#program) covers a general **introduction to the Galaxy platform**
 **Cost:** Free \\
 **Format:** Virtual event, all training session are pre-recorded, you can work through these at your own pace, with instructors available online for support \\
 **Support:** Slack Channel (link will be provided here before the course) \\
+**Contact:** [Saskia Hiltemann](mailto:saskiahiltemann@gmail.com) \\
 **Organized by:** [The Galaxy Training Network (GTN)](https://training.galaxyproject.org/training-material/hall-of-fame), [CINECA](https://www.cineca-project.eu/), [The Galaxy Project](https://galaxyproject.org), [Australian BioCommons](https://www.biocommons.org.au/), [Erasmus Medical Center](https://www.erasmusmc.nl),
 [Albert-Ludwigs-Universität Freiburg](https://uni-freiburg.de/), [Avans Hogeschool](https://www.avans.nl), [The Gallantries Project](https://gallantries.github.io/), [The GalaxyP Team](http://galaxyp.org/), [The ProteoRE Team](http://www.proteore.org/), [INAB-CERTH](https://www.inab.certh.gr/), [EMBL-EBI](https://www.ebi.ac.uk/), [Institute of Surgical Pathology - University Medical Center Freiburg](https://www.uniklinik-freiburg.de/pathologie-en.html), [Centre National pour la Recherche Scientifique (CNRS)](http://www.cnrs.fr/).
 
