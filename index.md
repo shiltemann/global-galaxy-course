@@ -17,7 +17,7 @@ The [program](#program) covers a general **introduction to the Galaxy platform**
 **Format:** Virtual event, all training session are pre-recorded, you can work through these at your own pace, with instructors available online for support \\
 **Support:** Slack Channel (link will be provided here before the course) \\
 **Organized by:** [The Galaxy Training Network (GTN)](https://training.galaxyproject.org/training-material/hall-of-fame), [CINECA](https://www.cineca-project.eu/), [The Galaxy Project](https://galaxyproject.org), [Australian BioCommons](https://www.biocommons.org.au/), [Erasmus Medical Center](https://www.erasmusmc.nl),
-[Albert-Ludwigs-Universität Freiburg](https://uni-freiburg.de/), [Avans Hogeschool](https://www.avans.nl), [The Gallantries Project](https://gallantries.github.io/), [The GalaxyP Team](http://galaxyp.org/), [The ProteoRE Team](http://www.proteore.org/), [INAB-CERTH](https://www.inab.certh.gr/), [EMBL-EBI](https://www.ebi.ac.uk/), [Institute of Surgical Pathology - University Medical Center Freiburg](https://www.uniklinik-freiburg.de/pathologie-en.html).
+[Albert-Ludwigs-Universität Freiburg](https://uni-freiburg.de/), [Avans Hogeschool](https://www.avans.nl), [The Gallantries Project](https://gallantries.github.io/), [The GalaxyP Team](http://galaxyp.org/), [The ProteoRE Team](http://www.proteore.org/), [INAB-CERTH](https://www.inab.certh.gr/), [EMBL-EBI](https://www.ebi.ac.uk/), [Institute of Surgical Pathology - University Medical Center Freiburg](https://www.uniklinik-freiburg.de/pathologie-en.html), [Centre National pour la Recherche Scientifique (CNRS)](http://www.cnrs.fr/).
 
 ## Registration
 
@@ -104,6 +104,10 @@ These tutorials do not have videos, but there are experienced instructors online
 | Ecology: PAMPA toolsuite     | Coline Royaux | 2h | [Tutorial](https://training.galaxyproject.org/training-material/topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html)|
 | ProteoRE tool for biomarkers discovery  | Florence Combes / Yves Vandenbrouck    | 1h | [Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/biomarker_selection/tutorial.html) |
 
+
+## Instructors welcome!
+
+Are you a trainer and would you like to teach (record) a GTN training session for the Choose your own Adventure day? Please see the [instructors page](/instructors.html) for more information.
 
 ## Acknowledgements
 
