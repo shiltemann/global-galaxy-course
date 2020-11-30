@@ -98,9 +98,11 @@ This day is a little bit different; today, YOU create the program. There are a f
 
 These tutorials do not have videos, but there are experienced instructors online in Slack to help you!
 
-| Tutorial                     |  Duration | GTN material |
-|------------------------------|-----------|--------------|
-| Genomic Data Visualization with JBrowse | 1h | [Tutorial](https://training.galaxyproject.org/training-material/topics/visualisation/tutorials/jbrowse/tutorial.html)|
+| Tutorial                     | Instructor |  Duration | GTN material |
+|------------------------------|-------------|-----------|--------------|
+| Genomic Data Visualization with JBrowse | Helena Rasche| 1h | [Tutorial](https://training.galaxyproject.org/training-material/topics/visualisation/tutorials/jbrowse/tutorial.html)|
+| Ecology: PAMPA toolsuite     | Coline Royaux | 2h | [Tutorial](https://training.galaxyproject.org/training-material/topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html)|
+| ProteoRE tool for biomarkers discovery  | Florence Combes / Yves Vandenbrouck    | 1h | [Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/biomarker_selection/tutorial.html) |
 
 
 ## Acknowledgements
