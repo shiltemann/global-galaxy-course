@@ -108,7 +108,7 @@ These tutorials do not have videos, but there are experienced instructors online
 
 ## Instructors welcome!
 
-Are you a trainer and would you like to teach (record) a GTN training session for the Choose your own Adventure day? Please see the [instructors page](/instructors.html) for more information.
+Are you a trainer and would you like to teach (record) a GTN training session for the Choose your own Adventure day? Please see the [instructors page](/global-galaxy-course/instructors.html) for more information.
 
 ## Acknowledgements
 
