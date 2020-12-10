@@ -18,7 +18,7 @@ The [program](#program) covers a general **introduction to the Galaxy platform**
 **Support:** Slack Channel (link will be provided here before the course) \\
 **Contact:** [Saskia Hiltemann](mailto:saskiahiltemann@gmail.com) \\
 **Organized by:** [The Galaxy Training Network (GTN)](https://training.galaxyproject.org/training-material/hall-of-fame), [CINECA](https://www.cineca-project.eu/), [The Galaxy Project](https://galaxyproject.org), [Australian BioCommons](https://www.biocommons.org.au/), [Erasmus Medical Center](https://www.erasmusmc.nl),
-[Albert-Ludwigs-Universität Freiburg](https://uni-freiburg.de/), [Avans Hogeschool](https://www.avans.nl), [The Gallantries Project](https://gallantries.github.io/), [The GalaxyP Team](http://galaxyp.org/), [The ProteoRE Team](http://www.proteore.org/), [INAB-CERTH](https://www.inab.certh.gr/), [EMBL-EBI](https://www.ebi.ac.uk/), [Institute of Surgical Pathology - University Medical Center Freiburg](https://www.uniklinik-freiburg.de/pathologie-en.html), [Centre National pour la Recherche Scientifique (CNRS)](http://www.cnrs.fr/).
+[Albert-Ludwigs-Universität Freiburg](https://uni-freiburg.de/), [Avans Hogeschool](https://www.avans.nl), [The Gallantries Project](https://gallantries.github.io/), [University of Melbourne](https://www.unimelb.edu.au/) [The GalaxyP Team](http://galaxyp.org/), [The ProteoRE Team](http://www.proteore.org/), [INAB-CERTH](https://www.inab.certh.gr/), [EMBL-EBI](https://www.ebi.ac.uk/), [Institute of Surgical Pathology - University Medical Center Freiburg](https://www.uniklinik-freiburg.de/pathologie-en.html), [Centre National pour la Recherche Scientifique (CNRS)](http://www.cnrs.fr/), [Clermont Auvergne University](https://www.uca.fr/).
 
 ## Registration
 
@@ -94,8 +94,10 @@ This day is a little bit different; today, YOU create the program. There are a f
 | Antibiotic Resistance Detection with Nanopore Data | Astrid Heikema / Willem de Koning | lecture & practical  | 2h  |       | [Tutorial](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html) |
 | 16S Microbial analysis with mothur | Saskia Hiltemann | practical | 2h | | [Tutorial](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html) |
 | Circos visualization in Galaxy     | Helena Rasche / Saskia Hiltemann | practical | 1h | | [Slides](https://training.galaxyproject.org/training-material/topics/visualisation/tutorials/circos/slides.html), [Tutorial](https://training.galaxyproject.org/training-material/topics/visualisation/tutorials/circos/tutorial.html) |
+| Annotation of a prokaryotic genome | Anthony Bretaudeau | Lecture & Practical | 2h | | |
 
-#### Recommended Tutorials
+
+#### Supported Tutorials
 
 These tutorials do not have videos, but there are experienced instructors online in Slack to help you!
 
