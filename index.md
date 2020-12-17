@@ -68,10 +68,10 @@ Please fill out the **[registration form](https://forms.gle/TN3Tuet8wm4i2umv5)**
 | Maxquant + MSstats on a clinical cohort               | Melanie Föll| practical | 1h30m |  | |
 | Introduction to Proteogenomics | Tim Griffin | lecture | 15min | | |
 | Proteogenomics 1: Database Creation | James Johnson | practical | 1h | | [Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html) |
-| Proteogenomics 2: Database search | Pratik Jagtap | practical | 45min | | [Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html) |
+| Proteogenomics 2: Database search | Andrew Rajczewski | practical | 45min | | [Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html) |
 | Proteogenomics 3: Novel peptide analysis | Subina Mehta | practical | 1h | | [Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html) |
 | Metaproteomics | Pratik Jagtap | practical | 1h | |[Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaproteomics/tutorial.html)|
-| ProteoRE workflow | ProteoRE Team | practical | | | |
+| ProteoRE workflow: Functional analysis of a large protein list | Florence Combes & Yves Vandenbrouck | practical | 1h | | |
 
 
 
