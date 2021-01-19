@@ -17,8 +17,8 @@ The [program](#program) covers a general **introduction to the Galaxy platform**
 **Format:** Virtual event, all training session are pre-recorded, you can work through these at your own pace, with instructors available online for support \\
 **Support:** Slack Channel (link will be provided here before the course) \\
 **Contact:** [Saskia Hiltemann](mailto:saskiahiltemann@gmail.com) \\
-**Organized by:** [The Galaxy Training Network (GTN)](https://training.galaxyproject.org/training-material/hall-of-fame), [CINECA](https://www.cineca-project.eu/), [The Galaxy Project](https://galaxyproject.org), [Australian BioCommons](https://www.biocommons.org.au/), [Erasmus Medical Center](https://www.erasmusmc.nl),
-[Albert-Ludwigs-Universität Freiburg](https://uni-freiburg.de/), [Avans Hogeschool](https://www.avans.nl), [The Gallantries Project](https://gallantries.github.io/), [University of Melbourne](https://www.unimelb.edu.au/), [The GalaxyP Team](http://galaxyp.org/), [The ProteoRE Team](http://www.proteore.org/), [INAB-CERTH](https://www.inab.certh.gr/), [EMBL-EBI](https://www.ebi.ac.uk/), [Institute of Surgical Pathology - University Medical Center Freiburg](https://www.uniklinik-freiburg.de/pathologie-en.html), [Centre National pour la Recherche Scientifique (CNRS)](http://www.cnrs.fr/), [Clermont Auvergne University](https://www.uca.fr/).
+**Organized by:** [The Galaxy Training Network (GTN)](https://training.galaxyproject.org/training-material/hall-of-fame), [CINECA](https://www.cineca-project.eu/), [The Gallantries Project](https://gallantries.github.io/), [The Galaxy Project](https://galaxyproject.org), [Australian BioCommons](https://www.biocommons.org.au/), [Erasmus Medical Center](https://www.erasmusmc.nl),
+[Albert-Ludwigs-Universität Freiburg](https://uni-freiburg.de/), [Avans Hogeschool](https://www.avans.nl),  [University of Melbourne](https://www.unimelb.edu.au/), [The GalaxyP Team](http://galaxyp.org/), [The ProteoRE Team](http://www.proteore.org/), [INAB-CERTH](https://www.inab.certh.gr/), [EMBL-EBI](https://www.ebi.ac.uk/), [Institute of Surgical Pathology - University Medical Center Freiburg](https://www.uniklinik-freiburg.de/pathologie-en.html), [Centre National pour la Recherche Scientifique (CNRS)](http://www.cnrs.fr/), [Clermont Auvergne University](https://www.uca.fr/), <span title="South African National Bioinformatics Institute, South African MRC Bioinformatics Unit, University of the Western Cape, Bellville, 7535, South Africa">[SANBI/UWC](https://www.sanbi.org/)</span>.
 
 ## Registration
 
@@ -35,9 +35,10 @@ Please fill out the **[registration form](https://forms.gle/TN3Tuet8wm4i2umv5)**
 | What is Galaxy?              | Anton Nekrutenko | lecture   | 30m      |       |             |
 | Using Galaxy: An introduction to NGS analysis | Anton Nekrutenko | practical | 1h30m | | |
 | Quality Control              | Florian Heyl     | practical | 1h30m    |       | [Tutorial](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html) |
-| Mapping                      | Saskia Hiltemann | lecture   | 30m      |       | [Slides](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html)  |
-| Mapping                      | Saskia Hiltemann | practical | 45m      |       | [Tutorial](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html)  |
-| Assembly                     | Simon Gladman    | practical |          |       |             |
+| Mapping                      | Peter van Heusden| lecture   | 30m      |       | [Slides](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html)  |
+| Mapping                      | Peter van Heusden | practical | 45m      |       | [Tutorial](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html)  |
+| Assembly                     | Simon Gladman   | lecture |   30m       |       |[Slides](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/general-introduction/slides.html)   |
+| Assembly                     | Anna Syme       | practical | 1h        |       |[Tutorial](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/chloroplast-assembly/tutorial.html) |
 
 
 ### Day 2: Reference-based RNA-seq analysis with Galaxy and R
@@ -71,7 +72,8 @@ Please fill out the **[registration form](https://forms.gle/TN3Tuet8wm4i2umv5)**
 | Proteogenomics 2: Database search | Andrew Rajczewski | practical | 45min | | [Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html) |
 | Proteogenomics 3: Novel peptide analysis | Subina Mehta | practical | 1h | | [Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html) |
 | Metaproteomics | Pratik Jagtap | practical | 1h | |[Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaproteomics/tutorial.html)|
-| ProteoRE workflow: Functional analysis of a large protein list | Florence Combes & Yves Vandenbrouck | practical | 1h | | |
+| Introduction to functional analysis of proteomics data | Yves Vandenbrouck | lecture | 30 min |||
+| ProteoRE workflow: Functional analysis of a protein list | Florence Combes & Yves Vandenbrouck | practical | 1h | | [Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteome_annotation/tutorial.html) |
 
 
 
@@ -96,7 +98,7 @@ This day is a little bit different; today, YOU create the program. There are a f
 | Circos visualization in Galaxy     | Helena Rasche / Saskia Hiltemann | practical | 1h | | [Slides](https://training.galaxyproject.org/training-material/topics/visualisation/tutorials/circos/slides.html), [Tutorial](https://training.galaxyproject.org/training-material/topics/visualisation/tutorials/circos/tutorial.html) |
 | Annotation of a prokaryotic genome | Anthony Bretaudeau | Lecture & Practical | 2h | | |
 | Unicycler assembly of SARS-CoV-2 genome with preprocessing to remove human genome reads | Cristóbal Gallardo | practical | 4h | | [Tutorial](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html) |
-
+| M. Tuberculosis Variant Analysis | Peter van Heusden | practical | 2h | | [Tutorial](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html)|
 
 #### Supported Tutorials
 
@@ -107,6 +109,8 @@ These tutorials do not have videos, but there are experienced instructors online
 | Genomic Data Visualization with JBrowse | Helena Rasche| 1h | [Tutorial](https://training.galaxyproject.org/training-material/topics/visualisation/tutorials/jbrowse/tutorial.html)|
 | Ecology: PAMPA toolsuite     | Coline Royaux | 2h | [Tutorial](https://training.galaxyproject.org/training-material/topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html)|
 | ProteoRE tool for biomarkers discovery  | Florence Combes / Yves Vandenbrouck    | 1h | [Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/biomarker_selection/tutorial.html) |
+| Epigenetics: ATAC-Seq data analysis       | Hans-Rudolf Hotz (/Lucille Delisle) | 3h | [Tutorial](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html) |
+
 
 
 ## Instructors welcome!
