@@ -29,54 +29,73 @@ Please fill out the **[registration form](https://forms.gle/TN3Tuet8wm4i2umv5)**
 
 ### Day 1: Introduction to Galaxy and NGS analyses
 
-| Topic                        | Presentor        | Type      | Duration | Video | GTN material|
-|------------------------------|------------------|-----------|----------|-------|-------------|
-| Welcome & Course information | Saskia Hiltemann | lecture   | 15m      |       |             |
-| What is Galaxy?              | Anton Nekrutenko | lecture   | 30m      |       |             |
-| Using Galaxy: An introduction to NGS analysis | Anton Nekrutenko | practical | 1h30m | | |
-| Quality Control              | Florian Heyl     | practical | 1h30m    |       | [Tutorial](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html) |
-| Mapping                      | Peter van Heusden| lecture   | 30m      |       | [Slides](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html)  |
-| Mapping                      | Peter van Heusden | practical | 45m      |       | [Tutorial](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html)  |
-| Assembly                     | Simon Gladman   | lecture |   30m       |       |[Slides](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/general-introduction/slides.html)   |
-| Assembly                     | Anna Syme       | practical | 1h        |       |[Tutorial](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/chloroplast-assembly/tutorial.html) |
+| Topic                                         | Presentor          | Type        | Duration   | Video   | GTN material                  |
+| ------------------------------                | ------------------ | ----------- | ---------- | ------- | -------------                 |
+| Welcome & Course information                  | Saskia Hiltemann   | lecture     | 15m        |         |                               |
+| What is Galaxy?                               | Anton Nekrutenko   | lecture     | 30m        |         |                               |
+| Using Galaxy: An introduction to NGS analysis | Anton Nekrutenko   | practical   | 1h30m      |         |                               |
+| Quality Control                               | Florian Heyl       | practical   | 1h30m      |         | [Tutorial][qc-tutorial]       |
+| Mapping                                       | Peter van Heusden  | lecture     | 30m        |         | [Slides][mapping-slides]      |
+| Mapping                                       | Peter van Heusden  | practical   | 45m        |         | [Tutorial][mapping-tutorial]  |
+| Assembly                                      | Simon Gladman      | lecture     | 30m        |         | [Slides][assembly-slides]     |
+| Assembly                                      | Anna Syme          | practical   | 1h         |         | [Tutorial][assembly-tutorial] |
 
+[qc-tutorial]:        https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html
+[mapping-slides]:     https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html
+[mapping-tutorial]:   https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html
+[assembly-slides]:    https://training.galaxyproject.org/training-material/topics/assembly/tutorials/general-introduction/slides.html
+[assembly-tutorial]:  https://training.galaxyproject.org/training-material/topics/assembly/tutorials/chloroplast-assembly/tutorial.html
 
 ### Day 2: Reference-based RNA-seq analysis with Galaxy and R
 
-| Topic                              | Presentor        | Type      | Duration | Video | GTN material|
-|------------------------------------|------------------|-----------|----------|-------|-------------|
-| Introduction to RNA-seq            | Fotis Psomopoulos / Bérénice Batut| lecture   | 30m      |       |  [Slides](https://training.galaxyproject.org/training-material/topics/transcriptomics/slides/introduction.html) |
-| Reference-based RNA-seq with Galaxy| Fotis Psomopoulos / Bérénice Batut| practical | 3h       |       | [Tutorial](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html)  |
-| Introduction to R in Galaxy        | Fotis Psomopoulos / Bérénice Batut| practical | 1h    |       | [Tutorial](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/r-basics/tutorial.html) |
-| Advanced R in Galaxy               | Fotis Psomopoulos / Bérénice Batut| practical | 30m    | | [Tutorial](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/r-advanced/tutorial.html) |
-| RNA-seq post-processing with R     | Fotis Psomopoulos / Bérénice Batut| practical | 1h       |       | [Tutorial](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html)|
+| Topic                                | Presentor                          | Type        | Duration   | Video   | GTN material              |
+| ------------------------------------ | ------------------                 | ----------- | ---------- | ------- | -------------             |
+| Introduction to RNA-seq              | Fotis Psomopoulos / Bérénice Batut | lecture     | 30m        |         | [Slides][rna-intro]       |
+| Reference-based RNA-seq with Galaxy  | Fotis Psomopoulos / Bérénice Batut | practical   | 3h         |         | [Tutorial][ref-based]     |
+| Introduction to R in Galaxy          | Fotis Psomopoulos / Bérénice Batut | practical   | 1h         |         | [Tutorial][r-basics]      |
+| Advanced R in Galaxy                 | Fotis Psomopoulos / Bérénice Batut | practical   | 30m        |         | [Tutorial][r-advanced]    |
+| RNA-seq post-processing with R       | Fotis Psomopoulos / Bérénice Batut | practical   | 1h         |         | [Tutorial][rna-seq-viz-r] |
+
+[rna-intro]:     https://training.galaxyproject.org/training-material/topics/transcriptomics/slides/introduction.html
+[ref-based]:     https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html
+[r-basics]:      https://training.galaxyproject.org/training-material/topics/introduction/tutorials/r-basics/tutorial.html
+[r-advanced]:    https://training.galaxyproject.org/training-material/topics/introduction/tutorials/r-advanced/tutorial.html
+[rna-seq-viz-r]: https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html
+
 
 ### Day 3: Single-cell RNA-seq
 
-| Topic                        | Presentor        | Type      | Duration | Video | GTN material|
-|------------------------------|------------------|-----------|----------|-------|-------------|
-| Introduction to scRNA-seq    | Wendi Bacon / Mehmet Tekman | lecture   | 30m |   |   |
-| Understanding Barcodes       | Wendi Bacon / Mehmet Tekman | practical | 2h  |   | [Tutorial](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-umis/tutorial.html)   |
-| Pre-processing of 10X Single-Cell RNA Datasets | Wendi Bacon / Mehmet Tekman | practical | 2h | | [Tutorial](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html) |
-| Clustering 3K PBMCs with Scanpy | Wendi Bacon / Mehmet Tekman | practical | 3h | |[Tutorial](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html) |
+| Topic                                          | Presentor                   | Type        | Duration   | Video   | GTN material              |
+| ------------------------------                 | ------------------          | ----------- | ---------- | ------- | -------------             |
+| Introduction to scRNA-seq                      | Wendi Bacon / Mehmet Tekman | lecture     | 30m        |         |                           |
+| Understanding Barcodes                         | Wendi Bacon / Mehmet Tekman | practical   | 2h         |         | [Tutorial][scrna-umis]    |
+| Pre-processing of 10X Single-Cell RNA Datasets | Wendi Bacon / Mehmet Tekman | practical   | 2h         |         | [Tutorial][scrna-tenx]    |
+| Clustering 3K PBMCs with Scanpy                | Wendi Bacon / Mehmet Tekman | practical   | 3h         |         | [Tutorial][scanpy-pbmc3k] |
+
+[scrna-umis]:    https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-umis/tutorial.html
+[scrna-tenx]:    https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html
+[scanpy-pbmc3k]: https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html
 
 ### Day 4: Proteomics
 
-| Topic                        | Presentor        | Type      | Duration | Video | GTN material|
-|------------------------------|------------------|-----------|----------|-------|-------------|
-| Introduction to Proteomics and Protein identification | Melanie Föll| lecture   | 20min |  | |
-| Introduction to Protein quantification and stats      | Melanie Föll| lecture   | 15min |  | |
-| Maxquant + MSstats on a clinical cohort               | Melanie Föll| practical | 1h30m |  | |
-| Introduction to Proteogenomics | Tim Griffin | lecture | 15min | | |
-| Proteogenomics 1: Database Creation | James Johnson | practical | 1h | | [Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html) |
-| Proteogenomics 2: Database search | Andrew Rajczewski | practical | 45min | | [Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html) |
-| Proteogenomics 3: Novel peptide analysis | Subina Mehta | practical | 1h | | [Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html) |
-| Metaproteomics | Pratik Jagtap | practical | 1h | |[Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaproteomics/tutorial.html)|
-| Introduction to functional analysis of proteomics data | Yves Vandenbrouck | lecture | 30 min |||
-| ProteoRE workflow: Functional analysis of a protein list | Florence Combes & Yves Vandenbrouck | practical | 1h | | [Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteome_annotation/tutorial.html) |
+| Topic                                                    | Presentor                           | Type        | Duration   | Video   | GTN material                |
+| ------------------------------                           | ------------------                  | ----------- | ---------- | ------- | -------------               |
+| Introduction to Proteomics and Protein identification    | Melanie Föll                        | lecture     | 20min      |         |                             |
+| Introduction to Protein quantification and stats         | Melanie Föll                        | lecture     | 15min      |         |                             |
+| Maxquant + MSstats on a clinical cohort                  | Melanie Föll                        | practical   | 1h30m      |         |                             |
+| Introduction to Proteogenomics                           | Tim Griffin                         | lecture     | 15min      |         |                             |
+| Proteogenomics 1: Database Creation                      | James Johnson                       | practical   | 1h         |         | [Tutorial][prot-dbcreation] |
+| Proteogenomics 2: Database search                        | Andrew Rajczewski                   | practical   | 45min      |         | [Tutorial][prot-dbsearch]   |
+| Proteogenomics 3: Novel peptide analysis                 | Subina Mehta                        | practical   | 1h         |         | [Tutorial][prot-novelpep]   |
+| Metaproteomics                                           | Pratik Jagtap                       | practical   | 1h         |         | [Tutorial][metaprot]        |
+| Introduction to functional analysis of proteomics data   | Yves Vandenbrouck                   | lecture     | 30 min     |         |                             |
+| ProteoRE workflow: Functional analysis of a protein list | Florence Combes & Yves Vandenbrouck | practical   | 1h         |         | [Tutorial][prot-annot]      |
 
-
-
+[prot-dbcreation]: https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html
+[prot-dbsearch]:   https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html
+[prot-novelpep]:   https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html
+[metaprot]:        https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaproteomics/tutorial.html
+[prot-annot]:      https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteome_annotation/tutorial.html
 
 ### Day 5: Choose your own Adventure!
 
@@ -91,27 +110,38 @@ This day is a little bit different; today, YOU create the program. There are a f
 #### Video Tutorials
 
 
-| Topic                             | Presentor        | Type      | Duration | Video | GTN material|
-|-----------------------------------|------------------|-----------|----------|-------|-------------|
-| Antibiotic Resistance Detection with Nanopore Data | Astrid Heikema / Willem de Koning | lecture & practical  | 2h  |       | [Tutorial](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html) |
-| 16S Microbial analysis with mothur | Saskia Hiltemann | practical | 2h | | [Tutorial](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html) |
-| Circos visualization in Galaxy     | Helena Rasche / Saskia Hiltemann | practical | 1h | | [Slides](https://training.galaxyproject.org/training-material/topics/visualisation/tutorials/circos/slides.html), [Tutorial](https://training.galaxyproject.org/training-material/topics/visualisation/tutorials/circos/tutorial.html) |
-| Annotation of a prokaryotic genome | Anthony Bretaudeau | Lecture & Practical | 2h | | |
-| Unicycler assembly of SARS-CoV-2 genome with preprocessing to remove human genome reads | Cristóbal Gallardo | practical | 4h | | [Tutorial](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html) |
-| M. Tuberculosis Variant Analysis | Peter van Heusden | practical | 2h | | [Tutorial](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html)|
+| Topic                                                                                   | Presentor                         | Type                | Duration   | Video   | GTN material                                     |
+| -----------------------------------                                                     | ------------------                | -----------         | ---------- | ------- | -------------                                    |
+| Antibiotic Resistance Detection with Nanopore Data                                      | Astrid Heikema / Willem de Koning | lecture & practical | 2h         |         | [Tutorial][plasmid-nanopore]                     |
+| 16S Microbial analysis with mothur                                                      | Saskia Hiltemann                  | practical           | 2h         |         | [Tutorial][mothur-miseq]                         |
+| Circos visualization in Galaxy                                                          | Helena Rasche / Saskia Hiltemann  | practical           | 1h         |         | [Slides][circos-slides], [Tutorial][circos-tuto] |
+| Annotation of a prokaryotic genome                                                      | Anthony Bretaudeau                | Lecture & Practical | 2h         |         |                                                  |
+| Unicycler assembly of SARS-CoV-2 genome with preprocessing to remove human genome reads | Cristóbal Gallardo                | practical           | 4h         |         | [Tutorial][assemby-preproc]                      |
+| M. Tuberculosis Variant Analysis                                                        | Peter van Heusden                 | practical           | 2h         |         | [Tutorial][tb-variant]                           |
+
+
+[plasmid-nanopore]: https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html
+[mothur-miseq]:     https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html
+[circos-slides]:    https://training.galaxyproject.org/training-material/topics/visualisation/tutorials/circos/slides.html,
+[circos-tuto]:      https://training.galaxyproject.org/training-material/topics/visualisation/tutorials/circos/tutorial.html
+[assemby-preproc]:  https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html
+[tb-variant]:       https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html
 
 #### Supported Tutorials
 
 These tutorials do not have videos, but there are experienced instructors online in Slack to help you!
 
-| Tutorial                     | Instructor |  Duration | GTN material |
-|------------------------------|-------------|-----------|--------------|
-| Genomic Data Visualization with JBrowse | Helena Rasche| 1h | [Tutorial](https://training.galaxyproject.org/training-material/topics/visualisation/tutorials/jbrowse/tutorial.html)|
-| Ecology: PAMPA toolsuite     | Coline Royaux | 2h | [Tutorial](https://training.galaxyproject.org/training-material/topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html)|
-| ProteoRE tool for biomarkers discovery  | Florence Combes / Yves Vandenbrouck    | 1h | [Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/biomarker_selection/tutorial.html) |
-| Epigenetics: ATAC-Seq data analysis       | Hans-Rudolf Hotz (/Lucille Delisle) | 3h | [Tutorial](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html) |
+| Tutorial                                | Instructor                          | Duration    | GTN material          |
+| ------------------------------          | -------------                       | ----------- | --------------        |
+| Genomic Data Visualization with JBrowse | Helena Rasche                       | 1h          | [Tutorial][jbrowse]   |
+| Ecology: PAMPA toolsuite                | Coline Royaux                       | 2h          | [Tutorial][pampa]     |
+| ProteoRE tool for biomarkers discovery  | Florence Combes / Yves Vandenbrouck | 1h          | [Tutorial][biomarker] |
+| Epigenetics: ATAC-Seq data analysis     | Hans-Rudolf Hotz (/Lucille Delisle) | 3h          | [Tutorial][atac-seq]  |
 
-
+[jbrowse]:   https://training.galaxyproject.org/training-material/topics/visualisation/tutorials/jbrowse/tutorial.html
+[pampa]:     https://training.galaxyproject.org/training-material/topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html
+[biomarker]: https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/biomarker_selection/tutorial.html
+[atac-seq]:  https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html
 
 ## Instructors welcome!
 
