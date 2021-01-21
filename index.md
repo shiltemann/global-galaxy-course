@@ -17,7 +17,7 @@ The [program](#program) covers a general **introduction to the Galaxy platform**
 **Format:** Virtual event, all training session are pre-recorded, you can work through these at your own pace, with instructors available online for support \\
 **Support:** Slack Channel (link will be provided here before the course) \\
 **Contact:** [Saskia Hiltemann](mailto:saskiahiltemann@gmail.com) \\
-**Organized by:** [The Galaxy Training Network (GTN)](https://training.galaxyproject.org/training-material/hall-of-fame), [CINECA](https://www.cineca-project.eu/), [The Gallantries Project](https://gallantries.github.io/), [The Galaxy Project](https://galaxyproject.org), [Australian BioCommons](https://www.biocommons.org.au/), [Erasmus Medical Center](https://www.erasmusmc.nl),
+**Organized by:** [The Galaxy Training Network (GTN)](https://training.galaxyproject.org/training-material/hall-of-fame?utm_source=github&utm_medium=web&utm_campaign=smorgasbord), [CINECA](https://www.cineca-project.eu/), [The Gallantries Project](https://gallantries.github.io/), [The Galaxy Project](https://galaxyproject.org), [Australian BioCommons](https://www.biocommons.org.au/), [Erasmus Medical Center](https://www.erasmusmc.nl),
 [Albert-Ludwigs-Universität Freiburg](https://uni-freiburg.de/), [Avans Hogeschool](https://www.avans.nl),  [University of Melbourne](https://www.unimelb.edu.au/), [The GalaxyP Team](http://galaxyp.org/), [The ProteoRE Team](http://www.proteore.org/), [INAB-CERTH](https://www.inab.certh.gr/), [EMBL-EBI](https://www.ebi.ac.uk/), [Institute of Surgical Pathology - University Medical Center Freiburg](https://www.uniklinik-freiburg.de/pathologie-en.html), [Centre National pour la Recherche Scientifique (CNRS)](http://www.cnrs.fr/), [Clermont Auvergne University](https://www.uca.fr/), <span title="South African National Bioinformatics Institute, South African MRC Bioinformatics Unit, University of the Western Cape, Bellville, 7535, South Africa">[SANBI/UWC](https://www.sanbi.org/)</span>.
 
 ## Registration
@@ -40,11 +40,11 @@ Please fill out the **[registration form](https://forms.gle/TN3Tuet8wm4i2umv5)**
 | Assembly                                      | Simon Gladman      | lecture     | 30m        |         | [Slides][assembly-slides]     |
 | Assembly                                      | Anna Syme          | practical   | 1h         |         | [Tutorial][assembly-tutorial] |
 
-[qc-tutorial]:        https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html
-[mapping-slides]:     https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html
-[mapping-tutorial]:   https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html
-[assembly-slides]:    https://training.galaxyproject.org/training-material/topics/assembly/tutorials/general-introduction/slides.html
-[assembly-tutorial]:  https://training.galaxyproject.org/training-material/topics/assembly/tutorials/chloroplast-assembly/tutorial.html
+[qc-tutorial]:        https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
+[mapping-slides]:     https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
+[mapping-tutorial]:   https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
+[assembly-slides]:    https://training.galaxyproject.org/training-material/topics/assembly/tutorials/general-introduction/slides.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
+[assembly-tutorial]:  https://training.galaxyproject.org/training-material/topics/assembly/tutorials/chloroplast-assembly/tutorial.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
 
 ### Day 2: Reference-based RNA-seq analysis with Galaxy and R
 
@@ -56,11 +56,11 @@ Please fill out the **[registration form](https://forms.gle/TN3Tuet8wm4i2umv5)**
 | Advanced R in Galaxy                 | Fotis Psomopoulos / Bérénice Batut | practical   | 30m        |         | [Tutorial][r-advanced]    |
 | RNA-seq post-processing with R       | Fotis Psomopoulos / Bérénice Batut | practical   | 1h         |         | [Tutorial][rna-seq-viz-r] |
 
-[rna-intro]:     https://training.galaxyproject.org/training-material/topics/transcriptomics/slides/introduction.html
-[ref-based]:     https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html
-[r-basics]:      https://training.galaxyproject.org/training-material/topics/introduction/tutorials/r-basics/tutorial.html
-[r-advanced]:    https://training.galaxyproject.org/training-material/topics/introduction/tutorials/r-advanced/tutorial.html
-[rna-seq-viz-r]: https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html
+[rna-intro]:     https://training.galaxyproject.org/training-material/topics/transcriptomics/slides/introduction.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
+[ref-based]:     https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
+[r-basics]:      https://training.galaxyproject.org/training-material/topics/introduction/tutorials/r-basics/tutorial.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
+[r-advanced]:    https://training.galaxyproject.org/training-material/topics/introduction/tutorials/r-advanced/tutorial.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
+[rna-seq-viz-r]: https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
 
 
 ### Day 3: Single-cell RNA-seq
@@ -72,9 +72,9 @@ Please fill out the **[registration form](https://forms.gle/TN3Tuet8wm4i2umv5)**
 | Pre-processing of 10X Single-Cell RNA Datasets | Wendi Bacon / Mehmet Tekman | practical   | 2h         |         | [Tutorial][scrna-tenx]    |
 | Clustering 3K PBMCs with Scanpy                | Wendi Bacon / Mehmet Tekman | practical   | 3h         |         | [Tutorial][scanpy-pbmc3k] |
 
-[scrna-umis]:    https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-umis/tutorial.html
-[scrna-tenx]:    https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html
-[scanpy-pbmc3k]: https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html
+[scrna-umis]:    https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-umis/tutorial.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
+[scrna-tenx]:    https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
+[scanpy-pbmc3k]: https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
 
 ### Day 4: Proteomics
 
@@ -91,11 +91,11 @@ Please fill out the **[registration form](https://forms.gle/TN3Tuet8wm4i2umv5)**
 | Introduction to functional analysis of proteomics data   | Yves Vandenbrouck                   | lecture     | 30 min     |         |                             |
 | ProteoRE workflow: Functional analysis of a protein list | Florence Combes & Yves Vandenbrouck | practical   | 1h         |         | [Tutorial][prot-annot]      |
 
-[prot-dbcreation]: https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html
-[prot-dbsearch]:   https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html
-[prot-novelpep]:   https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html
-[metaprot]:        https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaproteomics/tutorial.html
-[prot-annot]:      https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteome_annotation/tutorial.html
+[prot-dbcreation]: https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
+[prot-dbsearch]:   https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
+[prot-novelpep]:   https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
+[metaprot]:        https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaproteomics/tutorial.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
+[prot-annot]:      https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteome_annotation/tutorial.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
 
 ### Day 5: Choose your own Adventure!
 
@@ -103,7 +103,7 @@ This day is a little bit different; today, YOU create the program. There are a f
 
 1. Follow one of the **video tutorials** available (see below)
 2. Follow one of the **recommended tutorials**; these do not have videos, but there are expert instructors online for support today
-3. Follow any other tutorial from the [GTN website](https://training.galaxyproject.org) that looks interesting to you, and we will do our best to guide you!
+3. Follow any other tutorial from the [GTN website](https://training.galaxyproject.org?utm_source=github&utm_medium=web&utm_campaign=smorgasbord) that looks interesting to you, and we will do our best to guide you!
 
 **NOTE:** more training sessions may be added here over time!
 
@@ -120,12 +120,12 @@ This day is a little bit different; today, YOU create the program. There are a f
 | M. Tuberculosis Variant Analysis                                                        | Peter van Heusden                 | practical           | 2h         |         | [Tutorial][tb-variant]                           |
 
 
-[plasmid-nanopore]: https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html
-[mothur-miseq]:     https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html
-[circos-slides]:    https://training.galaxyproject.org/training-material/topics/visualisation/tutorials/circos/slides.html,
-[circos-tuto]:      https://training.galaxyproject.org/training-material/topics/visualisation/tutorials/circos/tutorial.html
-[assemby-preproc]:  https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html
-[tb-variant]:       https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html
+[plasmid-nanopore]: https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
+[mothur-miseq]:     https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
+[circos-slides]:    https://training.galaxyproject.org/training-material/topics/visualisation/tutorials/circos/slides.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord,
+[circos-tuto]:      https://training.galaxyproject.org/training-material/topics/visualisation/tutorials/circos/tutorial.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
+[assemby-preproc]:  https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
+[tb-variant]:       https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
 
 #### Supported Tutorials
 
@@ -138,10 +138,10 @@ These tutorials do not have videos, but there are experienced instructors online
 | ProteoRE tool for biomarkers discovery  | Florence Combes / Yves Vandenbrouck | 1h          | [Tutorial][biomarker] |
 | Epigenetics: ATAC-Seq data analysis     | Hans-Rudolf Hotz (/Lucille Delisle) | 3h          | [Tutorial][atac-seq]  |
 
-[jbrowse]:   https://training.galaxyproject.org/training-material/topics/visualisation/tutorials/jbrowse/tutorial.html
-[pampa]:     https://training.galaxyproject.org/training-material/topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html
-[biomarker]: https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/biomarker_selection/tutorial.html
-[atac-seq]:  https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html
+[jbrowse]:   https://training.galaxyproject.org/training-material/topics/visualisation/tutorials/jbrowse/tutorial.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
+[pampa]:     https://training.galaxyproject.org/training-material/topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
+[biomarker]: https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/biomarker_selection/tutorial.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
+[atac-seq]:  https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html?utm_source=github&utm_medium=web&utm_campaign=smorgasbord
 
 ## Instructors welcome!
 
