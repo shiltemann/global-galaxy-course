@@ -73,7 +73,7 @@ Please fill out the **[registration form](https://forms.gle/TN3Tuet8wm4i2umv5)**
 | Proteogenomics 3: Novel peptide analysis | Subina Mehta | practical | 1h | | [Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html) |
 | Metaproteomics | Pratik Jagtap | practical | 1h | |[Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaproteomics/tutorial.html)|
 | Introduction to functional analysis of proteomics data | Yves Vandenbrouck | lecture | 30 min |||
-| ProteoRE workflow: Functional analysis of a protein list | Florence Combes & Yves Vandenbrouck | practical | 1h | | [Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteome_annotation/tutorial.html) |
+
 
 
 
@@ -99,6 +99,8 @@ This day is a little bit different; today, YOU create the program. There are a f
 | Annotation of a prokaryotic genome | Anthony Bretaudeau | Lecture & Practical | 2h | | |
 | Unicycler assembly of SARS-CoV-2 genome with preprocessing to remove human genome reads | Cristóbal Gallardo | practical | 4h | | [Tutorial](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html) |
 | M. Tuberculosis Variant Analysis | Peter van Heusden | practical | 2h | | [Tutorial](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html)|
+| ProteoRE workflow: Functional analysis of a protein list | Florence Combes & Yves Vandenbrouck | practical | 1h | | [Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteome_annotation/tutorial.html) |
+
 
 #### Supported Tutorials
 
@@ -110,8 +112,7 @@ These tutorials do not have videos, but there are experienced instructors online
 | Ecology: PAMPA toolsuite     | Coline Royaux | 2h | [Tutorial](https://training.galaxyproject.org/training-material/topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html)|
 | ProteoRE tool for biomarkers discovery  | Florence Combes / Yves Vandenbrouck    | 1h | [Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/biomarker_selection/tutorial.html) |
 | Epigenetics: ATAC-Seq data analysis       | Hans-Rudolf Hotz (/Lucille Delisle) | 3h | [Tutorial](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html) |
-
-
+| Climate: Functionally Assembled Terrestrial Ecosystem Simulator (FATES) | Anne Fouilloux | 3h | [Slides](https://training.galaxyproject.org/training-material/topics/climate/tutorials/fates/slides.html), [Tutorial](https://training.galaxyproject.org/training-material/topics/climate/tutorials/fates/tutorial.html)|
 
 ## Instructors welcome!
 
