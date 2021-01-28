@@ -113,6 +113,9 @@ These tutorials do not have videos, but there are experienced instructors online
 | ProteoRE tool for biomarkers discovery  | Florence Combes / Yves Vandenbrouck    | 1h | [Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/biomarker_selection/tutorial.html) |
 | Epigenetics: ATAC-Seq data analysis       | Hans-Rudolf Hotz (/Lucille Delisle) | 3h | [Tutorial](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html) |
 | Climate: Functionally Assembled Terrestrial Ecosystem Simulator (FATES) | Anne Fouilloux | 3h | [Slides](https://training.galaxyproject.org/training-material/topics/climate/tutorials/fates/slides.html), [Tutorial](https://training.galaxyproject.org/training-material/topics/climate/tutorials/fates/tutorial.html)|
+| Cheminformatics: Protein-ligand docking | Simon Bray | 3h | [Tutorial](https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/cheminformatics/tutorial.html) |
+| Cheminformatics: Running molecular dynamics simulations using GROMACS | Simon Bray | 2h | [Tutorial](https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/md-simulation-gromacs/tutorial.html) |
+
 
 ## Instructors welcome!
 
