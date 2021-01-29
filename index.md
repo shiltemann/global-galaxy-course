@@ -64,8 +64,7 @@ Please fill out the **[registration form](https://forms.gle/TN3Tuet8wm4i2umv5)**
 
 | Topic                        | Presentor        | Type      | Duration | Video | GTN material|
 |------------------------------|------------------|-----------|----------|-------|-------------|
-| Introduction to Proteomics and Protein identification | Melanie Föll| lecture   | 20min |  | |
-| Introduction to Protein quantification and stats      | Melanie Föll| lecture   | 15min |  | |
+| Introduction to mass spectrometry based proteomics data analysis | Melanie Föll| lecture   | 35min |  | |
 | Maxquant + MSstats on a clinical cohort               | Melanie Föll| practical | 1h30m |  | |
 | Introduction to Proteogenomics | Tim Griffin | lecture | 15min | | |
 | Proteogenomics 1: Database Creation | James Johnson | practical | 1h | | [Tutorial](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html) |
