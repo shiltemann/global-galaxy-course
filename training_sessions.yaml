@@ -1,0 +1,74 @@
+day1:
+  title: "Day 1: Introduction to Galaxy and NGS analysis"
+  sessions:
+    - name: Welcome & Course Information
+      description: "Start here; we will go over all the important things to know to get the most out of this workshop"
+      speaker: Saskia Hiltemann
+      type: lecture
+      video: g_cavAO-fBM
+      time: 30M
+      show: true
+
+    - name: "Say Hi in Slack!"
+      type: icebreaker
+      channel: social
+      prompt: "Tell us your name and where you are joining from today"
+      example: "Hi! My name is Saskia and I am joining from The Netherlands, and am currently"
+      description: |
+
+
+
+
+    - name: "Using Galaxy: An introduction to NGS analysis"
+      description: "This tutorial will introduce the Galaxy platform and walk you through an NGS analysis step by step."
+      video: g_cavAO-fBM
+      speaker: Anton Nekrutenko
+      time: 1H30M
+      type: practical
+
+    - name: "Introduction to Quality Control"
+      speaker: Florian Heyl
+      type: lecture
+      video: BWonTPS4zB8
+      time: 40M
+
+    - name: "Quality Control"
+      type: practical
+      tutorial: "topics/sequence-analysis/tutorials/quality-control/tutorial.html"
+      video: QJRlX2hWDKM
+      speaker: Florian Heyl
+      time: 1H10M
+
+    - name: "Introduction to Mapping"
+      type: lecture
+      speaker: Peter van Heusden
+      time: 30M
+
+    - name: "Mapping"
+      type: practical
+      speaker: Peter van Heusden
+      time: 30M
+
+    - name: "Introduction to Genome Assembly"
+      type: lecture
+      speaker: Peter van Heusden
+      time: 30M
+
+    - name: "Mapping"
+      type: lecture
+      speaker: Peter van Heusden
+      time: 30M
+
+
+
+
+
+
+day2:
+  title: "Day 2: Introduction to RNA-Seq analysis with Galaxy and R"
+  sessions:
+    - name: "introduction to Galaxy"
+      video: "g_cavAO-fBM"
+      speaker: "speaker1"
+      time: "1H"
+
