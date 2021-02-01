@@ -25,6 +25,10 @@ day1:
       speaker: Anton Nekrutenko
       time: 1H30M
       type: practical
+      tutorial:
+      slides:
+      faq:
+      slack:
 
     - name: "Introduction to Quality Control"
       speaker: Florian Heyl
