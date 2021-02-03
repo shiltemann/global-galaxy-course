@@ -24,6 +24,19 @@ github_username:  shiltemann
 
 # can update to use an archived versions after the course
 gtn_url: "https://training.galaxyproject.org/training-material/"
+gtn_logo: "/assets/images/logos/00_GTNLogo300.png"
+analytics_suffix: "?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2021"
+
+support_platform: "Slack"
+support_link: "https://gtnsmrgsbord.slack.com/"
+support_join: ""
+icebreaker_channel: "#social"
+icebreaker_link: "https://gtnsmrgsbord.slack.com/archives/C01EDBVMHBQ"
+
+
+video_platform: YouTube
+video_prefix: "https://youtu.be/"
+
 
 # Build settings
 markdown: kramdown

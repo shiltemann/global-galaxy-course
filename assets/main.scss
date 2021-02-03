@@ -29,4 +29,10 @@
   background-color: #f1f1f1;
 }
 
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
 

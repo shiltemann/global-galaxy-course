@@ -1,0 +1,42 @@
+abretaud:
+    name: Anthony Bretaudeau
+    email: anthony.bretaudeau@inra.fr
+    twitter: abretau
+    gitter: abretaud
+    orcid: 0000-0003-0914-2470
+    affiliation: inrae
+
+annasyme:
+    name: Anna Syme
+    affiliation: melbourneuni
+
+fpsom:
+    name: Fotis E. Psomopoulos
+    affiliation: inab-certh
+
+heylf:
+    name: Florian Heyl
+    affiliation: freiburguni
+
+hexylena:
+    name: Helena Rasche
+    affiliation: [erasmusmc, avans]
+
+nekrut:
+    name: Anton Nekrutenko
+    affiliation: pennstate
+
+pvanheus:
+    name: Peter van Heusden
+    twitter: pvanheus
+    orcid: 0000-0001-6553-5274
+    joined: 2017-09
+    bio: Research at the South African National Bioinformatics Institute
+
+shiltemann:
+    name: Saskia Hiltemann
+    affiliation: erasmusmc
+
+slugger70:
+    name: Simon Gladman
+    affiliation: melbourneuni

@@ -1,0 +1,13 @@
+{% assign speaker = site.data.instructors[include.who].name %}
+{% assign aff = site.data.instructors[include.who].affiliation %}
+{% assign affiliation = site.data.affiliations[aff].name %}
+{% assign affiliation-url = site.data.affiliations[aff].link %}
+
+<div class="card speaker" style="width:200px">
+  <img class="card-img-top" src="https://avatars.githubusercontent.com/{{include.who}}" alt="{{speaker}}">
+  <div class="card-body">
+    <h4 class="card-title">{{speaker}}</h4>
+    <p class="card-text"><a href="affiliation-url">{{affiliation}}</a></p>
+    <!--<a href="#" class="btn btn-primary">See Profile</a>-->
+  </div>
+</div>

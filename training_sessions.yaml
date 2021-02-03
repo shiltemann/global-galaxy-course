@@ -1,70 +1,116 @@
 day1:
   title: "Day 1: Introduction to Galaxy and NGS analysis"
   sessions:
-    - name: Welcome & Course Information
+    - name: Welcome & Course Information (Click here to start)
       description: "Start here; we will go over all the important things to know to get the most out of this workshop"
-      speaker: Saskia Hiltemann
+      speaker: shiltemann
       type: lecture
       video: g_cavAO-fBM
       time: 30M
-      show: true
+      support_channel: "#general"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES8R0RNG"
 
     - name: "Say Hi in Slack!"
       type: icebreaker
-      channel: social
-      prompt: "Tell us your name and where you are joining from today"
-      example: "Hi! My name is Saskia and I am joining from The Netherlands, and am currently"
-      description: |
-
-
-
+      prompt: "Introduce yourself and let us know where you are joining from today"
+      example: "Hi! My name is Saskia and I am joining from The Netherlands, I am currently in my hammock looking at the snow falling down outside."
 
     - name: "Using Galaxy: An introduction to NGS analysis"
       description: "This tutorial will introduce the Galaxy platform and walk you through an NGS analysis step by step."
       video: g_cavAO-fBM
-      speaker: Anton Nekrutenko
+      speaker: nekrut
       time: 1H30M
-      type: practical
-      tutorial:
-      slides:
-      faq:
-      slack:
+      material:
+        - type: slides
+          link: /topics/introduction/slides/introduction.html
+          title: Introduction to Galaxy
+        - type: tutorial
+          link: /topics/introduction/tutorials/galaxy-intro-101/tutorial.html
+          title: Galaxy 101
+        - type: tutorial
+          link: /variant-analysis/tutorials/sars-cov-2/tutorial.html
+          title: SARS-CoV-2 variant analysis
+      support_channel: "#1-1_galaxy-intro"
+      support_link: https://gtnsmrgsbord.slack.com/archives/C01ES914GCU
+
+
 
     - name: "Introduction to Quality Control"
-      speaker: Florian Heyl
-      type: lecture
+      speaker: heylf
+      type: Lecture
       video: BWonTPS4zB8
       time: 40M
+      material:
+        - type: slides
+          link: /topics/sequence-analysis/tutorials/quality-control/slides.html
+          title: Introduction to Quality Control
+      support_channel: "#1-3_quality-control"
+      support_link: https://gtnsmrgsbord.slack.com/archives/C01FQ92MB7A
+
 
     - name: "Quality Control"
-      type: practical
-      tutorial: "topics/sequence-analysis/tutorials/quality-control/tutorial.html"
+      type: Hands-on
       video: QJRlX2hWDKM
-      speaker: Florian Heyl
+      speaker: heylf
       time: 1H10M
+      material:
+        - type: tutorial
+          link: "topics/sequence-analysis/tutorials/quality-control/tutorial.html"
+      support_channel: "#1-3_quality-control"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FQ92MB7A"
+
 
     - name: "Introduction to Mapping"
-      type: lecture
-      speaker: Peter van Heusden
-      time: 30M
+      type: Lecture
+      speaker: pvanheus
+      time: 10M
+      video: 7FhHb8EV3EU
+      material:
+        - type: slides
+          link: topics/sequence-analysis/tutorials/mapping/slides.html
+          title: Mapping
+      support_channel: "#1-4_mapping"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F6JHCFT6"
+
 
     - name: "Mapping"
-      type: practical
-      speaker: Peter van Heusden
-      time: 30M
+      type: Hands-on
+      speaker: pvanheus
+      video: 1wm-62E2NkY
+      video_length: 20M
+      material:
+        - type: tutorial
+          link: topics/sequence-analysis/tutorials/mapping/tutorial.html
+          title: Mapping
+      support_channel: "#1-4_mapping"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F6JHCFT6"
+
 
     - name: "Introduction to Genome Assembly"
-      type: lecture
-      speaker: Peter van Heusden
-      time: 30M
+      type: Lecture
+      speaker: slugger70
+      video: "eyfCyINTD_E" # TODO: update
+      video_length: ""
+      material:
+       - type: slides
+         link: topics/assembly/tutorials/general-introduction/slides.html
+         title: An Introduction to Genome Assembly
+      support_channel: "#1-5_assembly"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01EKMD8VC7"
 
-    - name: "Mapping"
-      type: lecture
-      speaker: Peter van Heusden
-      time: 30M
 
 
-
+    - name: "Genome Assembly"
+      type: Hands-on
+      speaker: annasyme
+      video: eyfCyINTD_E
+      video_length: 35M
+      materials:
+       - type: tutorial
+         link: topics/assembly/tutorials/chloroplast-assembly/tutorial.html
+         title: Chloroplast genome assembly
+      support_channel: "#1-5_assembly"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01EKMD8VC7"
 
 
 
@@ -73,6 +119,6 @@ day2:
   sessions:
     - name: "introduction to Galaxy"
       video: "g_cavAO-fBM"
-      speaker: "speaker1"
+      speaker: fopsom
       time: "1H"
 

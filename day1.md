@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Day 1 Program
+title: Program
 ---
 
 
-# Day 1
+# Let's get Started!
 
 Welcome everybody! Thanks for joining this course.
 
@@ -13,11 +13,12 @@ Everything you need for this course can be found on this webpage.
 Please start by watching the welcome video below. More information can be found by clicking on each session
 
 {% for day in site.data.training_sessions %}
-{% assign daynum = day[0] %}
+ {% assign daynum = day[0] %}
 
 # {{day[1].title}}
 
 <div class="accordion" id="accordion{{daynum}}">
+
 {% for session in day[1].sessions %}
  <div class="accordion-item">
   <h2 class="accordion-header" id="heading{{daynum}}{{forloop.index0}}">
@@ -25,38 +26,42 @@ Please start by watching the welcome video below. More information can be found 
         {{session.name}}
    </button>
   </h2>
-  <div id="collapse{{daynum}}{{forloop.index0}}" class="accordion-collapse collapse {% if forloop.index0 == 0 %}show{% endif %}" aria-labelledby="heading{{daynum}}{{forlop.index0}}" data-bs-parent="#accordion{{daynum}}">
+  <div id="collapse{{daynum}}{{forloop.index0}}" class="accordion-collapse collapse {% if session.show  %}show{% endif %}" aria-labelledby="heading{{daynum}}{{forlop.index0}}" data-bs-parent="#accordion{{daynum}}">
   <div class="accordion-body">
-   <strong>Speaker:</strong> {{session.speaker}}
 
-   {{ session.type }}
+   <!-- icebreaker -->
+   {% if session.type == 'icebreaker' %}{% include icebreaker.html prompt=session.prompt example=session.example %}{% endif %}
+
+
+   <!-- session description -->
    {% if session.description %}
+   <h3>Description</h3>
    <p> {{ session.description }} </p>
    {% endif %}
 
-   {% if session.type == 'icebreaker' %}
-   <p> Come say Hi in Slack! Let us know you are joining today and getting started! </p>
-   <p> Each day we will give you a prompt, for today, please tell us:
-    <ul>
-     <li> {{ session. prompt }} </li>
-     <li> <strong>Example: </strong> {{ session. example }} </li>
-    </ul>
-   </p>
-   <p><strong>Note:</strong> Please do this every day if you would like to receive a certificate of attendance</p>
-
-
-     {% endif %}
-
-     {% if session.video %}
+   <!-- speaker and video -->
+   {% if session.video %}
+   <h3>Video Tutorial </h3>
+   {% if session.time %} <strong>Video Length:</strong> {{session.time}} {% endif %}
+   <div class="flex-row" style="margin-top:1em;">
+    <div>
      <iframe width="560" height="315" src="https://www.youtube.com/embed/{{session.video}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-     {% endif %}
+    </div>
+   {% endif %}
 
+   {% if session.speaker %}
+    {% include instructor_card.html who=session.speaker %}
+   {% endif %}
+   </div><!-- end flex -->
 
-   </div>
-   </div>
-  </div><!-- end session -->
+   <!-- session links  -->
+   {% include session_materials.html session=session %}
+   <!-- end session links -->
+  </div><!-- end accordion body -->
+ </div><!-- end accordion item (training session) -->
 {% endfor %}
-</div><!-- end accordion -->
+</div><!-- end accordion (day) -->
+
 {% endfor %}
 
 

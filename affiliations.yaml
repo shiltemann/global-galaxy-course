@@ -1,0 +1,19 @@
+erasmusmc:
+  name: Erasmus Medical Center
+  link: "https://erasmusmc.nl"
+
+freiburguni:
+  name: Albert-Ludwigs-Universität Freiburg
+  link: "https://uni-freiburg.de/"
+
+inab-certh:
+  name: INAB|CERTH
+  link: "https://www.inab.certh.gr/"
+
+melbourneuni:
+  name: University of Melbourne
+  link: "https://www.unimelb.edu.au/"
+
+pennstate:
+  name: Penn State University
+  link: "https://www.psu.edu/"
