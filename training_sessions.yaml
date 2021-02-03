@@ -6,7 +6,7 @@ day1:
       speaker: shiltemann
       type: lecture
       video: g_cavAO-fBM
-      time: 30M
+      video_time: 30M
       support_channel: "#general"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES8R0RNG"
 
@@ -19,7 +19,7 @@ day1:
       description: "This tutorial will introduce the Galaxy platform and walk you through an NGS analysis step by step."
       video: g_cavAO-fBM
       speaker: nekrut
-      time: 1H30M
+      video_length: 1H30M
       material:
         - type: slides
           link: /topics/introduction/slides/introduction.html
@@ -105,7 +105,7 @@ day1:
       speaker: annasyme
       video: eyfCyINTD_E
       video_length: 35M
-      materials:
+      material:
        - type: tutorial
          link: topics/assembly/tutorials/chloroplast-assembly/tutorial.html
          title: Chloroplast genome assembly
@@ -117,8 +117,24 @@ day1:
 day2:
   title: "Day 2: Introduction to RNA-Seq analysis with Galaxy and R"
   sessions:
-    - name: "introduction to Galaxy"
-      video: "g_cavAO-fBM"
-      speaker: fopsom
-      time: "1H"
+    - name: "Introduction to RNA-Seq"
+      speaker: fpsom
+      video: qKkS_tztw_Q
+      video_lenth: 30M
+      material:
+        - type: slides
+          link: topics/transcriptomics/slides/introduction.html
+          title: Introduction to Transcriptomics
+      support_channel: "#2-1_ref-based-rna-seq"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0L6UW03"
 
+    - name: Reference-based RNA-seq Analysis
+      speaker: bebatut
+      video: 37Tc1xnrHK4
+      video_length: 2H30M
+      material:
+        - type: tutorial
+          link: topics/transcriptomics/tutorials/ref-based/tutorial.html
+          title: Reference-based RNA-Seq data analysis
+      support_channel: "#2-1_ref-based-rna-seq"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0L6UW03"

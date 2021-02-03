@@ -27,7 +27,7 @@ Please start by watching the welcome video below. More information can be found 
    </button>
   </h2>
   <div id="collapse{{daynum}}{{forloop.index0}}" class="accordion-collapse collapse {% if session.show  %}show{% endif %}" aria-labelledby="heading{{daynum}}{{forlop.index0}}" data-bs-parent="#accordion{{daynum}}">
-  <div class="accordion-body">
+   <div class="accordion-body">
 
    <!-- icebreaker -->
    {% if session.type == 'icebreaker' %}{% include icebreaker.html prompt=session.prompt example=session.example %}{% endif %}
@@ -51,15 +51,17 @@ Please start by watching the welcome video below. More information can be found 
 
    {% if session.speaker %}
     {% include instructor_card.html who=session.speaker %}
-   {% endif %}
    </div><!-- end flex -->
+   {% endif %}
 
    <!-- session links  -->
    {% include session_materials.html session=session %}
    <!-- end session links -->
-  </div><!-- end accordion body -->
+   </div><!-- end accordion body -->
+  </div><!-- end collapse -->
  </div><!-- end accordion item (training session) -->
-{% endfor %}
+ {% endfor %}
+
 </div><!-- end accordion (day) -->
 
 {% endfor %}
