@@ -6,6 +6,10 @@ freiburguni:
   name: Albert-Ludwigs-Universität Freiburg
   link: "https://uni-freiburg.de/"
 
+freiburg-uniklinik-surgpathol:
+  name:  Institute of Surgical Pathology - Universitätsklinikum Freiburg
+  link: "https://www.uniklinik-freiburg.de/pathologie-en.html"
+
 inab-certh:
   name: INAB|CERTH
   link: "https://www.inab.certh.gr/"
