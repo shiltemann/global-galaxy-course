@@ -1,0 +1,117 @@
+abretaud:
+    name: Anthony Bretaudeau
+    affiliation: inrae
+
+aheikema:
+    name: Astrid Heikema
+    affiliation: erasmusmc
+    photo: astrid.jpeg
+
+andrewr:
+    name: Andrew Rajczewski
+    affiliation: minnesotauni
+    photo: andrew_r.jpg
+
+annasyme:
+    name: Anna Syme
+    affiliation: melbourneuni
+
+annefou:
+    name: Anne Fouilloux
+    affiliation: eoscnordic
+
+awspolly:
+    name: These slides are narrated by AWS Polly. This helps us keep the video slides up-to-date more easily.
+    photo: polly.png
+
+bebatut:
+    name: Bérénice Batut
+    affiliation: freiburguni
+
+colineroyaux:
+    name: Coline Royaux
+    affiliation: cnrs
+
+combesf:
+    name: Florence Combes
+    affiliation: ifb
+
+foellmelanie:
+    name: Melanie Föll
+    affiliation: freiburg-uniklinik-surgpathol
+
+fpsom:
+    name: Fotis E. Psomopoulos
+    affiliation: inab-certh
+
+gallardoalba:
+    name: Cristóbal Gallardo
+    affiliation: freiburguni
+
+heylf:
+    name: Florian Heyl
+    affiliation: freiburguni
+
+hexylena:
+    name: Helena Rasche
+    affiliation: avans
+
+hrhotz:
+    name: Hans-Rudolf Hotz
+    affiliation: fmi
+
+jj-umn:
+    name: James Johnson
+    affiliation: minnesotauni
+
+lldelisle:
+    name: Lucille Delisle
+    affiliation: epfl
+
+nekrut:
+    name: Anton Nekrutenko
+    affiliation: pennstate
+
+nomadscientist:
+    name: Wendi Bacon
+    affiliation: ebi
+
+pratikdjagtap:
+    name: Pratik Jagtap
+    affiliation: minnesotauni
+
+pvanheus:
+    name: Peter van Heusden
+    affiliation: sanbi
+
+shiltemann:
+    name: Saskia Hiltemann
+    affiliation: erasmusmc
+
+simonbray:
+    name: Simon Bray
+    affiliation: freiburguni
+
+subinamehta:
+    name: Subina Mehta
+    affiliation: minnesotauni
+
+slugger70:
+    name: Simon Gladman
+    affiliation: melbourneuni
+
+timothygriffin:
+    name: Timothy J. Griffin
+    affiliation: minnesotauni
+
+willemdek11:
+    name: Willem de Koning
+    affiliation: erasmusmc
+
+yvanlebras:
+    name: Yvan Le Bras
+    affiliation: mnhn
+
+yvesvdb:
+    name: Yves Vandenbrouck
+    affiliation: ifb
