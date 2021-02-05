@@ -3,7 +3,7 @@
  <div class="row no-gutters">
   <div class="col-sm-7"> <!-- materials list -->
    <div class="card-body">
-    <h4 class="card-title">Supporting Materials</h4>
+    <!--<h4 class="card-title">Supporting Materials</h4>-->
 
     <!-- materials for training-->
     <ul>
@@ -20,7 +20,7 @@
 
      <!-- video -->
      {% if session.video %}
-     <li><strong>Video: </strong><a href="{{site.video_prefix}}/{{include.session.video}}">Watch it on {{site.video_platform}}</a></li>
+     <li><strong>Video: </strong><a href="{{site.video_prefix}}/{{include.session.video.link}}">Watch it on {{site.video_platform}}</a></li>
      {% endif %}
 
      <!-- FAQ -->

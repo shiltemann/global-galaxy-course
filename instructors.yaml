@@ -6,9 +6,18 @@ abretaud:
     orcid: 0000-0003-0914-2470
     affiliation: inrae
 
+andrewr:
+    name: Andrew Rajczewski
+    affiliation: minnesotauni
+    photo: andrew_r.png
+
 annasyme:
     name: Anna Syme
     affiliation: melbourneuni
+
+awspolly:
+    name: These slides are narrated by AWS Polly. This helps us keep the video slides up-to-date more easily.
+    photo: polly.png
 
 bebatut:
     name: Bérénice Batut
@@ -30,21 +39,42 @@ hexylena:
     name: Helena Rasche
     affiliation: [erasmusmc, avans]
 
+jj-umn:
+    name: James Johnson
+    affiliation: minnesotauni
+
 nekrut:
     name: Anton Nekrutenko
     affiliation: pennstate
 
+nomadscientist:
+    name: Wendi Bacon
+    affiliation: ebi
+
+pratikdjagtap:
+    name: Pratik Jagtap
+    affiliation: minnesotauni
+
 pvanheus:
     name: Peter van Heusden
-    twitter: pvanheus
-    orcid: 0000-0001-6553-5274
-    joined: 2017-09
-    bio: Research at the South African National Bioinformatics Institute
+    affiliation: sanbi
 
 shiltemann:
     name: Saskia Hiltemann
     affiliation: erasmusmc
 
+subinamehta:
+    name: Subina Mehta
+    affiliation: minnesotauni
+
 slugger70:
     name: Simon Gladman
     affiliation: melbourneuni
+
+timothygriffin:
+    name: Timothy J. Griffin
+    affiliation: minnesotauni
+
+yvesvdb:
+    name: Yves Vandenbrouck
+    affiliation: ifb

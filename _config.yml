@@ -27,6 +27,10 @@ gtn_url: "https://training.galaxyproject.org/training-material/"
 gtn_logo: "/assets/images/logos/00_GTNLogo300.png"
 analytics_suffix: "?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2021"
 
+image_dir: /assets/images/
+logo_dir: /assets/images/logos/
+
+
 support_platform: "Slack"
 support_link: "https://gtnsmrgsbord.slack.com/"
 support_join: ""

@@ -1,23 +1,50 @@
+ebi:
+  name: EMBL-EBI
+  link: "https://www.ebi.ac.uk/"
+  logo: embl-ebi.png
+
 erasmusmc:
   name: Erasmus Medical Center
   link: "https://erasmusmc.nl"
+  logo: 03_erasmusmc.png
 
 freiburguni:
   name: Albert-Ludwigs-Universität Freiburg
   link: "https://uni-freiburg.de/"
+  logo: 04_unifreiburg.png
 
 freiburg-uniklinik-surgpathol:
   name:  Institute of Surgical Pathology - Universitätsklinikum Freiburg
   link: "https://www.uniklinik-freiburg.de/pathologie-en.html"
+  logo: 06_uniklikik.png
 
 inab-certh:
   name: INAB|CERTH
   link: "https://www.inab.certh.gr/"
+  logo: 05_inab.jpg
+
+ifb:
+  name: French Institute of Bioinformatics
+  link: "https://www.france-bioinformatique.fr"
+  logo: ifb.jpg
 
 melbourneuni:
   name: University of Melbourne
   link: "https://www.unimelb.edu.au/"
+  logo: unimelbourne.jpg
+
+minnesotauni:
+  name: University of Minnesota
+  link: "https://twin-cities.umn.edu/"
+  logo: minnesotauni.png
 
 pennstate:
   name: Penn State University
   link: "https://www.psu.edu/"
+  logo: pennstate.png
+
+sanbi:
+  name: SANBI/UWC
+  link: "https://www.sanbi.org/"
+  logo: sanbi.png
+  mouseover: "South African National Bioinformatics Institute, South African MRC Bioinformatics Unit, University of the Western Cape, Bellville, 7535, South Africa"

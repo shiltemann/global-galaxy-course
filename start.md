@@ -1,16 +1,16 @@
 ---
 layout: page
-title: Program
+title: Let's get Started!
 ---
 
-
-# Let's get Started!
-
-Welcome everybody! Thanks for joining this course.
+Welcome everybody, and thank you for joining this course!
 
 Everything you need for this course can be found on this webpage.
 
-Please start by watching the welcome video below. More information can be found by clicking on each session
+# TODO: setup instructions
+
+
+More information including links to all training materials can be found by clicking on each session
 
 {% for day in site.data.training_sessions %}
  {% assign daynum = day[0] %}
@@ -29,34 +29,30 @@ Please start by watching the welcome video below. More information can be found 
   <div id="collapse{{daynum}}{{forloop.index0}}" class="accordion-collapse collapse {% if session.show  %}show{% endif %}" aria-labelledby="heading{{daynum}}{{forlop.index0}}" data-bs-parent="#accordion{{daynum}}">
    <div class="accordion-body">
 
+
+
    <!-- icebreaker -->
    {% if session.type == 'icebreaker' %}{% include icebreaker.html prompt=session.prompt example=session.example %}{% endif %}
 
 
-   <!-- session description -->
+   <!-- session description
    {% if session.description %}
    <h3>Description</h3>
    <p> {{ session.description }} </p>
    {% endif %}
+   -->
 
    <!-- speaker and video -->
    {% if session.video %}
-   <h3>Video Tutorial </h3>
-   {% if session.time %} <strong>Video Length:</strong> {{session.time}} {% endif %}
-   <div class="flex-row" style="margin-top:1em;">
-    <div>
-     <iframe width="560" height="315" src="https://www.youtube.com/embed/{{session.video}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-   {% endif %}
-
-   {% if session.speaker %}
-    {% include instructor_card.html who=session.speaker %}
-   </div><!-- end flex -->
+   <h3 class="session-section"> Video {{session.type | default: "Tutorial" }} </h3>
+   {% include video-session.html session=session %}
    {% endif %}
 
    <!-- session links  -->
+   <h3 class="session-section">Supporting Materials </h3>
    {% include session_materials.html session=session %}
    <!-- end session links -->
+
    </div><!-- end accordion body -->
   </div><!-- end collapse -->
  </div><!-- end accordion item (training session) -->
