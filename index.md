@@ -9,6 +9,14 @@ In February 2021, we will organize a global 5-day [Galaxy](https://galaxyproject
 
 The [program](#program) covers a general **introduction to the Galaxy platform**, **NGS Analysis (DNA-seq and RNA-seq)**, **Proteomics**, and also features a [**Choose your own adventure**](https://en.wikipedia.org/wiki/Choose_Your_Own_Adventure) day on Friday, where we encourage you to explore all the tutorials that the GTN training repository has to offer, and follow those that are of interest to you. The GTN tutorials cover a wide range of scientific topics, from NGS to ecology, climate science, machine learning, visualization, and many more. All the tutorials can be found on the [GTN website](https://training.galaxyproject.org)
 
+
+## Start the Workshop!
+
+Is it February 15, 2021 or later? Click the button below to start the workshop!
+
+<a href="{{site.baseurl}}/workshop"><button type="button" class="btn btn-success btn-lg">Start Learning Galaxy!</button></a>
+
+
 ## Practical Information
 
 **When:** February 15-19, 2021 (all time zones) \\
@@ -23,6 +31,8 @@ The [program](#program) covers a general **introduction to the Galaxy platform**
 ## Registration
 
 Please fill out the **[registration form](https://forms.gle/TN3Tuet8wm4i2umv5)** to sign up for this course.
+
+
 
 
 ## Program

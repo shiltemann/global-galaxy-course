@@ -284,7 +284,7 @@ day3:
       video:
         link: nefB35Bi1l4
         length: 45M
-        captions:
+        captions: Hans-Rudolf Hotz
       material:
         - type: tutorial
           link: topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html
@@ -587,8 +587,11 @@ day5b:
 day5c:
   title: "All other Tutorials"
   description: |
-    "Please also feel free to explore all the other tutorials on the GTN website,
+     Please also feel free to explore all the other tutorials on the GTN website,
      and do any that sound interesting to you. Our instructors will do their best
-     to support you in any of these tutorials."
+     to support you in any of these tutorials.
+
+     <br><br>
+     <a href="https://training.galaxyproject.org"><button type="button" class="btn btn-warning btn-lg">Explore All GTN Tutorials</button></a>
   subday: true
 
