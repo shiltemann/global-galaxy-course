@@ -9,11 +9,7 @@
     <ul>
      {% if include.session.material %}
      {% for m in include.session.material %}
-     {% if m.title %}
-     <li><strong>{{m.type | capitalize }}: </strong><a href="{{site.gtn_url}}/{{m.link}}{{site.analytics_suffix}}">{{m.title }} </a></li>
-     {% else %}
-     <li><a href="{{site.gtn_url}}/{{m.link}}{{site.analytics_suffix}}">{{m.type | capitalize }} </a></li>
-     {% endif %}
+     <li><strong>{{m.type | capitalize }}: </strong><a href="{{site.gtn_url}}/{{m.link}}{{site.analytics_suffix}}">{{m.title | default: include.session.name }} </a></li>
 
      {% endfor %}
      {% endif %}

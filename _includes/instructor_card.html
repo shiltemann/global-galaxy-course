@@ -12,9 +12,9 @@
    {% else %}
    src="https://avatars.githubusercontent.com/{{include.who}}"
    {% endif %}
-   alt="{{speaker}}">
+   alt="{{site.data.instructors[include.who].name}}">
   <div class="card-body">
-    <h4 class="card-title">{{speaker}}</h4>
+    <h4 class="card-title">{{site.data.instructors[include.who].name}}</h4>
     <p class="card-text"><a href="{{affiliation-url}}"><span title="{{affiliation-mouseover}}">{{affiliation}}</span></a></p>
     {% if affiliation-logo  %}
     <div class="logo"><img src="{{site.baseurl}}/{{site.logo_dir}}/{{affiliation-logo}}" alt="{{affiliation}}"/></div>

@@ -1,13 +1,14 @@
 ---
 day1:
   title: "Day 1: Introduction to Galaxy and NGS analysis"
+  description: "Today we start by introducing the Galaxy Platform, and show you how to analyze your NGS data using Galaxy."
   sessions:
     - name: Welcome & Course Information (Click here to start)
       description: "Start here; we will go over all the important things to know to get the most out of this workshop"
       speaker: shiltemann
       type: lecture
       video:
-        link: g_cavAO-fBM  # TODO: update
+        link:
         length: 30M
         captions: shiltemann
       support_channel: "#general"
@@ -24,10 +25,12 @@ day1:
 
 
     - name: "Using Galaxy: An introduction to NGS analysis"
-      description: "This tutorial will introduce the Galaxy platform and walk you through an NGS analysis step by step."
+      description: |
+        "This tutorial will introduce the Galaxy platform and walk you through
+         a first NGS analysis step by step."
       speaker: nekrut
       video:
-        link: g_cavAO-fBM  # TODO: update
+        link:
         length: 1H30M
         captions:
       material:
@@ -47,7 +50,8 @@ day1:
     - name: "Quality Control: Intro"
       speaker: heylf
       type: Lecture
-      description: "This tutorial covers the basics about how to assess the quality of your sequencing data"
+      description: |
+        "This tutorial covers the basics about how to assess the quality of your sequencing data"
       video:
         link: BWonTPS4zB8
         length: 40M
@@ -60,10 +64,12 @@ day1:
       support_link: https://gtnsmrgsbord.slack.com/archives/C01FQ92MB7A
 
 
-    - name: "Quality Control"
+    - name: "Quality Control: Hands-on!"
       type: Hands-on
       speaker: heylf
-      description: "Get hands-on experience assessing and improving the quality of sequencing data in Galaxy."
+      description: |
+        "Get hands-on experience assessing and improving the quality of
+         your sequencing data in Galaxy."
       video:
         link: QJRlX2hWDKM
         length: 1H10M
@@ -75,10 +81,12 @@ day1:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FQ92MB7A"
 
 
-    - name: "Mapping: Intro"
+    - name: "Mapping: Introduction"
       type: Lecture
       speaker: pvanheus
-      description: "Mapping sequencing reads to a reference genome is often the next step after QC. This session covers the basic concepts of mapping."
+      description: |
+        "Mapping sequencing reads to a reference genome is often the next step
+         after QC. This session covers the basic concepts of mapping."
       video:
         link: 7FhHb8EV3EU
         length: 10M
@@ -90,7 +98,7 @@ day1:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F6JHCFT6"
 
 
-    - name: "Mapping: Hands-on"
+    - name: "Mapping: Hands-on!"
       type: Tutorial
       speaker: pvanheus
       description: "In this tutorial you will map sequencing data to a reference genome, and explore the mapped reads in a genome browser."
@@ -106,12 +114,15 @@ day1:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F6JHCFT6"
 
 
-    - name: "Genome Assembly: Intro"
+    - name: "Genome Assembly: Introduction"
+      description: |
+        "When there is no reference genome available for your organism, you will
+         have to assemble the short reads into larger segments (contigs)"
       type: Lecture
       speaker: slugger70
       video:
-        link: "eyfCyINTD_E" # TODO: update
-        length: ""
+        link:
+        length:
         captions:
       material:
         - type: slides
@@ -121,7 +132,7 @@ day1:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01EKMD8VC7"
 
 
-    - name: "Genome Assembly: Hands-on"
+    - name: "Genome Assembly: Hands-on!"
       type: Tutorial
       speaker: annasyme
       video:
@@ -288,95 +299,190 @@ day4:
     - name: "Introduction to mass spectrometry based proteomics data analysis"
       speaker: foellmelanie
       video:
-        link: nefB35Bi1l4
+        link:
         length: 45M
         captions:
       material:
         - type: tutorial
-          link: topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html
-          title: Clustering 3K PBMCs with Scanpy
+          link:
+          title:
       support_channel: "#3-3_clustering-3k-pbmcs-with-scanpy"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FQ9RLLF2"
 
     - name: "Maxquant + MSstats on a clinical cohort"
       speaker: foellmelanie
       video:
-        link: nefB35Bi1l4
+        link:
         length: 45M
         captions:
       material:
         - type: tutorial
-          link: topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html
-          title: Clustering 3K PBMCs with Scanpy
-      support_channel: "#3-3_clustering-3k-pbmcs-with-scanpy"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FQ9RLLF2"
+          link:
+      support_channel: "#4-1_maxquant-and-msstats"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
 
     - name: "Introduction to Proteogenomics"
       speaker: timothygriffin
       video:
         link: WpH101OPrG0
-        length: 45M
+        length: 20M
         captions:
       material:
-        - type: tutorial
-          link: topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html
-          title: Clustering 3K PBMCs with Scanpy
-      support_channel: "#3-3_clustering-3k-pbmcs-with-scanpy"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FQ9RLLF2"
+      support_channel: "#4-2_protegenomics"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
 
     - name: "Proteogenomics 1: Database Creation"
       speaker: jj-umn
       video:
-        link: WpH101OPrG0
-        length: 45M
+        link: b_kZf8mXHdo
+        length: 40M
         captions:
       material:
         - type: tutorial
-          link: topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html
-          title: Clustering 3K PBMCs with Scanpy
-      support_channel: "#3-3_clustering-3k-pbmcs-with-scanpy"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FQ9RLLF2"
+          link: topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html
+      support_channel: "#4-2_protegenomics"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
+
 
     - name: "Proteogenomics 2: Database search"
       speaker: andrewr
       video:
-        link: WpH101OPrG0
-        length: 45M
+        link: q1OjmTcbvBA
+        length: 30M
         captions:
       material:
         - type: tutorial
-          link: topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html
-          title: Clustering 3K PBMCs with Scanpy
-      support_channel: "#3-3_clustering-3k-pbmcs-with-scanpy"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FQ9RLLF2"
+          link: topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html
+      support_channel: "#4-2_protegenomics"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
+
 
     - name: "Proteogenomics 3: Novel peptide analysis"
       speaker: subinamehta
       video:
-        link: WpH101OPrG0
-        length: 45M
-        captions:
+        link: Ku274KwFh1Y
+        length: 40M
+        captions: Subina Mehta
       material:
         - type: tutorial
-          link: topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html
-          title: Clustering 3K PBMCs with Scanpy
-      support_channel: "#3-3_clustering-3k-pbmcs-with-scanpy"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FQ9RLLF2"
+          link: topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html
+      support_channel: "#4-2_protegenomics"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
+
 
     - name: "Metaproteomics"
       speaker: pratikdjagtap
       video:
-        link: WpH101OPrG0
+        link:
+        length:
+        captions:
+      material:
+        - type: tutorial
+          link: topics/proteomics/tutorials/metaproteomics/tutorial.html
+      support_channel: "#4-3_metaproteomics"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD4276P3"
+
+
+
+
+day5:
+  title: "Choose Your Own Adventure!"
+  description: |
+     Today YOU create the program. Below are set of suggested tutorials.
+     Some have videos, some are self-study tutorials. All have experienced
+     instructors online for support. Want to try something else from the GTN
+     website? Also fine! We will do our best to help you with it.
+
+day5a:
+  title: "Video Tutorials"
+  subday: true
+  sessions:
+    - name: "Variant Analysis: M. Tuberculosis Variant Analysis"
+      speaker: pvanheus
+      video:
+        link:
         length: 45M
         captions:
       material:
         - type: tutorial
-          link: topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html
-          title: Clustering 3K PBMCs with Scanpy
-      support_channel: "#3-3_clustering-3k-pbmcs-with-scanpy"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FQ9RLLF2"
+          link:
+      support_channel: "#4-1_maxquant-and-msstats"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
 
-    - name: "Introduction to functional analysis of proteomics data"
+    - name: "Metagenomics: 16S Microbial Analysis with mothur"
+      speaker: shiltemann
+      video:
+        link:
+        length: 45M
+        captions:
+      material:
+        - type: tutorial
+          link:
+      support_channel: "#4-1_maxquant-and-msstats"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
+
+    - name: "Metagenomics: Microbial Anlysis in a Clinical Setting"
+      speaker: aheikema
+      video:
+        link:
+        length: 45M
+        captions:
+      material:
+        - type: tutorial
+          link:
+      support_channel: "#4-1_maxquant-and-msstats"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
+
+    - name: "Metagenomics: Antibiotic Resistance Detection with Nanopore Data"
+      speaker: willemdek11
+      video:
+        link:
+        length: 45M
+        captions:
+      material:
+        - type: tutorial
+          link:
+      support_channel: "#4-1_maxquant-and-msstats"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
+
+    - name: "Assembly: Unicycler assembly of SARS-CoV-2 genome"
+      speaker: gallardoalba
+      video:
+        link:
+        length: 45M
+        captions:
+      material:
+        - type: tutorial
+          link:
+      support_channel: "#4-1_maxquant-and-msstats"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
+
+
+    - name: "Circos Visualisation in Galaxy"
+      speaker: hexylena
+      video:
+        link:
+        length: 45M
+        captions:
+      material:
+        - type: tutorial
+          link:
+      support_channel: "#4-1_maxquant-and-msstats"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
+
+    - name: "Genome Annotation: Annotation of a prokaryotic genome"
+      speaker: abretaud
+      video:
+        link:
+        length: 45M
+        captions:
+      material:
+        - type: tutorial
+          link:
+      support_channel: "#4-1_maxquant-and-msstats"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
+
+    - name: "Proteomics: Functional analysis of proteomics data"
       speaker: yvesvdb
       video:
         link: WpH101OPrG0
@@ -386,6 +492,103 @@ day4:
         - type: tutorial
           link: topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html
           title: Clustering 3K PBMCs with Scanpy
-      support_channel: "#3-3_clustering-3k-pbmcs-with-scanpy"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FQ9RLLF2"
+      support_channel: "#5-i_proteore"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01EYBNQRL5"
+
+    - name: "Proteomics: ProteoRE tool for Functional Analysis of a Protein List"
+      speaker: yvesvdb
+      video:
+        link:
+        length: 45M
+        captions:
+      material:
+        - type: tutorial
+          link: topics/proteomics/tutorials/proteome_annotation/tutorial.html
+          title: Annotating a protein list identified by LC-MS/MS experiments
+      support_channel: "#5-i_proteore"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01EYBNQRL5"
+
+
+
+day5b:
+  title: "Supported Tutorials (Self-Study)"
+  description: These tutorials do not have videos, but experienced instructors will be online today to help you with them
+  subday: true
+  sessions:
+    - name: "Genomic Data Visualization with JBrowse"
+      speaker: hexylena
+      material:
+        - type: slides
+          link: topics/visualisation/tutorials/jbrowse/slides.html
+          title: JBrowse
+        - type: tutorial
+          link: topics/visualisation/tutorials/jbrowse/tutorial.html
+
+      support_channel: "#5-e_jbrowse"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FP1QR49H"
+
+    - name: "Ecology: Compute and analyze biodiversity metrics with PAMPA toolsuite"
+      speaker: [colineroyaux,yvanlebras]
+      material:
+        - type: tutorial
+          link: topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html
+          title: Compute and analyze biodiversity metrics with PAMPA toolsuite
+      support_channel: "#5-d_ecology_pampa-toolsuite"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FG38RR7Y"
+
+    - name: "Epigenetics: ATAC-Seq data analysis"
+      speaker: [hrhotz,lldelisle]
+      material:
+        - type: tutorial
+          link: topics/epigenetics/tutorials/atac-seq/tutorial.html
+          title: ATAC-Seq data analysis
+      support_channel: "#5-k_atac-seq"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01LRHRC6A3"
+
+    - name: "Proteomics: ProteoRE tool for biomarker discovery"
+      speaker: [yvesvdb,combesf]
+      material:
+        - type: tutorial
+          link: topics/proteomics/tutorials/biomarker_selection/tutorial.html
+          title: Biomarker candidate identification
+      support_channel: "#5-i_proteore"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01EYBNQRL5"
+
+    - name: "Climate: Functionally Assembled Terrestrial Ecosystem Simulator (FATES) "
+      speaker: annefou
+      material:
+        - type: slides
+          link: topics/climate/videos/#video-climate-fates
+          title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
+        - type: tutorial
+          link: topics/climate/tutorials/fates/tutorial.html
+          title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
+      support_channel: "#5-f_climate-fates"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01M63SFH34"
+
+    - name: "Cheminformatics: Protein-ligand docking"
+      speaker: simonbray
+      material:
+        - type: tutorial
+          link: topics/computational-chemistry/tutorials/cheminformatics/tutorial.html
+          title: Protein-ligand docking
+      support_channel: "#5-g_cheminformatics"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01MC9SK344"
+
+    - name: "Cheminformatics: Running molecular dynamics simulations using GROMACS"
+      speaker: simonbray
+      material:
+        - type: tutorial
+          link: topics/computational-chemistry/tutorials/md-simulation-gromacs/tutorial.html
+          title: Running molecular dynamics simulations using GROMACS
+      support_channel: "#5-g_cheminformatics"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01MC9SK344"
+
+day5c:
+  title: "All other Tutorials"
+  description: |
+    "Please also feel free to explore all the other tutorials on the GTN website,
+     and do any that sound interesting to you. Our instructors will do their best
+     to support you in any of these tutorials."
+  subday: true
 

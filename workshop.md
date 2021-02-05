@@ -5,18 +5,18 @@ title: Let's get Started!
 
 Welcome everybody, and thank you for joining this course!
 
-Everything you need for this course can be found on this webpage.
-
-# TODO: setup instructions
-
-
-More information including links to all training materials can be found by clicking on each session
+Everything you need for this course can be found on this webpage. More information including
+links to all training materials can be found by clicking on each session
 
 {% for day in site.data.training_sessions %}
  {% assign daynum = day[0] %}
 
-# {{day[1].title}}
-
+{% if day[1].subday %}
+<h4 class="daystart" style="margin-top:2em;"> {{day[1].title}} </h4>
+{% else %}
+<h2 class="daystart" style="margin-top:2em;"> {{day[1].title}} </h2>
+{% endif %}
+<p> {{day[1].description}} </p>
 <div class="accordion" id="accordion{{daynum}}">
 
 {% for session in day[1].sessions %}
@@ -46,6 +46,9 @@ More information including links to all training materials can be found by click
    {% if session.video %}
    <h3 class="session-section"> Video {{session.type | default: "Tutorial" }} </h3>
    {% include video-session.html session=session %}
+   {% else %}
+   <h3 class="session-section"> Self-Study Tutorial </h3>
+   {% include selfstudy-session.html session=session %}
    {% endif %}
 
    <!-- session links  -->

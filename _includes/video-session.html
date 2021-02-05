@@ -17,7 +17,7 @@
      </div>
     </div>
 
-   {% if session.speaker %}
+   {% if include.session.speaker %}
    <div class="col-md-3">
     {% include instructor_card.html who=include.session.speaker %}
    </div>
