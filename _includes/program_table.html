@@ -29,7 +29,7 @@
      {% if include.fullprogram %}
      {% unless include.selfstudy %}
      <td> <a href="{{site.video_prefix}}/{{ session.video.link }}">Video</a> </td>
-     <td> {{session.video.length}} </td>
+     <td> {{session.video.length | downcase }} </td>
      {% endunless %}
      <td>
       {% if session.material %}{% for m in session.material %}
@@ -43,3 +43,6 @@
   {% endfor %}
  </tbody>
 </table>
+{% unless include.selfstudy %}
+**Note:** Length indicates the duration of the video. If you want to follow along and/or perform the tutorial yourself, it will likely take longer to complete.
+{% endunless %}
