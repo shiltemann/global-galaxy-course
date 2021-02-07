@@ -514,6 +514,7 @@ day5b:
   title: "Supported Tutorials (Self-Study)"
   description: These tutorials do not have videos, but experienced instructors will be online today to help you with them
   subday: true
+  selfstudy: true
   sessions:
     - name: "Genomic Data Visualization with JBrowse"
       speaker: hexylena
@@ -528,7 +529,7 @@ day5b:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FP1QR49H"
 
     - name: "Ecology: Compute and analyze biodiversity metrics with PAMPA toolsuite"
-      speaker: [colineroyaux,yvanlebras]
+      speaker: [colineroyaux, yvanlebras]
       material:
         - type: tutorial
           link: topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html
@@ -537,7 +538,7 @@ day5b:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FG38RR7Y"
 
     - name: "Epigenetics: ATAC-Seq data analysis"
-      speaker: [hrhotz,lldelisle]
+      speaker: [hrhotz, lldelisle]
       material:
         - type: tutorial
           link: topics/epigenetics/tutorials/atac-seq/tutorial.html

@@ -8,6 +8,9 @@ Welcome everybody, and thank you for joining this course!
 Everything you need for this course can be found on this webpage. More information including
 links to all training materials can be found by clicking on each session
 
+**Note:** Problems viewing this page? Try the [simple view]({{site.baseurl}}/workshop-simpleview) instead.
+
+
 {% for day in site.data.training_sessions %}
  {% assign daynum = day[0] %}
 
@@ -64,5 +67,4 @@ links to all training materials can be found by clicking on each session
 </div><!-- end accordion (day) -->
 
 {% endfor %}
-
 
