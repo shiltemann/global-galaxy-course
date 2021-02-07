@@ -1,26 +1,28 @@
 
 <div class="flex-row" style="margin-top:1em;">
 
+ <div class="col-md-8">
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    {% if include.session.video.external %}
+    src="{{include.session.video.link}}"
+    {% else %}
+    src="https://www.youtube.com/embed/{{include.session.video.link}}"
+    {% endif %}
+    frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;">
+   <strong>Video Length:</strong> {{include.session.video.length}} <br/>
+   <strong>Captions By:</strong> {{include.session.video.captions}} <br/>
+   <strong>Description:</strong> {{include.session.description}}
+  </div>
+ </div>
 
-    <div class="col-md-8">
-     <iframe width="560" height="315"
-      {% if include.session.video.external %}
-       src="{{include.session.video.link}}"
-      {% else %}
-      src="https://www.youtube.com/embed/{{include.session.video.link}}"
-      {% endif %}
-      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-     <div>
-      <strong>Video Length:</strong> {{include.session.video.length}} <br/>
-      <strong>Captions By:</strong> {{include.session.video.captions}} <br/>
-      <strong>Description:</strong> {{include.session.description}}
-     </div>
-    </div>
-
-   {% if include.session.speaker %}
-   <div class="col-md-3">
-    {% include instructor_card.html who=include.session.speaker %}
-   </div>
-   {% endif %}
+ {% if include.session.speaker %}
+ <div class="col-md-3">
+  {% include instructor_card.html who=include.session.speaker %}
+ </div>
+ {% endif %}
 </div><!-- end video session -->
 
