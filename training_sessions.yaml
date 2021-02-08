@@ -501,6 +501,23 @@ day5a:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01GJLDS01K"
       faq: "https://docs.google.com/document/d/e/2PACX-1vRcBWHbIIo6t_vXtZiaW_6t2qIUYwjiptC2MRVUG5KC31rwPg8fO9yCma22HqIV6Hu1T3wJXaV-GwxU/pub"
 
+    - name: "Climate: Functionally Assembled Terrestrial Ecosystem Simulator (FATES) "
+      speaker: annefou
+      video:
+        link: TFROMsZVMQg
+        length: 1H20M
+        captions:
+      material:
+        - type: slides
+          link: topics/climate/videos/#video-climate-fates
+          title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
+        - type: tutorial
+          link: topics/climate/tutorials/fates/tutorial.html
+          title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
+      support_channel: "#5-f_climate-fates"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01M63SFH34"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vS5ucF3H8v1V43JPtw35V-pgGfhTbrHtjjN6X0BddzWispwuRElPYw7sWN1e8R360mdHyC1NcOSqxiy/pub"
+
 
     - name: "Circos Visualisation in Galaxy"
       speaker: hexylena
@@ -607,18 +624,7 @@ day5b:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FP2AHUV9"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQVj92upQT2Z4B6ZF6kmhrbnHesbkS--e5ge14iRbxDsxRHuOb52XJE8DI584asA0t2GJIjS_qliPZu/pub"
 
-    - name: "Climate: Functionally Assembled Terrestrial Ecosystem Simulator (FATES) "
-      speaker: annefou
-      material:
-        - type: slides
-          link: topics/climate/videos/#video-climate-fates
-          title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
-        - type: tutorial
-          link: topics/climate/tutorials/fates/tutorial.html
-          title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
-      support_channel: "#5-f_climate-fates"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01M63SFH34"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vS5ucF3H8v1V43JPtw35V-pgGfhTbrHtjjN6X0BddzWispwuRElPYw7sWN1e8R360mdHyC1NcOSqxiy/pub"
+
 
     - name: "Cheminformatics: Protein-ligand docking"
       speaker: simonbray
