@@ -255,11 +255,12 @@ day2:
 
 day3:
   title: "Day 3: Single-cell RNA-Seq Analysis"
+  description: "Today is a half-day. This will let you catch up from previous days if needed."
   sessions:
     - name: "An introduction to scRNA-seq data analysis"
       speaker: awspolly
       video:
-        link: 4XOAdxVfVLs
+        link: D3qvYWZMFa0
         length: 20M
         captions: Mehmet Tekman
       material:
@@ -357,7 +358,7 @@ day4:
         captions:
       material:
         - type: slides
-          link:
+          link: # TODO: slides for tim
           external: true
       support_channel: "#4-2_protegenomics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
