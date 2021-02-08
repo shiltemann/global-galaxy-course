@@ -13,6 +13,7 @@ day1:
         captions: shiltemann
       support_channel: "#general"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES8R0RNG"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTfNT2qS2Yb7qTAcnOFrMWwE_aPPUuYJJ0hdjw5gqV_JtMUWQ3NSkr6qAdrmF2EUGBBzTL8wFiILz8B/pub"
 
     - name: "Getting set up"
       type: setup
@@ -43,9 +44,9 @@ day1:
         - type: tutorial
           link: /variant-analysis/tutorials/sars-cov-2/tutorial.html
           title: SARS-CoV-2 variant analysis
-      support_channel: "#1-1_galaxy-intro"
+      support_channel: "#1-2_ngs-intro"
       support_link: https://gtnsmrgsbord.slack.com/archives/C01ES914GCU
-
+      faq: "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub"
 
     - name: "Quality Control: Intro"
       speaker: heylf
@@ -62,6 +63,7 @@ day1:
           title: Introduction to Quality Control
       support_channel: "#1-3_quality-control"
       support_link: https://gtnsmrgsbord.slack.com/archives/C01FQ92MB7A
+      faq: "https://docs.google.com/document/d/e/2PACX-1vRXhvMQNVRc41Xsg7NLeCLSefaWMEhKgkENmqQqAJUfZAk782616svDQPBQhMKeOqMhiKSZDbmFqsfO/pub"
 
 
     - name: "Quality Control: Hands-on!"
@@ -79,6 +81,7 @@ day1:
           link: "topics/sequence-analysis/tutorials/quality-control/tutorial.html"
       support_channel: "#1-3_quality-control"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FQ92MB7A"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vRXhvMQNVRc41Xsg7NLeCLSefaWMEhKgkENmqQqAJUfZAk782616svDQPBQhMKeOqMhiKSZDbmFqsfO/pub"
 
 
     - name: "Mapping: Introduction"
@@ -96,6 +99,7 @@ day1:
           title: Mapping
       support_channel: "#1-4_mapping"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F6JHCFT6"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vReZf8DGTSf6DlgBzg_g4_PhiH7glzRNTXGxK2_xM3aAFL5A3x0FdawNCrna3NkZ_vj986u7nhWh3Bb/pub"
 
 
     - name: "Mapping: Hands-on!"
@@ -112,6 +116,7 @@ day1:
           title: Mapping
       support_channel: "#1-4_mapping"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F6JHCFT6"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vReZf8DGTSf6DlgBzg_g4_PhiH7glzRNTXGxK2_xM3aAFL5A3x0FdawNCrna3NkZ_vj986u7nhWh3Bb/pub"
 
 
     - name: "Genome Assembly: Introduction"
@@ -130,6 +135,7 @@ day1:
           title: An Introduction to Genome Assembly
       support_channel: "#1-5_assembly"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01EKMD8VC7"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTed-1_nZK1liUdm5IZn_Qas7LcJE700WwsMAgT282Q1jx0Nkk4lZzzN47P9aS1suUAeh0ljIUYgXpG/pub"
 
 
     - name: "Genome Assembly: Hands-on!"
@@ -145,6 +151,9 @@ day1:
           title: Chloroplast genome assembly
       support_channel: "#1-5_assembly"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01EKMD8VC7"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTed-1_nZK1liUdm5IZn_Qas7LcJE700WwsMAgT282Q1jx0Nkk4lZzzN47P9aS1suUAeh0ljIUYgXpG/pub"
+
+    # TODO: where is 1-6_varaint_calling
 
     - name: "Wrap up & Socialize"
       #TODO: mention feedback form and social sessions
@@ -164,6 +173,7 @@ day2:
           title: Introduction to Transcriptomics
       support_channel: "#2-1_ref-based-rna-seq"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0L6UW03"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTOAKhYdmiiTucIarwlehmnPaxi0MXDmuCPdyZwB27xvBJPksDOLCOYMGdtEZAoz4WGxHGdDcBDdlM9/pub"
 
     - name: Reference-based RNA-seq Analysis
       speaker: bebatut
@@ -177,6 +187,7 @@ day2:
           title: Reference-based RNA-Seq data analysis
       support_channel: "#2-1_ref-based-rna-seq"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0L6UW03"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTOAKhYdmiiTucIarwlehmnPaxi0MXDmuCPdyZwB27xvBJPksDOLCOYMGdtEZAoz4WGxHGdDcBDdlM9/pub"
 
     - name: "Starting Rstudio in Galaxy"
       speaker: fpsom
@@ -190,6 +201,7 @@ day2:
           title: R basics in Galaxy
       support_channel: "#2-2_intro-to-r"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F6JXPZM2"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub"
 
 
     - name: "Introduction to R"
@@ -204,6 +216,7 @@ day2:
           title: R basics in Galaxy
       support_channel: "#2-2_intro-to-r"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F6JXPZM2"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub"
 
 
     - name: "Advanced R in Galaxy"
@@ -216,8 +229,10 @@ day2:
         - type: tutorial
           link: topics/introduction/tutorials/r-advanced/tutorial.html
           title: Advanced R in Galaxy
+      # TODO: channel missing FAQ link. reused above one.
       support_channel: "#2-3_advanced_r"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01LKGNPE5V"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub"
 
 
     - name: "Visualisaion: RNASeq postprocessing with R"
@@ -232,7 +247,7 @@ day2:
           title: RNA Seq Counts to Viz in R
       support_channel: "#2-4_visualisation-with-r"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD3AFLN5"
-
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTRNzQHT9qyPr9kdWOM1l8HiD0A1xCRMW7bYnUCcLYmF5yJFytYSOVrq_JFtRvqnat-_41JBkQray2F/pub"
 
 
 day3:
@@ -251,6 +266,7 @@ day3:
           title: An introduction to scRNA-Seq data analysis
       support_channel: "#3-0_single-cell-rnaseq"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01M17R4YA1"
+      # TODO: missing faq.
 
     - name: "Understanding Barcodes"
       speaker: nomadscientist
@@ -264,6 +280,7 @@ day3:
           title: Understanding Barcodes
       support_channel: "#3-1_understanding-barcodes"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01EXBNDKT7"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vRWe-8VHsJ4vbO8rwXemPDKUabWrKy1NRnxOKfIzEgj8RQ0tfG0W1kyUx30gVyWND_h4s12MtsV58Sh/pub"
 
 
     - name: "Pre-processing of 10X Single-Cell RNA Datasets"
@@ -278,6 +295,7 @@ day3:
           title: Pre-processing of 10X Single-Cell RNA Datasets
       support_channel: "#3-2_preprocessing-10x-single-cell-rna-datasets"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01EXBPPBK7"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTuCzmNJlZSbS9-lIdfLgt8T7IJb7jWZ3gedtjNB4aKJ7pAi3apYS4NgfaCRh0_r5QbF4Pwl15Z0-mk/pub"
 
     - name: "Clustering 3K PBMCs with Scanpy"
       speaker: nomadscientist
@@ -291,6 +309,7 @@ day3:
           title: Clustering 3K PBMCs with Scanpy
       support_channel: "#3-3_clustering-3k-pbmcs-with-scanpy"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FQ9RLLF2"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTdqGjslXMxUjyjqwkNtidsXFl6SRULFKFug_2TYBl-dYXIDEnXb59nMyZ5qJc6bXI-fP5cPLfkXbHV/pub"
 
 
 day4:
@@ -306,8 +325,10 @@ day4:
         - type: tutorial
           link:
           title:
+      # TODO: wrong channel
       support_channel: "#3-3_clustering-3k-pbmcs-with-scanpy"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FQ9RLLF2"
+      # TODO: faq
 
     - name: "Maxquant + MSstats on a clinical cohort"
       speaker: foellmelanie
@@ -320,6 +341,7 @@ day4:
           link:
       support_channel: "#4-1_maxquant-and-msstats"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vS4GuHPJrRcpGmNCXBTJ9wyUp6X33Xe6Ou8N_q0Ko5AJ-_rUy7ZsAu-x6R9yf7iRZLxK-t_e-O4Xoc6/pub"
 
     - name: "Introduction to Proteogenomics"
       speaker: timothygriffin
@@ -330,6 +352,7 @@ day4:
       material:
       support_channel: "#4-2_protegenomics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub"
 
     - name: "Proteogenomics 1: Database Creation"
       speaker: jj-umn
@@ -342,7 +365,7 @@ day4:
           link: topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html
       support_channel: "#4-2_protegenomics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
-
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub"
 
     - name: "Proteogenomics 2: Database search"
       speaker: andrewr
@@ -355,6 +378,7 @@ day4:
           link: topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html
       support_channel: "#4-2_protegenomics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub"
 
 
     - name: "Proteogenomics 3: Novel peptide analysis"
@@ -368,6 +392,7 @@ day4:
           link: topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html
       support_channel: "#4-2_protegenomics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub"
 
 
     - name: "Metaproteomics"
@@ -381,9 +406,7 @@ day4:
           link: topics/proteomics/tutorials/metaproteomics/tutorial.html
       support_channel: "#4-3_metaproteomics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD4276P3"
-
-
-
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTX6JQG4oAKXvQSJU52thudorwANPtzIedTiTQU1NbXQYYfrNkBheN-gHu0O91bCOIk5wQBpH1mIk7v/pub"
 
 day5:
   title: "Choose Your Own Adventure!"
@@ -418,8 +441,9 @@ day5a:
       material:
         - type: tutorial
           link:
-      support_channel: "#4-1_maxquant-and-msstats"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
+      support_channel: "#5-b_16s-microbial-analysis"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FDV16V25"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vRPPYdMfIA9R_w5y__jV9qdKbijJyOJiclx-2ACKFkAH8aIdlU3pY84xhivWEOmeEn_XQv8StFcjDLP/pub"
 
     - name: "Metagenomics: Microbial Anlysis in a Clinical Setting"
       speaker: aheikema
@@ -442,8 +466,9 @@ day5a:
       material:
         - type: tutorial
           link:
-      support_channel: "#4-1_maxquant-and-msstats"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
+      support_channel: "#5-a_antibiotic-resistance-detection-nanopore"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub"
 
     - name: "Assembly: Unicycler assembly of SARS-CoV-2 genome"
       speaker: gallardoalba
@@ -454,8 +479,9 @@ day5a:
       material:
         - type: tutorial
           link:
-      support_channel: "#4-1_maxquant-and-msstats"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
+      support_channel: "#5-h_unicycler-assembly-sars-cov2-genome"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01GJLDS01K"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vRcBWHbIIo6t_vXtZiaW_6t2qIUYwjiptC2MRVUG5KC31rwPg8fO9yCma22HqIV6Hu1T3wJXaV-GwxU/pub"
 
 
     - name: "Circos Visualisation in Galaxy"
@@ -467,8 +493,9 @@ day5a:
       material:
         - type: tutorial
           link:
-      support_channel: "#4-1_maxquant-and-msstats"
+      support_channel: "#5-c_circos-visualisation"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vSx65Dr5sFCvzvJoRGVMU9i4NJZTkpQktvTEER3T_Pd8PSrR_x9GsUBYBAEnS6-qStu7F-bI_nj2mgT/pub"
 
     - name: "Genome Annotation: Annotation of a prokaryotic genome"
       speaker: abretaud
@@ -479,8 +506,9 @@ day5a:
       material:
         - type: tutorial
           link:
-      support_channel: "#4-1_maxquant-and-msstats"
+      support_channel: "#5-g_annotation-prokaryotic-genome"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vSK-RjeRJC38_FSM9zC6SrfkvIz1W4uEMQkN95qk5OemvANuPF3aNEogVEvF6JEXeMomo-oMwi32Gv2/pub"
 
     - name: "Proteomics: Functional analysis of proteomics data"
       speaker: yvesvdb
@@ -494,6 +522,7 @@ day5a:
           title: Clustering 3K PBMCs with Scanpy
       support_channel: "#5-i_proteore"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01EYBNQRL5"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vT7_ulDI8Mf4BpE8JPmvXYVqk1UmMGEFJ6Cj2ZvlxwLfP8riaaVicPtGR5HeFDAEmKMjaXPcub6cL1w/pub"
 
     - name: "Proteomics: ProteoRE tool for Functional Analysis of a Protein List"
       speaker: yvesvdb
@@ -507,6 +536,7 @@ day5a:
           title: Annotating a protein list identified by LC-MS/MS experiments
       support_channel: "#5-i_proteore"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01EYBNQRL5"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vT7_ulDI8Mf4BpE8JPmvXYVqk1UmMGEFJ6Cj2ZvlxwLfP8riaaVicPtGR5HeFDAEmKMjaXPcub6cL1w/pub"
 
 
 
@@ -527,6 +557,7 @@ day5b:
 
       support_channel: "#5-e_jbrowse"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FP1QR49H"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vRm1swqoqbrCWXKc2ncvDahm_RvbRCAn0oCPuJmQxorUgk38nI4Y_qtAGiECk53q5xr5wx-vNE5xJje/pub"
 
     - name: "Ecology: Compute and analyze biodiversity metrics with PAMPA toolsuite"
       speaker: [colineroyaux, yvanlebras]
@@ -536,6 +567,7 @@ day5b:
           title: Compute and analyze biodiversity metrics with PAMPA toolsuite
       support_channel: "#5-d_ecology_pampa-toolsuite"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FG38RR7Y"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vT-Qmqw2zxaaFZXqbNaxMkcgl-0HjU6LvU0K0O51cCyCv_HjJdGk_2VPvMRghCW0sUKF-58_SuDQ1fn/pub"
 
     - name: "Epigenetics: ATAC-Seq data analysis"
       speaker: [hrhotz, lldelisle]
@@ -545,6 +577,7 @@ day5b:
           title: ATAC-Seq data analysis
       support_channel: "#5-k_atac-seq"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01LRHRC6A3"
+      # TODO: missing faq
 
     - name: "Proteomics: ProteoRE tool for biomarker discovery"
       speaker: [yvesvdb,combesf]
@@ -552,8 +585,9 @@ day5b:
         - type: tutorial
           link: topics/proteomics/tutorials/biomarker_selection/tutorial.html
           title: Biomarker candidate identification
-      support_channel: "#5-i_proteore"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01EYBNQRL5"
+      support_channel: "#5-j_proteore-biomarkers-discovery"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FP2AHUV9"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vQVj92upQT2Z4B6ZF6kmhrbnHesbkS--e5ge14iRbxDsxRHuOb52XJE8DI584asA0t2GJIjS_qliPZu/pub"
 
     - name: "Climate: Functionally Assembled Terrestrial Ecosystem Simulator (FATES) "
       speaker: annefou
@@ -566,6 +600,7 @@ day5b:
           title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
       support_channel: "#5-f_climate-fates"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01M63SFH34"
+      # TODO: missing faq
 
     - name: "Cheminformatics: Protein-ligand docking"
       speaker: simonbray
@@ -575,6 +610,7 @@ day5b:
           title: Protein-ligand docking
       support_channel: "#5-g_cheminformatics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01MC9SK344"
+      # TODO: missing faq
 
     - name: "Cheminformatics: Running molecular dynamics simulations using GROMACS"
       speaker: simonbray
@@ -584,6 +620,7 @@ day5b:
           title: Running molecular dynamics simulations using GROMACS
       support_channel: "#5-g_cheminformatics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01MC9SK344"
+      # TODO: missing faq
 
 day5c:
   title: "All other Tutorials"
