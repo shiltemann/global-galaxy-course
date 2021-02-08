@@ -255,8 +255,7 @@ day3:
     - name: "An introduction to scRNA-seq data analysis"
       speaker: awspolly
       video:
-        link: "https://galaxy-training.s3.amazonaws.com/videos/topics/transcriptomics/tutorials/scrna-intro/slides.mp4"
-        external: true
+        link: 4XOAdxVfVLs
         length: 20M
         captions: Mehmet Tekman
       material:
