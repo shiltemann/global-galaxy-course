@@ -16,7 +16,7 @@ day1:
       faq: "https://docs.google.com/document/d/e/2PACX-1vTfNT2qS2Yb7qTAcnOFrMWwE_aPPUuYJJ0hdjw5gqV_JtMUWQ3NSkr6qAdrmF2EUGBBzTL8wFiILz8B/pub"
 
     - name: "Getting set up"
-      type: setup
+      type: other
 
 
     - name: "Icebreaker: Say Hi in Slack!"
@@ -67,7 +67,7 @@ day1:
 
 
     - name: "Quality Control: Hands-on!"
-      type: Hands-on
+      type: Tutorial
       speaker: heylf
       description: |
         "Get hands-on experience assessing and improving the quality of

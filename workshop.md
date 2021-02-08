@@ -50,13 +50,18 @@ links to all training materials can be found by clicking on each session
    <h3 class="session-section"> Video {{session.type | default: "Tutorial" }} </h3>
    {% include video-session.html session=session %}
    {% else %}
+   {% unless session.type == 'icebreaker' %}{% unless session.type == 'other' %}
    <h3 class="session-section"> Self-Study Tutorial </h3>
    {% include selfstudy-session.html session=session %}
+   {% endunless %}{% endunless %}
    {% endif %}
 
    <!-- session links  -->
+   {% unless session.type == 'icebreaker' %}{% unless session.type == 'other' %}
    <h3 class="session-section">Supporting Materials </h3>
    {% include session_materials.html session=session %}
+   {% endunless %}{% endunless %}
+
    <!-- end session links -->
 
    </div><!-- end accordion body -->
