@@ -539,8 +539,10 @@ day5a:
         length: 20M
         captions:
       material:
+        - type: slides
+          link: topics/genome-annotation/videos/#video-genome-annotation-annotation-with-prokka
         - type: tutorial
-          link: topics/genome-annotation/tutorials/annotation-with-maker-short/tutorial.html
+          link: topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html
       support_channel: "#5-g_annotation-prokaryotic-genome"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
       faq: "https://docs.google.com/document/d/e/2PACX-1vSK-RjeRJC38_FSM9zC6SrfkvIz1W4uEMQkN95qk5OemvANuPF3aNEogVEvF6JEXeMomo-oMwi32Gv2/pub"
