@@ -234,7 +234,7 @@ day2:
       faq: "https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub"
 
 
-    - name: "Visualisaion: RNASeq postprocessing with R"
+    - name: "Visualisation: RNASeq postprocessing with R"
       speaker: fpsom
       video:
         link: rJWgnLgA2BE
