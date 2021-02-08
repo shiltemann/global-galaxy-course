@@ -9,7 +9,7 @@
     <ul>
      {% if include.session.material %}
      {% for m in include.session.material %}
-     <li><strong>{{m.type | capitalize }}: </strong><a href="{{site.gtn_url}}/{{m.link}}{{site.analytics_suffix}}">{{m.title | default: include.session.name }} </a></li>
+     <li><strong>{{m.type | capitalize }}: </strong><a href="{% unless m.external %}{{site.gtn_url}}/{% endunless %}{{m.link}}{{site.analytics_suffix}}">{{m.title | default: include.session.name }} </a></li>
 
      {% endfor %}
      {% endif %}
@@ -21,7 +21,7 @@
 
      <!-- FAQ -->
      {% if include.session.faq %}
-     <li><a href="session.faq">FAQ Document</a> - Have a question about this training? Check here to see if it has already been answered</li>
+     <li><a href="{{session.faq}}">FAQ Document</a> - Have a question about this training? Check here to see if it has already been answered</li>
      {% endif %}
 
      <!-- support -->

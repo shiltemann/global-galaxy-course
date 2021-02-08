@@ -229,7 +229,6 @@ day2:
         - type: tutorial
           link: topics/introduction/tutorials/r-advanced/tutorial.html
           title: Advanced R in Galaxy
-      # TODO: channel missing FAQ link. reused above one.
       support_channel: "#2-3_advanced_r"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01LKGNPE5V"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub"
@@ -266,7 +265,7 @@ day3:
           title: An introduction to scRNA-Seq data analysis
       support_channel: "#3-0_single-cell-rnaseq"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01M17R4YA1"
-      # TODO: missing faq.
+      faq: "https://docs.google.com/document/d/e/2PACX-1vSVFOV1C6hqMPGIpZ1qeOo6t-ubjaWbtsGSTMH9TwNlvfqZrP48i0_7_Xk5rxmY7g2CroOF1dNIyfMY/pub"
 
     - name: "Understanding Barcodes"
       speaker: nomadscientist
@@ -322,13 +321,12 @@ day4:
         length: 45M
         captions:
       material:
-        - type: tutorial
+        - type: slides
           link:
           title:
-      # TODO: wrong channel
-      support_channel: "#3-3_clustering-3k-pbmcs-with-scanpy"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FQ9RLLF2"
-      # TODO: faq
+      support_channel: "#4-0_introduction-to-ms-proteomics"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01MQEDM39P"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vSYkfAT8PgEygCcqVhjzhioS23I1Tod0V2l6q60fbMkl6t21y09I62BYFrlWaSMO8p5_Y2JwilHSP5m/pub"
 
     - name: "Maxquant + MSstats on a clinical cohort"
       speaker: foellmelanie
@@ -350,6 +348,9 @@ day4:
         length: 20M
         captions:
       material:
+        type: slides
+        link:
+        external: true
       support_channel: "#4-2_protegenomics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub"
@@ -420,17 +421,31 @@ day5a:
   title: "Video Tutorials"
   subday: true
   sessions:
-    - name: "Variant Analysis: M. Tuberculosis Variant Analysis"
+    - name: "Variant Analysis: M. Tuberculosis Variant Analysis (Lecture)"
       speaker: pvanheus
       video:
-        link:
-        length: 45M
+        link: yCC9EmLuyJg
+        length: 20M
+        captions:
+      material:
+        - type: slides
+          link: "https://docs.google.com/presentation/d/16XTMh2fRrl73WVaezNAFWET0IIMXBv0MCI2engFtdQs/edit#slide=id.g6231f48ea2_0_34"
+          external: true
+      support_channel: "#5-n_tuberculosis-variant-analysis"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD2WJU01"
+
+
+    - name: "Variant Analysis: M. Tuberculosis Variant Analysis (Hands-on!)"
+      speaker: pvanheus
+      video:
+        link: G1DmquX6Wh8
+        length: 40M
         captions:
       material:
         - type: tutorial
-          link:
-      support_channel: "#4-1_maxquant-and-msstats"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
+          link: topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html
+      support_channel: "#5-n_tuberculosis-variant-analysis"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD2WJU01"
 
     - name: "Metagenomics: 16S Microbial Analysis with mothur"
       speaker: shiltemann
@@ -440,7 +455,7 @@ day5a:
         captions:
       material:
         - type: tutorial
-          link:
+          link: topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html
       support_channel: "#5-b_16s-microbial-analysis"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FDV16V25"
       faq: "https://docs.google.com/document/d/e/2PACX-1vRPPYdMfIA9R_w5y__jV9qdKbijJyOJiclx-2ACKFkAH8aIdlU3pY84xhivWEOmeEn_XQv8StFcjDLP/pub"
@@ -452,20 +467,22 @@ day5a:
         length: 45M
         captions:
       material:
-        - type: tutorial
+        - type: slides
           link:
-      support_channel: "#4-1_maxquant-and-msstats"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
+          external: true
+      support_channel: "#5-a_antibiotic-resistance-detection-nanopore"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub"
 
     - name: "Metagenomics: Antibiotic Resistance Detection with Nanopore Data"
       speaker: willemdek11
       video:
-        link:
+        link: ECIl8ZU1Wko
         length: 45M
         captions:
       material:
         - type: tutorial
-          link:
+          link: topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html
       support_channel: "#5-a_antibiotic-resistance-detection-nanopore"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub"
@@ -473,12 +490,14 @@ day5a:
     - name: "Assembly: Unicycler assembly of SARS-CoV-2 genome"
       speaker: gallardoalba
       video:
-        link:
-        length: 45M
+        link: jNFLYhjgJPs
+        length: 25M
         captions:
       material:
+        - type: slides
+          link: topics/assembly/tutorials/assembly-with-preprocessing/slides.html
         - type: tutorial
-          link:
+          link: topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html
       support_channel: "#5-h_unicycler-assembly-sars-cov2-genome"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01GJLDS01K"
       faq: "https://docs.google.com/document/d/e/2PACX-1vRcBWHbIIo6t_vXtZiaW_6t2qIUYwjiptC2MRVUG5KC31rwPg8fO9yCma22HqIV6Hu1T3wJXaV-GwxU/pub"
@@ -500,12 +519,12 @@ day5a:
     - name: "Genome Annotation: Annotation of a prokaryotic genome"
       speaker: abretaud
       video:
-        link:
-        length: 45M
+        link: B8pIQZPf21Y
+        length: 20M
         captions:
       material:
         - type: tutorial
-          link:
+          link: topics/genome-annotation/tutorials/annotation-with-maker-short/tutorial.html
       support_channel: "#5-g_annotation-prokaryotic-genome"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
       faq: "https://docs.google.com/document/d/e/2PACX-1vSK-RjeRJC38_FSM9zC6SrfkvIz1W4uEMQkN95qk5OemvANuPF3aNEogVEvF6JEXeMomo-oMwi32Gv2/pub"
@@ -577,7 +596,7 @@ day5b:
           title: ATAC-Seq data analysis
       support_channel: "#5-k_atac-seq"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01LRHRC6A3"
-      # TODO: missing faq
+      faq: "https://docs.google.com/document/d/e/2PACX-1vQnEmZyZF3rLhU3mA-g5L8DVaTW8GHYTikxYnuvQG7sCT66owCIc-4KLLGw9S2nIo1XPPtV9Ledtm3n/pub"
 
     - name: "Proteomics: ProteoRE tool for biomarker discovery"
       speaker: [yvesvdb,combesf]
@@ -600,7 +619,7 @@ day5b:
           title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
       support_channel: "#5-f_climate-fates"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01M63SFH34"
-      # TODO: missing faq
+      faq: "https://docs.google.com/document/d/e/2PACX-1vS5ucF3H8v1V43JPtw35V-pgGfhTbrHtjjN6X0BddzWispwuRElPYw7sWN1e8R360mdHyC1NcOSqxiy/pub"
 
     - name: "Cheminformatics: Protein-ligand docking"
       speaker: simonbray
@@ -608,9 +627,9 @@ day5b:
         - type: tutorial
           link: topics/computational-chemistry/tutorials/cheminformatics/tutorial.html
           title: Protein-ligand docking
-      support_channel: "#5-g_cheminformatics"
+      support_channel: "#5-m_cheminformatics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01MC9SK344"
-      # TODO: missing faq
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTqwxMLs0LfAJY77y9M2DFv9VixyFdtwU65AYpQoPn_0YmMEhOOp3jxhJ1tALWz3Vc2qp9Acctz2Lp3/pub"
 
     - name: "Cheminformatics: Running molecular dynamics simulations using GROMACS"
       speaker: simonbray
@@ -618,9 +637,9 @@ day5b:
         - type: tutorial
           link: topics/computational-chemistry/tutorials/md-simulation-gromacs/tutorial.html
           title: Running molecular dynamics simulations using GROMACS
-      support_channel: "#5-g_cheminformatics"
+      support_channel: "#5-m_cheminformatics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01MC9SK344"
-      # TODO: missing faq
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTqwxMLs0LfAJY77y9M2DFv9VixyFdtwU65AYpQoPn_0YmMEhOOp3jxhJ1tALWz3Vc2qp9Acctz2Lp3/pub"
 
 day5c:
   title: "All other Tutorials"
