@@ -586,7 +586,7 @@ day5a:
         - type: tutorial
           link: topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html
           title: Clustering 3K PBMCs with Scanpy
-      support_channel: "#5-i_proteore"
+      support_channel: "#5-i_proteore-protein-list-annotation"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01EYBNQRL5"
       faq: "https://docs.google.com/document/d/e/2PACX-1vT7_ulDI8Mf4BpE8JPmvXYVqk1UmMGEFJ6Cj2ZvlxwLfP8riaaVicPtGR5HeFDAEmKMjaXPcub6cL1w/pub"
 
@@ -600,7 +600,7 @@ day5a:
         - type: tutorial
           link: topics/proteomics/tutorials/proteome_annotation/tutorial.html
           title: Annotating a protein list identified by LC-MS/MS experiments
-      support_channel: "#5-i_proteore"
+      support_channel: "#5-i_proteore-protein-list-annotation"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01EYBNQRL5"
       faq: "https://docs.google.com/document/d/e/2PACX-1vT7_ulDI8Mf4BpE8JPmvXYVqk1UmMGEFJ6Cj2ZvlxwLfP8riaaVicPtGR5HeFDAEmKMjaXPcub6cL1w/pub"
 
@@ -688,3 +688,9 @@ day5c:
      <a href="https://training.galaxyproject.org"><button type="button" class="btn btn-warning btn-lg">Explore All GTN Tutorials</button></a>
   subday: true
 
+day6:
+  title: "After the Course"
+  description: |
+    All these materials will remain online, so you can continue working on them for as
+    long as you want. The only difference will be that you should ask your questions
+    on the <a href="(https://gitter.im/Galaxy-Training-Network/Lobby)">GTN Gitter channel</a>, instead of Slack.
