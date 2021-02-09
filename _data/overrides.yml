@@ -1,9 +1,9 @@
 topics/proteomics/tutorials/proteome_annotation/tutorial.html:
   override:
-    - http://proteore.org
+    - https://proteore.usegalaxy.fr/
 topics/proteomics/tutorials/biomarker_selection/tutorial.html:
   override:
-    - http://proteore.org
+    - https://proteore.usegalaxy.fr/
 topics/introduction/tutorials/r-basics/tutorial.html:
   overall:
     emea: 1
