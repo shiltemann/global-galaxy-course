@@ -14,7 +14,7 @@
   </div>
   <div style="margin-top:1em;">
    <strong>Video Length:</strong> {{include.session.video.length | downcase }} <br/>
-   <strong>Captions By:</strong> {{include.session.video.captions}} <br/>
+   <strong>Captions By:</strong> {% for name in include.session.video.captions %}{% unless forloop.first %}, {% endunless %} {{ site.data.instructors[name]['name'] }} {% endfor %}<br/>
    <strong>Description:</strong> {{include.session.description}}
   </div>
  </div>

@@ -36,6 +36,10 @@ combesf:
     name: Florence Combes
     affiliation: ifb
 
+ennovytje:
+    name: Yvonne Hiltemann
+    affiliation: null
+
 foellmelanie:
     name: Melanie Föll
     affiliation: freiburg-uniklinik-surgpathol
@@ -67,6 +71,10 @@ jj-umn:
 lldelisle:
     name: Lucille Delisle
     affiliation: epfl
+
+mtekman:
+    name: Mehmet Tekman
+    affiliation: freiburguni
 
 nekrut:
     name: Anton Nekrutenko

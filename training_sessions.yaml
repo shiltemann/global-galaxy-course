@@ -10,7 +10,7 @@ day1:
       video:
         link:
         length: 30M
-        captions: shiltemann
+        captions: [shiltemann]
       support_channel: "#general"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES8R0RNG"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTfNT2qS2Yb7qTAcnOFrMWwE_aPPUuYJJ0hdjw5gqV_JtMUWQ3NSkr6qAdrmF2EUGBBzTL8wFiILz8B/pub"
@@ -33,7 +33,7 @@ day1:
       video:
         link:
         length: 1H30M
-        captions:
+        captions: []
       material:
         - type: slides
           link: topics/introduction/slides/introduction.html
@@ -56,7 +56,7 @@ day1:
       video:
         link: BWonTPS4zB8
         length: 40M
-        captions: Yvonne Hiltemann
+        captions: [yvonne]
       material:
         - type: slides
           link: topics/sequence-analysis/tutorials/quality-control/slides.html
@@ -75,7 +75,7 @@ day1:
       video:
         link: QJRlX2hWDKM
         length: 1H10M
-        captions:
+        captions: []
       material:
         - type: tutorial
           link: "topics/sequence-analysis/tutorials/quality-control/tutorial.html"
@@ -111,7 +111,7 @@ day1:
       video:
         link: 1wm-62E2NkY
         length: 20M
-        captions:
+        captions: []
       material:
         - type: tutorial
           link: topics/sequence-analysis/tutorials/mapping/tutorial.html
@@ -131,7 +131,7 @@ day1:
       video:
         link:
         length:
-        captions:
+        captions: []
       material:
         - type: slides
           link: topics/assembly/tutorials/general-introduction/slides.html
@@ -150,7 +150,7 @@ day1:
       video:
         link: eyfCyINTD_E
         length: 35M
-        captions: Anna Syme
+        captions: [annasyme]
       material:
         - type: tutorial
           link: topics/assembly/tutorials/chloroplast-assembly/tutorial.html
@@ -170,7 +170,7 @@ day2:
       video:
         link: qKkS_tztw_Q
         length: 30M
-        captions:
+        captions: []
       material:
         - type: slides
           link: topics/transcriptomics/slides/introduction.html
@@ -184,7 +184,7 @@ day2:
       video:
         link: 37Tc1xnrHK4
         length: 2H30M
-        captions:
+        captions: []
       material:
         - type: tutorial
           link: topics/transcriptomics/tutorials/ref-based/tutorial.html
@@ -198,7 +198,7 @@ day2:
       video:
         link: vN14K74nFZc
         length: 20M
-        captions:
+        captions: []
       material:
         - type: tutorial
           link: topics/introduction/tutorials/r-basics/tutorial.html
@@ -213,7 +213,7 @@ day2:
       video:
         link: MKkQDh5Nguc
         length: 50M
-        captions:
+        captions: []
       material:
         - type: tutorial
           link: topics/introduction/tutorials/r-basics/tutorial.html
@@ -228,7 +228,7 @@ day2:
       video:
         link: _hWBGdlICqg
         length: 1H
-        captions:
+        captions: []
       material:
         - type: tutorial
           link: topics/introduction/tutorials/r-advanced/tutorial.html
@@ -243,7 +243,7 @@ day2:
       video:
         link: rJWgnLgA2BE
         length: 30M
-        captions:
+        captions: []
       material:
         - type: tutorial
           link: topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html
@@ -262,7 +262,7 @@ day3:
       video:
         link: D3qvYWZMFa0
         length: 20M
-        captions: Mehmet Tekman
+        captions: [mtekman]
       material:
         - type: slides
           link: topics/transcriptomics/tutorials/scrna-intro/slides.html
@@ -276,7 +276,7 @@ day3:
       video:
         link: AJ17BicjmYU
         length: 10M
-        captions:
+        captions: []
       material:
         - type: tutorial
           link: topics/transcriptomics/tutorials/scrna-umis/tutorial.html
@@ -291,7 +291,7 @@ day3:
       video:
         link: AJ17BicjmYU
         length: 5M
-        captions:
+        captions: []
       material:
         - type: tutorial
           link: topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html
@@ -305,7 +305,7 @@ day3:
       video:
         link: nefB35Bi1l4
         length: 45M
-        captions: Hans-Rudolf Hotz
+        captions: [hrhotz]
       material:
         - type: tutorial
           link: topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html
@@ -323,7 +323,7 @@ day4:
       video:
         link:
         length: 45M
-        captions:
+        captions: []
       material:
         - type: slides
           link:
@@ -337,7 +337,7 @@ day4:
       video:
         link:
         length: 45M
-        captions:
+        captions: []
       material:
         - type: tutorial
           link:
@@ -355,7 +355,7 @@ day4:
       video:
         link: WpH101OPrG0
         length: 20M
-        captions:
+        captions: []
       material:
         - type: slides
           link: # TODO: slides for tim
@@ -375,7 +375,7 @@ day4:
       video:
         link: b_kZf8mXHdo
         length: 40M
-        captions:
+        captions: []
       material:
         - type: tutorial
           link: topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html
@@ -393,7 +393,7 @@ day4:
       video:
         link: q1OjmTcbvBA
         length: 30M
-        captions:
+        captions: []
       material:
         - type: tutorial
           link: topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html
@@ -411,7 +411,7 @@ day4:
       video:
         link: Ku274KwFh1Y
         length: 40M
-        captions: Subina Mehta
+        captions: [subinamehta]
       material:
         - type: tutorial
           link: topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html
@@ -429,7 +429,7 @@ day4:
       video:
         link:
         length:
-        captions:
+        captions: []
       material:
         - type: tutorial
           link: topics/proteomics/tutorials/metaproteomics/tutorial.html
@@ -454,7 +454,7 @@ day5a:
       video:
         link: yCC9EmLuyJg
         length: 20M
-        captions:
+        captions: []
       material:
         - type: slides
           link: "https://docs.google.com/presentation/d/16XTMh2fRrl73WVaezNAFWET0IIMXBv0MCI2engFtdQs/edit#slide=id.g6231f48ea2_0_34"
@@ -468,7 +468,7 @@ day5a:
       video:
         link: G1DmquX6Wh8
         length: 40M
-        captions:
+        captions: []
       material:
         - type: tutorial
           link: topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html
@@ -480,7 +480,7 @@ day5a:
       video:
         link:
         length: 45M
-        captions:
+        captions: []
       material:
         - type: tutorial
           link: topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html
@@ -493,7 +493,7 @@ day5a:
       video:
         link:
         length: 45M
-        captions:
+        captions: []
       material:
         - type: slides
           link:
@@ -507,7 +507,7 @@ day5a:
       video:
         link: ECIl8ZU1Wko
         length: 45M
-        captions:
+        captions: []
       material:
         - type: tutorial
           link: topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html
@@ -520,7 +520,7 @@ day5a:
       video:
         link: jNFLYhjgJPs
         length: 25M
-        captions:
+        captions: []
       material:
         - type: slides
           link: topics/assembly/tutorials/assembly-with-preprocessing/slides.html
@@ -535,7 +535,7 @@ day5a:
       video:
         link: TFROMsZVMQg
         length: 1H20M
-        captions:
+        captions: []
       material:
         - type: slides
           link: topics/climate/videos/#video-climate-fates
@@ -553,7 +553,7 @@ day5a:
       video:
         link:
         length: 45M
-        captions:
+        captions: []
       material:
         - type: tutorial
           link: topics/visualisation/tutorials/circos/tutorial.html
@@ -567,7 +567,7 @@ day5a:
       video:
         link: B8pIQZPf21Y
         length: 20M
-        captions:
+        captions: []
       material:
         - type: slides
           link: topics/genome-annotation/videos/#video-genome-annotation-annotation-with-prokka
@@ -582,7 +582,7 @@ day5a:
       video:
         link: WpH101OPrG0
         length: 45M
-        captions:
+        captions: []
       material:
         - type: tutorial
           link: topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html
@@ -596,7 +596,7 @@ day5a:
       video:
         link:
         length: 45M
-        captions:
+        captions: []
       material:
         - type: tutorial
           link: topics/proteomics/tutorials/proteome_annotation/tutorial.html
