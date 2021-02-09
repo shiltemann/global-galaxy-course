@@ -36,13 +36,13 @@ day1:
         captions:
       material:
         - type: slides
-          link: /topics/introduction/slides/introduction.html
+          link: topics/introduction/slides/introduction.html
           title: Introduction to Galaxy
         - type: tutorial
-          link: /topics/introduction/tutorials/galaxy-intro-101/tutorial.html
+          link: topics/introduction/tutorials/galaxy-intro-101/tutorial.html
           title: Galaxy 101
         - type: tutorial
-          link: /variant-analysis/tutorials/sars-cov-2/tutorial.html
+          link: topics/variant-analysis/tutorials/sars-cov-2/tutorial.html
           title: SARS-CoV-2 variant analysis
       support_channel: "#1-2_ngs-intro"
       support_link: https://gtnsmrgsbord.slack.com/archives/C01ES914GCU
@@ -59,7 +59,7 @@ day1:
         captions: Yvonne Hiltemann
       material:
         - type: slides
-          link: /topics/sequence-analysis/tutorials/quality-control/slides.html
+          link: topics/sequence-analysis/tutorials/quality-control/slides.html
           title: Introduction to Quality Control
       support_channel: "#1-3_quality-control"
       support_link: https://gtnsmrgsbord.slack.com/archives/C01FQ92MB7A
