@@ -32,8 +32,6 @@ links to all training materials can be found by clicking on each session
   <div id="collapse{{daynum}}{{forloop.index0}}" class="accordion-collapse collapse {% if session.show  %}show{% endif %}" aria-labelledby="heading{{daynum}}{{forlop.index0}}" data-bs-parent="#accordion{{daynum}}">
    <div class="accordion-body">
 
-
-
    <!-- icebreaker -->
    {% if session.type == 'icebreaker' %}{% include icebreaker.html prompt=session.prompt example=session.example %}{% endif %}
 
@@ -55,6 +53,9 @@ links to all training materials can be found by clicking on each session
    {% include selfstudy-session.html session=session %}
    {% endunless %}{% endunless %}
    {% endif %}
+
+   <!-- supported servers -->
+   {% include server_support.html material=session.material %}
 
    <!-- session links  -->
    {% unless session.type == 'icebreaker' %}{% unless session.type == 'other' %}

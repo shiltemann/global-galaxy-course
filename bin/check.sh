@@ -1,14 +1,13 @@
 #!/bin/bash
 for tuto in $(cat tools.yml | y2j | jq '. | to_entries[]' -c); do
 	tutorial="$(echo "$tuto" | jq .key -r)"
-	echo "$tutorial:"
+	echo -n "$tutorial/tutorial.html:"
 	tools="$(echo "$tuto" | jq '.value | .[]?' -r)"
 	tools_c=$(echo "$tools" | wc -c)
 	if (( tools_c == 1 )); then
-		echo "  emea: $tutorial has no tools"
-		echo "  apac: $tutorial has no tools"
-		echo "  amer: $tutorial has no tools"
+		echo " {}"
 	else
+		printf '\n'
 		emea=1
 		apac=1
 		amer=1
@@ -17,7 +16,7 @@ for tuto in $(cat tools.yml | y2j | jq '. | to_entries[]' -c); do
 			for server in {eu,org,org.au}; do
 				expected_version=$(echo $tool_id | cut -d/ -f6)
 				seen_version=$(cache curl --silent https://usegalaxy.${server}/api/tools/$tool_id | jq -r .version)
-				echo "    $server: {seen: $seen_version, exp: $expected_version}"
+				echo "    $server: {seen: \"$seen_version\", exp: \"$expected_version\"}"
 				if [[ "$server" == "eu" ]] && [[ "$seen_version" == "null" ]]; then
 					emea=0
 				fi

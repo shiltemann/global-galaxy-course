@@ -556,7 +556,8 @@ day5a:
         captions:
       material:
         - type: tutorial
-          link:
+          link: topics/visualisation/tutorials/circos/tutorial.html
+          title: Visualisation with Circos
       support_channel: "#5-c_circos-visualisation"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
       faq: "https://docs.google.com/document/d/e/2PACX-1vSx65Dr5sFCvzvJoRGVMU9i4NJZTkpQktvTEER3T_Pd8PSrR_x9GsUBYBAEnS6-qStu7F-bI_nj2mgT/pub"
