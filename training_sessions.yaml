@@ -56,7 +56,7 @@ day1:
       video:
         link: BWonTPS4zB8
         length: 40M
-        captions: [yvonne]
+        captions: [ennovytje,nagoue]
       material:
         - type: slides
           link: topics/sequence-analysis/tutorials/quality-control/slides.html
