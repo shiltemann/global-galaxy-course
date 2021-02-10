@@ -289,8 +289,7 @@ day3:
     - name: "Pre-processing of 10X Single-Cell RNA Datasets"
       speaker: nomadscientist
       video:
-        # TODO: WRONG VIDEO
-        link: AJ17BicjmYU
+        link: vNBNFkF0L4U
         length: 5M
         captions: []
       material:
@@ -531,17 +530,27 @@ day5a:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01GJLDS01K"
       faq: "https://docs.google.com/document/d/e/2PACX-1vRcBWHbIIo6t_vXtZiaW_6t2qIUYwjiptC2MRVUG5KC31rwPg8fO9yCma22HqIV6Hu1T3wJXaV-GwxU/pub"
 
-    - name: "Climate: Functionally Assembled Terrestrial Ecosystem Simulator (FATES) "
+    - name: "Climate: Functionally Assembled Terrestrial Ecosystem Simulator (FATES): Slides"
+      speaker: awspolly
+      video:
+        link: Z57C7MQG95s
+        length: 8M
+        captions: []
+      material:
+        - type: slides
+          link: topics/climate/tutorials/fates/slides.html
+          title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
+      support_channel: "#5-f_climate-fates"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01M63SFH34"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vS5ucF3H8v1V43JPtw35V-pgGfhTbrHtjjN6X0BddzWispwuRElPYw7sWN1e8R360mdHyC1NcOSqxiy/pub"
+
+    - name: "Climate: Functionally Assembled Terrestrial Ecosystem Simulator (FATES): Hands-on!"
       speaker: annefou
       video:
         link: TFROMsZVMQg
         length: 1H20M
         captions: []
       material:
-          # TODO: pull out into separate, upload to YT
-        - type: slides
-          link: topics/climate/videos/#video-climate-fates
-          title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
         - type: tutorial
           link: topics/climate/tutorials/fates/tutorial.html
           title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
@@ -550,11 +559,11 @@ day5a:
       faq: "https://docs.google.com/document/d/e/2PACX-1vS5ucF3H8v1V43JPtw35V-pgGfhTbrHtjjN6X0BddzWispwuRElPYw7sWN1e8R360mdHyC1NcOSqxiy/pub"
 
 
-    - name: "Circos Visualisation in Galaxy"
+    - name: "Circos Visualisation in Galaxy: Intro"
       speaker: hexylena
       video:
-        link:
-        length: 45M
+        link: KCtI5KLp05k
+        length: 6M
         captions: []
       material:
         - type: tutorial
@@ -564,16 +573,40 @@ day5a:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ELJ6QTQF"
       faq: "https://docs.google.com/document/d/e/2PACX-1vSx65Dr5sFCvzvJoRGVMU9i4NJZTkpQktvTEER3T_Pd8PSrR_x9GsUBYBAEnS6-qStu7F-bI_nj2mgT/pub"
 
-    - name: "Genome Annotation: Annotation of a prokaryotic genome"
+    - name: "Circos Visualisation in Galaxy: Hands-on!"
+      speaker: hexylena
+      video:
+        link: tbqeUP67w-Y
+        length: 50M
+        captions: []
+      material:
+        - type: tutorial
+          link: topics/visualisation/tutorials/circos/tutorial.html
+          title: Visualisation with Circos
+      support_channel: "#5-c_circos-visualisation"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ELJ6QTQF"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vSx65Dr5sFCvzvJoRGVMU9i4NJZTkpQktvTEER3T_Pd8PSrR_x9GsUBYBAEnS6-qStu7F-bI_nj2mgT/pub"
+
+    - name: "Genome Annotation: Annotation of a prokaryotic genome: Slides"
+      speaker: awspolly
+      video:
+        link: eqHy-Cc7k4Q
+        length: 3M
+        captions: []
+      material:
+        - type: tutorial
+          link: topics/genome-annotation/tutorials/annotation-with-prokka/slides.html
+      support_channel: "#5-g_annotation-prokaryotic-genome"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01GTTD1BE0"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vSK-RjeRJC38_FSM9zC6SrfkvIz1W4uEMQkN95qk5OemvANuPF3aNEogVEvF6JEXeMomo-oMwi32Gv2/pub"
+
+    - name: "Genome Annotation: Annotation of a prokaryotic genome: Hands-on!"
       speaker: abretaud
       video:
         link: B8pIQZPf21Y
         length: 20M
         captions: []
       material:
-          # TODO: pull out into separate, upload to YT
-        - type: slides
-          link: topics/genome-annotation/videos/#video-genome-annotation-annotation-with-prokka
         - type: tutorial
           link: topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html
       support_channel: "#5-g_annotation-prokaryotic-genome"
