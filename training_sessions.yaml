@@ -289,6 +289,7 @@ day3:
     - name: "Pre-processing of 10X Single-Cell RNA Datasets"
       speaker: nomadscientist
       video:
+        # TODO: WRONG VIDEO
         link: AJ17BicjmYU
         length: 5M
         captions: []
@@ -326,7 +327,7 @@ day4:
         captions: []
       material:
         - type: slides
-          link:
+          link: # TODO: missing
           title:
       support_channel: "#4-0_introduction-to-ms-proteomics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01MQEDM39P"
@@ -537,6 +538,7 @@ day5a:
         length: 1H20M
         captions: []
       material:
+          # TODO: pull out into separate, upload to YT
         - type: slides
           link: topics/climate/videos/#video-climate-fates
           title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
@@ -559,7 +561,7 @@ day5a:
           link: topics/visualisation/tutorials/circos/tutorial.html
           title: Visualisation with Circos
       support_channel: "#5-c_circos-visualisation"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ELJ6QTQF"
       faq: "https://docs.google.com/document/d/e/2PACX-1vSx65Dr5sFCvzvJoRGVMU9i4NJZTkpQktvTEER3T_Pd8PSrR_x9GsUBYBAEnS6-qStu7F-bI_nj2mgT/pub"
 
     - name: "Genome Annotation: Annotation of a prokaryotic genome"
@@ -569,17 +571,19 @@ day5a:
         length: 20M
         captions: []
       material:
+          # TODO: pull out into separate, upload to YT
         - type: slides
           link: topics/genome-annotation/videos/#video-genome-annotation-annotation-with-prokka
         - type: tutorial
           link: topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html
       support_channel: "#5-g_annotation-prokaryotic-genome"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01GTTD1BE0"
       faq: "https://docs.google.com/document/d/e/2PACX-1vSK-RjeRJC38_FSM9zC6SrfkvIz1W4uEMQkN95qk5OemvANuPF3aNEogVEvF6JEXeMomo-oMwi32Gv2/pub"
 
     - name: "Proteomics: Functional analysis of proteomics data"
       speaker: yvesvdb
       video:
+        # TODO: wrong video
         link: WpH101OPrG0
         length: 45M
         captions: []
