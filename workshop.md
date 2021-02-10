@@ -8,6 +8,7 @@ Welcome everybody, and thank you for joining this course!
 Everything you need for this course can be found on this webpage. More information including
 links to all training materials can be found by clicking on each session
 
+<br/>
 **Note:** Problems viewing this page? Try the [simple view]({{site.baseurl}}/workshop-simpleview) instead.
 
 
@@ -36,6 +37,17 @@ links to all training materials can be found by clicking on each session
    {% if session.type == 'icebreaker' %}{% include icebreaker.html prompt=session.prompt example=session.example %}{% endif %}
 
 
+   <!-- setup -->
+   {% if session.type == 'setup' %}
+    {% include setup.html %}
+   {% endif %}
+
+   <!-- setup -->
+   {% if session.type == 'wrapup' %}
+    {% include wrapup.html %}
+   {% endif %}
+
+
    <!-- session description
    {% if session.description %}
    <h3>Description</h3>
@@ -48,20 +60,20 @@ links to all training materials can be found by clicking on each session
    <h3 class="session-section"> Video {{session.type | default: "Tutorial" }} </h3>
    {% include video-session.html session=session %}
    {% else %}
-   {% unless session.type == 'icebreaker' %}{% unless session.type == 'other' %}
+   {% unless session.type == 'icebreaker' %}{% unless session.type == 'setup' %}{% unless session.type == 'wrapup' %}
    <h3 class="session-section"> Self-Study Tutorial </h3>
    {% include selfstudy-session.html session=session %}
-   {% endunless %}{% endunless %}
+   {% endunless %}{% endunless %}{% endunless %}
    {% endif %}
 
    <!-- supported servers -->
    {% include server_support.html material=session.material %}
 
    <!-- session links  -->
-   {% unless session.type == 'icebreaker' %}{% unless session.type == 'other' %}
+   {% unless session.type == 'icebreaker' %}{% unless session.type == 'setup' %}{% unless session.type == 'wrapup' %}
    <h3 class="session-section">Supporting Materials </h3>
    {% include session_materials.html session=session %}
-   {% endunless %}{% endunless %}
+   {% endunless %}{% endunless %}{% endunless %}
 
    <!-- end session links -->
 
@@ -74,3 +86,16 @@ links to all training materials can be found by clicking on each session
 
 {% endfor %}
 
+
+<br/><br/><br/>
+# Acknowledgements
+
+This Global Galaxy course is only possible thanks to a Global network of instructors and institutes.
+
+## Presenters & Instructors & Community Caption Contributors
+
+{% include hof.html %}
+
+## Institutions
+
+{% include institutions.html %}

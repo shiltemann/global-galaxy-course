@@ -14,7 +14,7 @@ The [program](#program) covers a general **introduction to the Galaxy platform**
 
 Is it **February 15, 2021 or later?** Click the button below to start the workshop!
 
-<a href="{{site.baseurl}}/workshop"><button type="button" class="btn btn-success btn-lg">Start Learning Galaxy!</button></a>
+<a href="{{site.baseurl}}/workshop"><button type="button" class="btn btn-success btn-lg">Start the Course!</button></a>
 
 
 ## Practical Information
@@ -48,18 +48,10 @@ Are you a trainer and would you like to teach (record) a GTN training session fo
 
 This Global Galaxy course is only possible thanks to a Global network of instructors and institutes.
 
-### Instructors & Helpers & Community Caption Contributors
+### Presenters & Instructors & Community Caption Contributors
 
 {% include hof.html %}
 
 ### Institutions
 
-<div class="row" style='padding: 2em; content-width: 90%'>
- <div>
- {% for image in site.static_files %}
-  {% if image.path contains 'images/logos' %}
-   <img src="{{ site.baseurl }}{{ image.path }}" alt="logo" style="height:5em; margin: 1em;"/>
-  {% endif %}
- {% endfor %}
- </div>
-</div>
+{% include institutions.html %}

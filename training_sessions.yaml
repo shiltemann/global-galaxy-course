@@ -1,7 +1,6 @@
 ---
-day1:
-  title: "Day 1: Introduction to Galaxy and NGS analysis"
-  description: "Today we start by introducing the Galaxy Platform, and show you how to analyze your NGS data using Galaxy."
+intro:
+  title: Welcome & Practical Information
   sessions:
     - name: Welcome & Course Information (Click here to start)
       description: "Start here; we will go over all the important things to know to get the most out of this workshop"
@@ -15,13 +14,17 @@ day1:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES8R0RNG"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTfNT2qS2Yb7qTAcnOFrMWwE_aPPUuYJJ0hdjw5gqV_JtMUWQ3NSkr6qAdrmF2EUGBBzTL8wFiILz8B/pub"
 
-    - name: "Getting set up"
-      type: other
+    - name: "Get set up for the course"
+      type: setup
 
+day1:
+  title: "Day 1: Introduction to Galaxy and NGS analysis"
+  description: "Today we start by introducing the Galaxy Platform, and show you how to analyze your NGS data using Galaxy."
+  sessions:
 
-    - name: "Icebreaker: Say Hi in Slack!"
+    - name: "Icebreaker: Introduce yourself in Slack!"
       type: icebreaker
-      prompt: "Introduce yourself and let us know where you are joining from today"
+      prompt: "Introduce yourself, tell us where you're joining from, and one thing about your surroundings (e.g. it's snowing outside, there's a squirrel on my porch, my cat is on my keyboard)"
       example: "Hi! My name is Saskia and I am joining from The Netherlands, I am currently in my hammock looking at the snow falling down outside."
 
 
@@ -160,11 +163,15 @@ day1:
       faq: "https://docs.google.com/document/d/e/2PACX-1vTed-1_nZK1liUdm5IZn_Qas7LcJE700WwsMAgT282Q1jx0Nkk4lZzzN47P9aS1suUAeh0ljIUYgXpG/pub"
 
     - name: "Wrap up & Socialize"
-      #TODO: mention feedback form and social sessions
+      type: wrapup
 
 day2:
   title: "Day 2: Introduction to RNA-Seq analysis with Galaxy and R"
   sessions:
+    - name: "Icebreaker: Say Hi in Slack!"
+      type: icebreaker
+      prompt: "Share with us how your 5-year-old self would have finished this sentence: 'When I grow up, I want to be ...'"
+
     - name: "Introduction to RNA-Seq"
       speaker: fpsom
       video:
@@ -252,11 +259,19 @@ day2:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD3AFLN5"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTRNzQHT9qyPr9kdWOM1l8HiD0A1xCRMW7bYnUCcLYmF5yJFytYSOVrq_JFtRvqnat-_41JBkQray2F/pub"
 
+    - name: "Wrap up & Socialize"
+      type: wrapup
+
 
 day3:
   title: "Day 3: Single-cell RNA-Seq Analysis"
   description: "Today is a half-day. This will let you catch up from previous days if needed."
   sessions:
+    - name: "Icebreaker: Let us know you've joined in Slack!"
+      type: icebreaker
+      prompt: "Share with us your favorite dish (food or drink) bonus points for recipes! ;)"
+
+
     - name: "An introduction to scRNA-seq data analysis"
       speaker: awspolly
       video:
@@ -314,10 +329,16 @@ day3:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FQ9RLLF2"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTdqGjslXMxUjyjqwkNtidsXFl6SRULFKFug_2TYBl-dYXIDEnXb59nMyZ5qJc6bXI-fP5cPLfkXbHV/pub"
 
+    - name: "Wrap up & Socialize"
+      type: wrapup
 
 day4:
   title: "Day 4: Proteomics"
   sessions:
+    - name: "Icebreaker: Say Hi in Slack!"
+      type: icebreaker
+      prompt: "Please let us know what you favorite thing about the course is so far."
+
     - name: "Introduction to mass spectrometry based proteomics data analysis"
       speaker: foellmelanie
       video:
@@ -437,6 +458,9 @@ day4:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD4276P3"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTX6JQG4oAKXvQSJU52thudorwANPtzIedTiTQU1NbXQYYfrNkBheN-gHu0O91bCOIk5wQBpH1mIk7v/pub"
 
+    - name: "Wrap up & Socialize"
+      type: wrapup
+
 day5:
   title: "Choose Your Own Adventure!"
   description: |
@@ -449,6 +473,10 @@ day5a:
   title: "Video Tutorials"
   subday: true
   sessions:
+    - name: "Icebreaker: Say Hi in Slack!"
+      type: icebreaker
+      prompt: "Share one of your favorite books, tv shows, movies or games that you would recommend to others."
+
     - name: "Variant Analysis: M. Tuberculosis Variant Analysis (Lecture)"
       speaker: pvanheus
       video:
@@ -724,6 +752,9 @@ day5c:
      <a href="https://training.galaxyproject.org"><button type="button" class="btn btn-warning btn-lg">Explore All GTN Tutorials</button></a>
   subday: true
 
+  sessions:
+    - name: "Wrap up & Socialize"
+      type: wrapup
 day6:
   title: "After the Course"
   description: |
