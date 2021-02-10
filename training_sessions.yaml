@@ -6,7 +6,7 @@ day1:
     - name: Welcome & Course Information (Click here to start)
       description: "Start here; we will go over all the important things to know to get the most out of this workshop"
       speaker: shiltemann
-      type: lecture
+      type: Lecture
       video:
         link:
         length: 30M
@@ -692,8 +692,6 @@ day5b:
       support_channel: "#5-j_proteore-biomarkers-discovery"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FP2AHUV9"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQVj92upQT2Z4B6ZF6kmhrbnHesbkS--e5ge14iRbxDsxRHuOb52XJE8DI584asA0t2GJIjS_qliPZu/pub"
-
-
 
     - name: "Cheminformatics: Protein-ligand docking"
       speaker: simonbray
