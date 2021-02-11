@@ -15,7 +15,9 @@
    alt="{{site.data.instructors[include.who].name}}">
   <div class="card-body">
     <h4 class="card-title">{{site.data.instructors[include.who].name}}</h4>
-    <p class="card-text"><a href="{{affiliation-url}}"><span title="{{affiliation-mouseover}}">{{affiliation}}</span></a></p>
+    <p class="card-text"><a href="{{affiliation-url}}"><span title="{{affiliation-mouseover}}">{{affiliation}}</span></a>
+    {% if include.who == 'awspolly' %} This helps us keep the video slides up-to-date more easily. {% endif %}
+    </p>
     {% if affiliation-logo  %}
     <div class="logo"><img src="{{site.baseurl}}/{{site.logo_dir}}/{{affiliation-logo}}" alt="{{affiliation}}"/></div>
     {% endif %}
