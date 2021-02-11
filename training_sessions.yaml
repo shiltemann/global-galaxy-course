@@ -135,8 +135,8 @@ day1:
       type: Lecture
       speaker: slugger70
       video:
-        link:
-        length:
+        link: -EX_G1griZE
+        length: 25M
         captions: []
       material:
         - type: slides
