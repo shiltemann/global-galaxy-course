@@ -12,6 +12,8 @@ links to all training materials can be found by clicking on each session
 **Note:** Problems viewing this page? Try the [simple view]({{site.baseurl}}/workshop-simpleview) instead.
 
 
+<a href="{{site.baseurl}}/workshop"><button type="button" class="btn btn-warning btn-lg">The course has not started yet, this page is still being updated! Please return on Feb 15, 2021. </button></a>
+
 {% for day in site.data.training_sessions %}
  {% assign daynum = day[0] %}
 
