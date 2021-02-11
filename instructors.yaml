@@ -2,6 +2,10 @@ abretaud:
     name: Anthony Bretaudeau
     affiliation: inrae
 
+afgane:
+    name: Enis Afgan
+    affiliation: johnshopkins
+
 aheikema:
     name: Astrid Heikema
     affiliation: erasmusmc
@@ -20,13 +24,29 @@ annefou:
     name: Anne Fouilloux
     affiliation: eoscnordic
 
+assuntad23:
+    name: Assunta DeSanto
+    affiliation: pennstate
+
 awspolly:
     name: These slides are narrated by AWS Polly. This helps us keep the video slides up-to-date more easily.
     photo: polly.png
 
+beatrizserrano:
+    name: Beatriz Serrano-Solano
+    afilliation: freiburguni
+
 bebatut:
     name: Bérénice Batut
     affiliation: freiburguni
+
+bgruening:
+    name: Björn Grüning
+    affiliation: freiburguni
+
+blankenberg:
+    name: Daniel Blankenberg
+    affiliation: clevelandclinic
 
 colineroyaux:
     name: Coline Royaux
@@ -35,6 +55,19 @@ colineroyaux:
 combesf:
     name: Florence Combes
     affiliation: ifb
+
+dieterbulach:
+    name: Dieter Bulach
+    photo: dieter.png
+    affiliation: melbourneuni
+
+delphine-l:
+    name: Delphine Lariviere
+    affiliation: pennstate
+
+emmaleith:
+    name: Emma Leith
+    affiliation: minnesotauni
 
 ennovytje:
     name: Yvonne Hiltemann
@@ -52,6 +85,10 @@ gallardoalba:
     name: Cristóbal Gallardo
     affiliation: freiburguni
 
+gmauro:
+    name: Gianmauro Cuccuru
+    affiliation: freiburguni
+
 heylf:
     name: Florian Heyl
     affiliation: freiburguni
@@ -64,13 +101,29 @@ hrhotz:
     name: Hans-Rudolf Hotz
     affiliation: fmi
 
+jennaj:
+    name: Jennifer Hillman-Jackson
+    affiliation: pennstate
+
 jj-umn:
     name: James Johnson
     affiliation: minnesotauni
 
+kpoterlowicz:
+    name: Krzysztof Poterlowicz
+    affiliation: bradforduni
+
 lldelisle:
     name: Lucille Delisle
     affiliation: epfl
+
+MarenStillger:
+    name: Maren Stillger
+    affiliation: freiburg-uniklinik-surgpathol
+
+martenson:
+    name: Martin Čech
+    affiliation: pennstate
 
 mtekman:
     name: Mehmet Tekman
@@ -79,6 +132,10 @@ mtekman:
 nagoue:
     name: Nadia Goué
     affiliation: ifb
+
+natefoo:
+    name: Nate Coraor
+    affiliation: pennstate
 
 nekrut:
     name: Anton Nekrutenko
@@ -115,6 +172,14 @@ slugger70:
 timothygriffin:
     name: Timothy J. Griffin
     affiliation: minnesotauni
+
+tklingstrom:
+    name: Tomas Klingström
+    affiliation: slu
+
+tnabtaf:
+    name: Dave Clements
+    affiliation: johnshopkins
 
 willemdek11:
     name: Willem de Koning

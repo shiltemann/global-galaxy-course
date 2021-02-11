@@ -28,28 +28,30 @@ day1:
       example: "Hi! My name is Saskia and I am joining from The Netherlands, I am currently in my hammock looking at the snow falling down outside."
 
 
-    - name: "Using Galaxy: An introduction to NGS analysis"
+    - name: "A Very Short Introduction to Galaxy"
       description: |
-        This tutorial will introduce the Galaxy platform and walk you through
-        a first NGS analysis step by step.
+        This video will introduce the Galaxy data analysis platform, and give a short demo on how to use it.
+      speaker: nekrut
+      video:
+        link: VZoz3k5EehI
+        length: 10M
+        captions: [nekrut]
+      support_channel: "#1-1_galaxy-intro"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub"
+
+    - name: "Intro to NGS: SARS-CoV-2 variant analysis"
+      description: |
+        In this tutorial, we will walk you through your first Galaxy analysis. We will do this using SARS-CoV-2 data.
       speaker: nekrut
       video:
         link:
-        length: 1H30M
-        captions: []
-      material:
-        - type: slides
-          link: topics/introduction/slides/introduction.html
-          title: Introduction to Galaxy
-        - type: tutorial
-          link: topics/introduction/tutorials/galaxy-intro-101/tutorial.html
-          title: Galaxy 101
-        - type: tutorial
-          link: topics/variant-analysis/tutorials/sars-cov-2/tutorial.html
-          title: SARS-CoV-2 variant analysis
+        length:
+        captions: [nekrut]
       support_channel: "#1-2_ngs-intro"
-      support_link: https://gtnsmrgsbord.slack.com/archives/C01ES914GCU
-      faq: "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01EXB3BKN1"
+      faq: "https://docs.google.com/document/u/2/d/12w_KCVN7z9DKLSxX6aCRfr8__nfANoIxfLJeYM4UGQA/pub"
+
 
     - name: "Quality Control: Intro"
       speaker: heylf
@@ -78,7 +80,7 @@ day1:
       video:
         link: QJRlX2hWDKM
         length: 1H10M
-        captions: []
+        captions: [bebatut]
       material:
         - type: tutorial
           link: "topics/sequence-analysis/tutorials/quality-control/tutorial.html"
@@ -96,6 +98,7 @@ day1:
       video:
         link: 7FhHb8EV3EU
         length: 10M
+        captions: [blankenberg]
       material:
         - type: slides
           link: topics/sequence-analysis/tutorials/mapping/slides.html
@@ -396,7 +399,7 @@ day4:
       video:
         link: b_kZf8mXHdo
         length: 40M
-        captions: []
+        captions: [emmaleith]
       material:
         - type: tutorial
           link: topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html
@@ -414,7 +417,7 @@ day4:
       video:
         link: q1OjmTcbvBA
         length: 30M
-        captions: []
+        captions: [emmaleith]
       material:
         - type: tutorial
           link: topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html
@@ -448,7 +451,7 @@ day4:
         seeking taxonomy information and functional analysis. Related metaproteomics and functional microbiome
         tools and GTN tutorials are also mentioned in this tutorial.
       video:
-        link:
+        link: 3_yaPp-RCFw
         length:
         captions: []
       material:
