@@ -61,7 +61,7 @@ day1:
       video:
         link: BWonTPS4zB8
         length: 40M
-        captions: [ennovytje,nagoue]
+        captions: [ennovytje,nagoue,hexylena]
       material:
         - type: slides
           link: topics/sequence-analysis/tutorials/quality-control/slides.html
@@ -137,7 +137,7 @@ day1:
       video:
         link: -EX_G1griZE
         length: 25M
-        captions: []
+        captions: [shiltemann, hexylena]
       material:
         - type: slides
           link: topics/assembly/tutorials/general-introduction/slides.html
@@ -755,6 +755,10 @@ day5c:
      <a href="https://training.galaxyproject.org"><button type="button" class="btn btn-warning btn-lg">Explore All GTN Tutorials</button></a>
   subday: true
 
+day 5d:
+  title: "All done?"
+  subday: true
+  description: "Please feel free to hang around in Slack and talk to us and the rest of the Galaxy community! Thanks for joining!!"
   sessions:
     - name: "Wrap up & Socialize"
       type: wrapup
