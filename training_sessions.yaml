@@ -117,7 +117,7 @@ day1:
       video:
         link: 1wm-62E2NkY
         length: 20M
-        captions: []
+        captions: [shiltemann]
       material:
         - type: tutorial
           link: topics/sequence-analysis/tutorials/mapping/tutorial.html
@@ -551,7 +551,7 @@ day5a:
       video:
         link: jNFLYhjgJPs
         length: 25M
-        captions: []
+        captions: [mtekman]
       material:
         - type: slides
           link: topics/assembly/tutorials/assembly-with-preprocessing/slides.html
