@@ -34,10 +34,45 @@ Please fill out the **[registration form](https://forms.gle/TN3Tuet8wm4i2umv5)**
 
 
 
-
 ## Program
 
-{% include simple.md %}
+
+{% for day in site.data.training_sessions %}
+ {% assign daynum = day[0] %}
+
+ {% if day[1].subday %}
+ <h4 class="daystart" style="margin-top:1em;"> {{day[1].title}} </h4>
+ {% else %}
+ <h3 class="daystart" style="margin-top:1em;"> {{day[1].title}} </h3>
+ {% endif %}
+ <p> {{day[1].description}} </p>
+
+  {% assign daysessions = day[1].sessions %}
+  {% assign selfstudy = day[1].selfstudy %}
+  {% if daysessions %}
+<table>
+ <thead>
+  <tr>
+   <th>Topic</th>
+   <th>Presentor</th>
+  </tr>
+ </thead>
+ <tbody>
+ {% for session in daysessions %}
+ <tr>
+ <td> {{session.name}} </td>
+ <td>
+  {% for speaker in session.speaker %}
+   {{ site.data.instructors[speaker].name }}
+  {% endfor %}
+ </td>
+ </tr>
+ {% endfor %}
+ </tbody>
+</table>
+
+  {% endif %}
+{% endfor %} <!-- end schedule -->
 
 
 ## Instructors welcome!
