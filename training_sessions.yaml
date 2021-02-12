@@ -788,7 +788,7 @@ day5c:
      <a href="https://training.galaxyproject.org"><button type="button" class="btn btn-warning btn-lg">Explore All GTN Tutorials</button></a>
   subday: true
 
-day 5d:
+day5d:
   title: "All done?"
   subday: true
   description: "Please feel free to hang around in Slack and talk to us and the rest of the Galaxy community! Thanks for joining!!"
