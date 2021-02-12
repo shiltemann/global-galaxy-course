@@ -513,6 +513,8 @@ day5a:
 
     - name: "Variant Analysis: M. Tuberculosis Variant Analysis (Lecture)"
       speaker: pvanheus
+      type: Lecture
+      description: "Tuberculosis (TB) is an infectious disease caused by the bacterium Mycobacterium tuberculosis. According to the WHO, in 2018 there were 10.0 million new cases of TB worldwide and 1.4 million deaths due to the disease, making TB the world’s most deadly infectious disease."
       video:
         link: yCC9EmLuyJg
         length: 20M
@@ -527,6 +529,8 @@ day5a:
 
     - name: "Variant Analysis: M. Tuberculosis Variant Analysis (Hands-on!)"
       speaker: pvanheus
+      type: Tutorial
+      description: "Tuberculosis (TB) is an infectious disease caused by the bacterium Mycobacterium tuberculosis. According to the WHO, in 2018 there were 10.0 million new cases of TB worldwide and 1.4 million deaths due to the disease, making TB the world’s most deadly infectious disease. Variation in the genome of M. tuberculosis (Mtb) is associated with changes in phenotype, for example drug resistance and virulence. It is also useful for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a sample can be used to build a phylogeny."
       video:
         link: G1DmquX6Wh8
         length: 40M
@@ -571,7 +575,8 @@ day5a:
 
     - name: "Wetlab Demo: Genomic DNA sequencing by Oxford Nanopore MinIon"
       speaker: miaomiaozhou88
-      description: This video will show you the full process of sequencing a bacterial genome using the Oxford Nanopore MinION sequencer.
+      type: Demo
+      description: "This video will show you the full process of sequencing a bacterial genome using the Oxford Nanopore MinION sequencer."
       video:
         link: bZfEyd87xCE
         length: 20M
@@ -695,7 +700,7 @@ day5a:
 
     - name: "Genome Annotation: Annotation of a prokaryotic genome: Slides"
       speaker: awspolly
-      type: lecture
+      type: Lecture
       description: "Genome annotation is a multi-level process that includes prediction of protein-coding genes, as well as other functional genome units such as structural RNAs, tRNAs, small RNAs, pseudogenes, control regions, direct and inverted repeats, insertion sequences, transposons and other mobile elements."
       video:
         link: eqHy-Cc7k4Q
