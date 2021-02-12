@@ -1,4 +1,4 @@
-
+{% assign captions = include.session.video.captions | size %}
 <div class="flex-row" style="margin-top:1em;">
 
  <div class="col-md-8">
@@ -14,7 +14,8 @@
   </div>
   <div style="margin-top:1em;">
    <strong>Video Length:</strong> {{include.session.video.length | downcase }} <br/>
-   <strong>Captions By:</strong> {% for name in include.session.video.captions %}{% unless forloop.first %}, {% endunless %} {{ site.data.instructors[name].name}} {% endfor %}<br/>
+   <strong>Captions By:</strong> {% for name in include.session.video.captions %}{% unless forloop.first %}, {% endunless %} {{ site.data.instructors[name].name}} {% endfor %}
+{% if captions == 0 %} We apologize for lack of captions on this video. If you are reliant on captions, please check back here soon.{% endif %}<br/>
    <strong>Description:</strong> {{include.session.description}}
   </div>
  </div>
