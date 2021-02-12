@@ -7,9 +7,13 @@ intro:
       speaker: shiltemann
       type: Lecture
       video:
-        link:
-        length: 30M
+        link: YXEnyIvYEKo
+        length: 25M
         captions: [shiltemann]
+      material:
+        - type: slides
+          external: true
+          link: "https://shiltemann.github.io/presentations//2020-12-18-smorgasbord"
       support_channel: "#general"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES8R0RNG"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTfNT2qS2Yb7qTAcnOFrMWwE_aPPUuYJJ0hdjw5gqV_JtMUWQ3NSkr6qAdrmF2EUGBBzTL8wFiILz8B/pub"
@@ -41,12 +45,13 @@ day1:
       faq: "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub"
 
     - name: "Intro to NGS: SARS-CoV-2 variant analysis"
+      type: Demo
       description: |
         In this tutorial, we will walk you through your first Galaxy analysis. We will do this using SARS-CoV-2 data.
       speaker: nekrut
       video:
-        link:
-        length:
+        link: 9mIL0tIfZ_o
+        length: 15M
         captions: [nekrut]
       support_channel: "#1-2_ngs-intro"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01EXB3BKN1"
@@ -205,6 +210,7 @@ day2:
 
     - name: "Starting Rstudio in Galaxy"
       speaker: fpsom
+      description: "This tutorial will show you how you can start Rstudio from within Galaxy. This option is only available on Galaxy EU for the time being. If you are working on a different Galaxy server, you can use <strong>Rstudio Cloud (https://rstudio.cloud/)</strong>"
       video:
         link: vN14K74nFZc
         length: 20M
@@ -506,11 +512,12 @@ day5a:
       support_channel: "#5-n_tuberculosis-variant-analysis"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD2WJU01"
 
-    - name: "Metagenomics: 16S Microbial Analysis with mothur"
+
+    - name: "Metagenomics: 16S Microbial Analysis with mothur (Lecture)"
       speaker: shiltemann
       video:
-        link:
-        length: 45M
+        link: 9OY1mklWuK0
+        length: 15M
         captions: []
       material:
         - type: tutorial
@@ -519,19 +526,45 @@ day5a:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FDV16V25"
       faq: "https://docs.google.com/document/d/e/2PACX-1vRPPYdMfIA9R_w5y__jV9qdKbijJyOJiclx-2ACKFkAH8aIdlU3pY84xhivWEOmeEn_XQv8StFcjDLP/pub"
 
-    - name: "Metagenomics: Microbial Anlysis in a Clinical Setting"
-      speaker: aheikema
+
+    - name: "Metagenomics: 16S Microbial Analysis with mothur (Hands-on!)"
+      speaker: shiltemann
       video:
-        link:
-        length: 45M
+        link: mto4Nl-q7Kk
+        length: 1H40M
         captions: []
       material:
-        - type: slides
-          link:
-          external: true
+        - type: tutorial
+          link: topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html
+      support_channel: "#5-b_16s-microbial-analysis"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FDV16V25"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vRPPYdMfIA9R_w5y__jV9qdKbijJyOJiclx-2ACKFkAH8aIdlU3pY84xhivWEOmeEn_XQv8StFcjDLP/pub"
+
+    - name: "Wetlab Demo: Genomic DNA sequencing by Oxford Nanopore MinIon"
+      speaker: miaomiaozhou88
+      description: This video will so you the full process of sequencing a bacterial genome using the Oxford Nanopore MinION sequencer.
+      video:
+        link: bZfEyd87xCE
+        length: 20M
+        captions: []
       support_channel: "#5-a_antibiotic-resistance-detection-nanopore"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub"
+
+    - name: "Metagenomics in the Clinical: Nanopore Whole Bacterial Genome Sequencing"
+      speaker: aheikema
+      type: Lecture
+      video:
+        link: icXMqMut6PY
+        length: 30M
+        captions: []
+      material:
+        - type: tutorial
+          link: topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html
+      support_channel: "#5-a_antibiotic-resistance-detection-nanopore"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub"
+
 
     - name: "Metagenomics: Antibiotic Resistance Detection with Nanopore Data"
       speaker: willemdek11
