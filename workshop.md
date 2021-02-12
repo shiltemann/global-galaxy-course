@@ -64,6 +64,8 @@ links to all training materials can be found by clicking on each session
    {% else %}
    {% unless session.type == 'icebreaker' %}{% unless session.type == 'setup' %}{% unless session.type == 'wrapup' %}
    <h3 class="session-section"> Self-Study Tutorial </h3>
+   {{session.description}}
+
    {% include selfstudy-session.html session=session %}
    {% endunless %}{% endunless %}{% endunless %}
    {% endif %}
