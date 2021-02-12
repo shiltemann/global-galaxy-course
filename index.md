@@ -22,8 +22,8 @@ Is it **February 15, 2021 or later?** Click the button below to start the worksh
 **When:** February 15-19, 2021 (all time zones) \\
 **Who:** Open for everybody \\
 **Cost:** Free \\
-**Format:** Virtual event, all training session are pre-recorded, you can work through these at your own pace, with instructors available online for support \\
-**Support:** Slack Channel (link will be provided here before the course) \\
+**Format:** Virtual and asynchronous. All training session are pre-recorded, you can work through these at your own pace, with instructors available online for support \\
+**Support:** Slack Channel (<a href="{{site.support_join}}">invite link</a>) \\
 **Contact:** [Saskia Hiltemann](mailto:saskiahiltemann@gmail.com) \\
 **Organized by:** [The Galaxy Training Network (GTN)](https://training.galaxyproject.org/training-material/hall-of-fame), [CINECA](https://www.cineca-project.eu/), [The Gallantries Project](https://gallantries.github.io/), [The Galaxy Project](https://galaxyproject.org), [Australian BioCommons](https://www.biocommons.org.au/), [Erasmus Medical Center](https://www.erasmusmc.nl),
 [Albert-Ludwigs-Universität Freiburg](https://uni-freiburg.de/), [Avans Hogeschool](https://www.avans.nl),  [University of Melbourne](https://www.unimelb.edu.au/), [The GalaxyP Team](http://galaxyp.org/), [The ProteoRE Team](http://www.proteore.org/), [INAB-CERTH](https://www.inab.certh.gr/), [EMBL-EBI](https://www.ebi.ac.uk/), [Institute of Surgical Pathology - University Medical Center Freiburg](https://www.uniklinik-freiburg.de/pathologie-en.html), [Centre National pour la Recherche Scientifique (CNRS)](http://www.cnrs.fr/), [Clermont Auvergne University](https://www.uca.fr/), <span title="South African National Bioinformatics Institute, South African MRC Bioinformatics Unit, University of the Western Cape, Bellville, 7535, South Africa">[SANBI/UWC](https://www.sanbi.org/)</span>, [EOSC-Nordic](https://www.eosc-nordic.eu/), [Institut Français de Bioinformatique](https://www.france-bioinformatique.fr/en/home/), [Birla Institute of Scientific Research](https://bisr.res.in/).
