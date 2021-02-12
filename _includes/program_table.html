@@ -27,10 +27,12 @@
      </td>
      {% unless include.selfstudy %}<td> {{ session.type }} </td>{% endunless %}
      {% if include.fullprogram %}
-     {% unless include.selfstudy %}
+     {% unless include.selfstudy %}{% unless session.type == 'icebreaker' %}{% unless session.type == 'setup' %}{% unless session.type == 'wrapup' %}
+
+
      <td> <a href="{{site.video_prefix}}/{{ session.video.link }}">Video</a> </td>
      <td> {{session.video.length | downcase }} </td>
-     {% endunless %}
+     {% endunless %}{% endunless %}{% endunless %}{% endunless %}
      <td>
       {% if session.material %}{% for m in session.material %}
        <a href="{{site.gtn_url}}{{m.link}}{{site.analytics_suffix}}">{{ m.type | capitalize }}</a>
