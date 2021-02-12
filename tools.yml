@@ -121,13 +121,6 @@ topics/genome-annotation/tutorials/annotation-with-prokka:
   ## tools
   - toolshed.g2.bx.psu.edu/repos/crs4/prokka/prokka/1.14.5+galaxy0
   - toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0
-topics/introduction/tutorials/galaxy-intro-101:
-  ## ../training-material/topics/introduction/tutorials/galaxy-intro-101/workflows/galaxy-intro-101-workflow.ga
-  - toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
-  - toolshed.g2.bx.psu.edu/repos/devteam/join/gops_join_1/0.0.1
-  ## tools
-  - toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
-  - toolshed.g2.bx.psu.edu/repos/devteam/join/gops_join_1/1.0.0
 topics/introduction/tutorials/r-advanced:
   ## tools
 topics/introduction/tutorials/r-basics:
@@ -350,20 +343,6 @@ topics/transcriptomics/tutorials/scrna-umis:
   - toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1
   - toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_extract/umi_tools_extract/0.5.5.1
   - toolshed.g2.bx.psu.edu/repos/peterjc/seq_filter_by_id/seq_filter_by_id/0.2.7
-topics/variant-analysis/tutorials/sars-cov-2:
-  ## ../training-material/topics/variant-analysis/tutorials/sars-cov-2/workflows/main_workflow.ga
-  - toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.1
-  - toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/2.18.2.2
-  - toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.2+galaxy2
-  - toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.20.1+galaxy0
-  - toolshed.g2.bx.psu.edu/repos/iuc/lofreq_call/lofreq_call/2.1.5+galaxy0
-  - toolshed.g2.bx.psu.edu/repos/iuc/lofreq_indelqual/lofreq_indelqual/2.1.5+galaxy0
-  - toolshed.g2.bx.psu.edu/repos/iuc/lofreq_viterbi/lofreq_viterbi/2.1.5+galaxy0
-  - toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.8+galaxy0
-  - toolshed.g2.bx.psu.edu/repos/iuc/snpeff_sars_cov_2/snpeff_sars_cov_2/4.5covid19
-  - toolshed.g2.bx.psu.edu/repos/iuc/snpsift/snpSift_extractFields/4.3+t.galaxy0
-  - toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/2.10.7+galaxy1
-  ## tools
 topics/variant-analysis/tutorials/tb-variant-analysis:
   ## ../training-material/topics/variant-analysis/tutorials/tb-variant-analysis/workflows/tb-variant-analysis.ga
   - toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1
