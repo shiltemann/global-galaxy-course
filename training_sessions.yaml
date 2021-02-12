@@ -33,6 +33,7 @@ day1:
 
 
     - name: "A Very Short Introduction to Galaxy"
+      type: Lecture/Demo
       description: |
         This video will introduce the Galaxy data analysis platform, and give a short demo on how to use it.
       speaker: nekrut
@@ -47,7 +48,7 @@ day1:
     - name: "Intro to NGS: SARS-CoV-2 variant analysis"
       type: Demo
       description: |
-        In this tutorial, we will walk you through your first Galaxy analysis. We will do this using SARS-CoV-2 data.
+        In this tutorial, we will walk you through an NGS analysi in Galaxy using SARS-CoV-2 data.
       speaker: nekrut
       video:
         link: 9mIL0tIfZ_o
@@ -181,7 +182,9 @@ day2:
       prompt: "Share with us how your 5-year-old self would have finished this sentence: 'When I grow up, I want to be ...'"
 
     - name: "Introduction to RNA-Seq"
+      type: Lecture
       speaker: fpsom
+      description: RNA sequencing is used to assess the expression levels of genes. This video introduces the important concepts related to RNA-seq analysis.
       video:
         link: qKkS_tztw_Q
         length: 30M
@@ -195,7 +198,9 @@ day2:
       faq: "https://docs.google.com/document/d/e/2PACX-1vTOAKhYdmiiTucIarwlehmnPaxi0MXDmuCPdyZwB27xvBJPksDOLCOYMGdtEZAoz4WGxHGdDcBDdlM9/pub"
 
     - name: Reference-based RNA-seq Analysis
+      type: Tutorial
       speaker: bebatut
+      description: In this tutorial we will walk you through the process of an RNA-seq analysis, comparing gene expression levels between different conditions and assessing impacted gene pathways.
       video:
         link: 37Tc1xnrHK4
         length: 2H30M
@@ -209,23 +214,22 @@ day2:
       faq: "https://docs.google.com/document/d/e/2PACX-1vTOAKhYdmiiTucIarwlehmnPaxi0MXDmuCPdyZwB27xvBJPksDOLCOYMGdtEZAoz4WGxHGdDcBDdlM9/pub"
 
     - name: "Starting Rstudio in Galaxy"
+      type: Demo
       speaker: fpsom
       description: "This tutorial will show you how you can start Rstudio from within Galaxy. This option is only available on Galaxy EU for the time being. If you are working on a different Galaxy server, you can use <strong>Rstudio Cloud (https://rstudio.cloud/)</strong>"
       video:
         link: vN14K74nFZc
         length: 20M
         captions: []
-      material:
-        - type: tutorial
-          link: topics/introduction/tutorials/r-basics/tutorial.html
-          title: R basics in Galaxy
       support_channel: "#2-2_intro-to-r"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F6JXPZM2"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub"
 
 
     - name: "Introduction to R"
+      type: Tutorial
       speaker: fpsom
+      description: This tutorial will provide an introduction to using R with Rstudio in Galaxy.
       video:
         link: MKkQDh5Nguc
         length: 50M
@@ -240,7 +244,9 @@ day2:
 
 
     - name: "Advanced R in Galaxy"
+      type: Tutorial
       speaker: fpsom
+      description: An advanced tutorial covering downstream analysis of RNA-seq data using R.
       video:
         link: _hWBGdlICqg
         length: 1H
@@ -255,7 +261,9 @@ day2:
 
 
     - name: "Visualisation: RNASeq postprocessing with R"
+      type: Tutorial
       speaker: fpsom
+      description: In this tutorial, we will visualize our RNA-seq analysis results using R.
       video:
         link: rJWgnLgA2BE
         length: 30M
@@ -283,6 +291,8 @@ day3:
 
     - name: "An introduction to scRNA-seq data analysis"
       speaker: awspolly
+      type: Lecture
+      description: Single-cell RNA-seq analysis is a rapidly evolving field at the forefront of transcriptomic research, used in high-throughput developmental studies and rare transcript studies to examine cell heterogeneity within a populations of cells. The cellular resolution and genome wide scope make it possible to draw new conclusions that are not otherwise possible with bulk RNA-seq. Slides created by Mehmet Tekman.
       video:
         link: D3qvYWZMFa0
         length: 20M
@@ -297,6 +307,8 @@ day3:
 
     - name: "Understanding Barcodes"
       speaker: nomadscientist
+      type: Tutorial
+      description: This tutorial explains the what barcodes in your sequencing data are, and how to handle them during analysis.
       video:
         link: AJ17BicjmYU
         length: 10M
@@ -312,6 +324,8 @@ day3:
 
     - name: "Pre-processing of 10X Single-Cell RNA Datasets"
       speaker: nomadscientist
+      type: Tutorial
+      description: 10x genomics has provided not only a cost-effective high-throughput solution to understanding sample heterogeneity at the individual cell level, but has defined the standards of the field that many downstream analysis packages are now scrambling to accommodate.
       video:
         link: vNBNFkF0L4U
         length: 5M
@@ -326,6 +340,8 @@ day3:
 
     - name: "Clustering 3K PBMCs with Scanpy"
       speaker: nomadscientist
+      type: Tutorial
+      description: "In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells."
       video:
         link: nefB35Bi1l4
         length: 45M
@@ -349,21 +365,25 @@ day4:
       prompt: "Please let us know what you favorite thing about the course is so far."
 
     - name: "Introduction to mass spectrometry based proteomics data analysis"
-      speaker: foellmelanie
+      speaker: awspolly
+      type: Lecture
+      description: This lecture will provide an introduction to mass spectrometry (MS) based proteomics analysis. Slides created by Melanie Föll.
       video:
-        link:
-        length: 45M
+        link: # TODO
+        length: 20M
         captions: []
       material:
         - type: slides
-          link: # TODO: missing
-          title:
+          link: topics/proteomics/slides/introduction.html
+          title: Introduction to proteomics, protein identification, quantification and statistical modelling
       support_channel: "#4-0_introduction-to-ms-proteomics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01MQEDM39P"
       faq: "https://docs.google.com/document/d/e/2PACX-1vSYkfAT8PgEygCcqVhjzhioS23I1Tod0V2l6q60fbMkl6t21y09I62BYFrlWaSMO8p5_Y2JwilHSP5m/pub"
 
     - name: "Maxquant + MSstats on a clinical cohort"
       speaker: foellmelanie
+      type: Tutorial
+      description: # TODO
       video:
         link:
         length: 45M
@@ -377,6 +397,7 @@ day4:
 
     - name: "Introduction to Proteogenomics"
       speaker: timothygriffin
+      type: Lecture
       description: |
         In this opening presentation, the basic components of proteogenomics are described,
         including the main steps in the bioinformatics analysis workflow that make up this
@@ -396,6 +417,7 @@ day4:
 
     - name: "Proteogenomics 1: Database Creation"
       speaker: jj-umn
+      type: Tutorial
       description: |
         In this tutorial, we will provide a walkthrough on how to generate a customized protein
         sequence database using RNA-Seq data.  The resultant FASTA database contains sequences
@@ -415,6 +437,7 @@ day4:
 
     - name: "Proteogenomics 2: Database search"
       speaker: andrewr
+      type: Tutorial
       description: |
         In this tutorial, we're continuing the process of proteogenomic analysis. Here, we search
         mass spectrometry data against a custom proteogenomics FASTA database to create peptide
@@ -434,6 +457,7 @@ day4:
 
     - name: "Proteogenomics 3: Novel peptide analysis"
       speaker: subinamehta
+      type: Tutorial
       description: |
         In this tutorial, we will investigate the peptides that were identified during proteogenomics
         tutorial 2. We will identify the presence of novel proteoforms that are absent in the reference
@@ -452,6 +476,7 @@ day4:
 
     - name: "Metaproteomics"
       speaker: pratikdjagtap
+      type: Tutorial
       description: |
         In this tutorial, the basic workflow for metaproteomics is described, which includes database search,
         seeking taxonomy information and functional analysis. Related metaproteomics and functional microbiome
@@ -515,6 +540,8 @@ day5a:
 
     - name: "Metagenomics: 16S Microbial Analysis with mothur (Lecture)"
       speaker: shiltemann
+      type: Lecture
+      description: This lecture briefly introduces 16S sequencing, a popular technique used for taxonomic profiling of microbial communities.
       video:
         link: 9OY1mklWuK0
         length: 15M
@@ -529,6 +556,8 @@ day5a:
 
     - name: "Metagenomics: 16S Microbial Analysis with mothur (Hands-on!)"
       speaker: shiltemann
+      type: Tutorial
+      description: In this tutorial you will perform the mothur MiSeq SOP (Standard Operating Procedure) in Galaxy.
       video:
         link: mto4Nl-q7Kk
         length: 1H40M
@@ -542,7 +571,7 @@ day5a:
 
     - name: "Wetlab Demo: Genomic DNA sequencing by Oxford Nanopore MinIon"
       speaker: miaomiaozhou88
-      description: This video will so you the full process of sequencing a bacterial genome using the Oxford Nanopore MinION sequencer.
+      description: This video will show you the full process of sequencing a bacterial genome using the Oxford Nanopore MinION sequencer.
       video:
         link: bZfEyd87xCE
         length: 20M
@@ -554,6 +583,7 @@ day5a:
     - name: "Metagenomics in the Clinical: Nanopore Whole Bacterial Genome Sequencing"
       speaker: aheikema
       type: Lecture
+      description: Nanopore Sequencing has many applications in a Clinical setting. In this lecture, Astrid Heikema discusses how her group at the Erasmus Medical Center uses Nanopore for sequencing of bacterial Genomes.
       video:
         link: icXMqMut6PY
         length: 30M
@@ -568,6 +598,8 @@ day5a:
 
     - name: "Metagenomics: Antibiotic Resistance Detection with Nanopore Data"
       speaker: willemdek11
+      type: Tutorial
+      description: This tutorial will guide you through the process of assembling your Nanopore-sequenced bacterial samples and determining the presence of antibiotic resistance genes.
       video:
         link: ECIl8ZU1Wko
         length: 45M
@@ -581,6 +613,8 @@ day5a:
 
     - name: "Assembly: Unicycler assembly of SARS-CoV-2 genome"
       speaker: gallardoalba
+      type: Tutorial
+      description: "This tutorial guides you through the preprocessing of sequencing data of bronchoalveolar lavage fluid (BALF) samples obtained from early COVID-19 patients in China. Since such samples are expected to be contaminated signficantly with human sequenced reads, the goal is to enrich the data for SARS-CoV-2 reads by identifying and discarding reads of human origin before trying to assemble the viral genome sequence."
       video:
         link: jNFLYhjgJPs
         length: 25M
@@ -594,8 +628,10 @@ day5a:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01GJLDS01K"
       faq: "https://docs.google.com/document/d/e/2PACX-1vRcBWHbIIo6t_vXtZiaW_6t2qIUYwjiptC2MRVUG5KC31rwPg8fO9yCma22HqIV6Hu1T3wJXaV-GwxU/pub"
 
-    - name: "Climate: Functionally Assembled Terrestrial Ecosystem Simulator (FATES): Slides"
+    - name: "Climate: Functionally Assembled Terrestrial Ecosystem Simulator (FATES): Lecture"
       speaker: awspolly
+      type: Lecture
+      description: "Terrestrial ecosystem models have been widely used to study the impact of climate changes on vegetation and terrestrial biogeochemical cycles in climate modelling community. They are also more and more applied in ecological studies to help ecologists to better understand the processes. But the technical challenges are still too high for most of the ecologists to use them. This practical aims at familiarizing you (especially ecologists) with running a terrestrial ecosystem model (i.e., CLM-FATES) at site-level in Galaxy and analyzing the model results."
       video:
         link: Z57C7MQG95s
         length: 8M
@@ -610,6 +646,8 @@ day5a:
 
     - name: "Climate: Functionally Assembled Terrestrial Ecosystem Simulator (FATES): Hands-on!"
       speaker: annefou
+      type: Tutorial
+      description: "Terrestrial ecosystem models have been widely used to study the impact of climate changes on vegetation and terrestrial biogeochemical cycles in climate modelling community. They are also more and more applied in ecological studies to help ecologists to better understand the processes. But the technical challenges are still too high for most of the ecologists to use them. This practical aims at familiarizing you (especially ecologists) with running a terrestrial ecosystem model (i.e., CLM-FATES) at site-level in Galaxy and analyzing the model results."
       video:
         link: TFROMsZVMQg
         length: 1H20M
@@ -625,6 +663,8 @@ day5a:
 
     - name: "Circos Visualisation in Galaxy: Intro"
       speaker: hexylena
+      type: Lecture
+      description: "Circos is a popular tool for creating circular graphs to display genomic data. This video will introduce this tool and how to use it within Galaxy"
       video:
         link: KCtI5KLp05k
         length: 6M
@@ -639,6 +679,8 @@ day5a:
 
     - name: "Circos Visualisation in Galaxy: Hands-on!"
       speaker: hexylena
+      type: Tutorial
+      description: "Circos is a popular tool for creating circular graphs to display genomic data. In this tutorial you will create a Circos plot for a cancer dataset"
       video:
         link: tbqeUP67w-Y
         length: 50M
@@ -653,10 +695,12 @@ day5a:
 
     - name: "Genome Annotation: Annotation of a prokaryotic genome: Slides"
       speaker: awspolly
+      type: lecture
+      description: "Genome annotation is a multi-level process that includes prediction of protein-coding genes, as well as other functional genome units such as structural RNAs, tRNAs, small RNAs, pseudogenes, control regions, direct and inverted repeats, insertion sequences, transposons and other mobile elements."
       video:
         link: eqHy-Cc7k4Q
         length: 3M
-        captions: []
+        captions: [abretaud]
       material:
         - type: tutorial
           link: topics/genome-annotation/tutorials/annotation-with-prokka/slides.html
@@ -666,6 +710,8 @@ day5a:
 
     - name: "Genome Annotation: Annotation of a prokaryotic genome: Hands-on!"
       speaker: abretaud
+      type: Tutorial
+      description: "In this tutorial we will use Prokka to annotate a draft genome sequence. Prokka finds and annotates features (both protein coding regions and RNA genes, i.e. tRNA, rRNA) present on on a sequence. Prokka can be used to annotate bacterial, archaeal and viral genomes quickly, generating standard output files in GenBank, EMBL and gff formats."
       video:
         link: B8pIQZPf21Y
         length: 20M
@@ -677,26 +723,13 @@ day5a:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01GTTD1BE0"
       faq: "https://docs.google.com/document/d/e/2PACX-1vSK-RjeRJC38_FSM9zC6SrfkvIz1W4uEMQkN95qk5OemvANuPF3aNEogVEvF6JEXeMomo-oMwi32Gv2/pub"
 
-    - name: "Proteomics: Functional analysis of proteomics data"
-      speaker: yvesvdb
-      video:
-        # TODO: wrong video
-        link: WpH101OPrG0
-        length: 45M
-        captions: []
-      material:
-        - type: tutorial
-          link: topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html
-          title: Clustering 3K PBMCs with Scanpy
-      support_channel: "#5-i_proteore-protein-list-annotation"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01EYBNQRL5"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vT7_ulDI8Mf4BpE8JPmvXYVqk1UmMGEFJ6Cj2ZvlxwLfP8riaaVicPtGR5HeFDAEmKMjaXPcub6cL1w/pub"
-
     - name: "Proteomics: ProteoRE tool for Functional Analysis of a Protein List"
       speaker: yvesvdb
+      type: Tutorial
+      description: "This tutorial covers an annotation pipeline for a protein list identified by LC-MS/MS experiments."
       video:
-        link:
-        length: 45M
+        link: qG7GZc6BeGY
+        length: 30M
         captions: []
       material:
         - type: tutorial
@@ -716,6 +749,7 @@ day5b:
   sessions:
     - name: "Genomic Data Visualization with JBrowse"
       speaker: hexylena
+      description: "JBrowse is a popular Genome Browser. It can be used directly within Galaxy. You may have seen it in our Mapping tutorial on Day 1. This tutorial will go into more depth about JBrowse and how to use it to explore your genome."
       material:
         - type: slides
           link: topics/visualisation/tutorials/jbrowse/slides.html
@@ -728,6 +762,8 @@ day5b:
       faq: "https://docs.google.com/document/d/e/2PACX-1vRm1swqoqbrCWXKc2ncvDahm_RvbRCAn0oCPuJmQxorUgk38nI4Y_qtAGiECk53q5xr5wx-vNE5xJje/pub"
 
     - name: "Ecology: Compute and analyze biodiversity metrics with PAMPA toolsuite"
+      type: Tutorial
+      description: "This tutorial aims to present the PAMPA Galaxy workflow, how to use it to compute common biodiversity metrics from species abundance data and analyse it through generalized linear (mixed) models (GLM and GLMM). This workflow made up of 5 tools will allow you to process temporal series data that include at least year, location and species sampled along with abundance value and, finally, generate article-ready data products."
       speaker: [colineroyaux, yvanlebras]
       material:
         - type: tutorial
@@ -738,7 +774,9 @@ day5b:
       faq: "https://docs.google.com/document/d/e/2PACX-1vT-Qmqw2zxaaFZXqbNaxMkcgl-0HjU6LvU0K0O51cCyCv_HjJdGk_2VPvMRghCW0sUKF-58_SuDQ1fn/pub"
 
     - name: "Epigenetics: ATAC-Seq data analysis"
+      type: Tutorial
       speaker: [hrhotz, lldelisle]
+      description: "In many eukaryotic organisms, such as humans, the genome is tightly packed and organized with the help of nucleosomes (chromatin). A nucleosome is a complex formed by eight histone proteins that is wrapped with ~147bp of DNA. When the DNA is being actively transcribed into RNA, the DNA will be opened and loosened from the nucleosome complex. Many factors, such as the chromatin structure, the position of the nucleosomes, and histone modifications, play an important role in the organization and accessibility of the DNA. Consequently, these factors are also important for the activation and inactivation of genes. Assay for Transposase-Accessible Chromatin using sequencing (ATAC-Seq) is a method to investigate the accessibility of chromatin and thus a method to determine regulatory mechanisms of gene expression. The method can help identify promoter regions and potential enhancers and silencers. "
       material:
         - type: tutorial
           link: topics/epigenetics/tutorials/atac-seq/tutorial.html
@@ -749,6 +787,8 @@ day5b:
 
     - name: "Proteomics: ProteoRE tool for biomarker discovery"
       speaker: [yvesvdb,combesf]
+      type: Tutorial
+      description: "A biomarker is a measurable biological component that can be routinely detected in clinical practice and reflects a disease state, response to therapeutic treatment, or other relevant biological state. In this tutorial we introduce successively the tools of this pipeline, and guide you to execute them in order to complete the entire pipeline on a concrete example."
       material:
         - type: tutorial
           link: topics/proteomics/tutorials/biomarker_selection/tutorial.html
@@ -759,6 +799,7 @@ day5b:
 
     - name: "Cheminformatics: Protein-ligand docking"
       speaker: simonbray
+      description: "Cheminformatics is the use of computational techniques and information about molecules to solve problems in chemistry. This involves a number of steps: retrieving data on chemical compounds, sorting data for properties which are of interest, and extracting new information. This tutorial will provide a brief overview of all of these, centered around protein-ligand docking, a molecular modelling technique. "
       material:
         - type: tutorial
           link: topics/computational-chemistry/tutorials/cheminformatics/tutorial.html
@@ -769,6 +810,9 @@ day5b:
 
     - name: "Cheminformatics: Running molecular dynamics simulations using GROMACS"
       speaker: simonbray
+      description: "Molecular dynamics (MD) is a method to simulate molecular motion by iterative application of Newton’s laws of motion. It is often applied to large biomolecules such as proteins or nucleic acids.
+This is a introductory guide to using GROMACS (Abraham et al. 2015) in Galaxy to prepare and perform molecular dynamics on a small protein. For the tutorial, we will perform our simulations on hen egg white lysozyme.
+"
       material:
         - type: tutorial
           link: topics/computational-chemistry/tutorials/md-simulation-gromacs/tutorial.html
