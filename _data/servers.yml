@@ -58,10 +58,10 @@ topics/assembly/tutorials/chloroplast-assembly/tutorial.html:
     eu: {seen: "1.20.1", exp: "1.20.1"}
     org: {seen: "1.20.1", exp: "1.20.1"}
     org.au: {seen: "1.20.1", exp: "1.20.1"}
-  toolshed.g2.bx.psu.edu/repos/simon-gladman/fasta_stats/fasta-stats/1.0.0:
-    eu: {seen: "1.0.0", exp: "1.0.0"}
-    org: {seen: "null", exp: "1.0.0"}
-    org.au: {seen: "1.0.0", exp: "1.0.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/1.0.0:
+    eu: {seen: "1.0.1", exp: "1.0.1"}
+    org: {seen: "1.0.1", exp: "1.0.1"}
+    org.au: {seen: "1.0.1", exp: "1.0.1"}
   toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye/2.6+galaxy0:
     eu: {seen: "2.6+galaxy0", exp: "2.6+galaxy0"}
     org: {seen: "2.6", exp: "2.6+galaxy0"}
@@ -94,14 +94,14 @@ topics/assembly/tutorials/chloroplast-assembly/tutorial.html:
     eu: {seen: "1.20.1", exp: "1.20.1"}
     org: {seen: "1.20.1", exp: "1.20.1"}
     org.au: {seen: "1.20.1", exp: "1.20.1"}
-  toolshed.g2.bx.psu.edu/repos/simon-gladman/fasta_stats/fasta-stats/1.0.0:
-    eu: {seen: "1.0.0", exp: "1.0.0"}
-    org: {seen: "null", exp: "1.0.0"}
-    org.au: {seen: "1.0.0", exp: "1.0.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/1.0.0:
+    eu: {seen: "1.0.1", exp: "1.0.1"}
+    org: {seen: "1.0.1", exp: "1.0.1"}
+    org.au: {seen: "1.0.1", exp: "1.0.1"}
   overall:
     emea: 1
     apac: 1
-    amer: 0
+    amer: 1
 topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html: {}
 topics/sequence-analysis/tutorials/mapping/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore/0.4.3.1:
@@ -699,7 +699,7 @@ topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html:
     org.au: {seen: "0.19.5+galaxy1", exp: "0.19.5+galaxy1"}
   toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.17+galaxy1:
     eu: {seen: "2.17+galaxy1", exp: "2.17+galaxy1"}
-    org: {seen: "2.17+galaxy2", exp: "2.17+galaxy1"}
+    org: {seen: "2.17+galaxy3", exp: "2.17+galaxy1"}
     org.au: {seen: "2.17+galaxy1", exp: "2.17+galaxy1"}
   toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.7:
     eu: {seen: "1.7", exp: "1.7"}
@@ -759,7 +759,7 @@ topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html:
     org.au: {seen: "0.19.5+galaxy1", exp: "0.19.5+galaxy1"}
   toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.17+galaxy1:
     eu: {seen: "2.17+galaxy1", exp: "2.17+galaxy1"}
-    org: {seen: "2.17+galaxy2", exp: "2.17+galaxy1"}
+    org: {seen: "2.17+galaxy3", exp: "2.17+galaxy1"}
     org.au: {seen: "2.17+galaxy1", exp: "2.17+galaxy1"}
   toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.7:
     eu: {seen: "1.7", exp: "1.7"}
@@ -984,11 +984,11 @@ topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html:
     org.au: {seen: "1.10.0+galaxy1", exp: "1.10.0+galaxy1"}
   toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.9:
     eu: {seen: "1.9", exp: "1.9"}
-    org: {seen: "1.8+galaxy1", exp: "1.9"}
+    org: {seen: "1.9", exp: "1.9"}
     org.au: {seen: "1.9", exp: "1.9"}
   toolshed.g2.bx.psu.edu/repos/iuc/rna_starsolo/rna_starsolo/2.7.7a:
     eu: {seen: "2.7.7a", exp: "2.7.7a"}
-    org: {seen: "2.7.5b", exp: "2.7.7a"}
+    org: {seen: "2.7.7a", exp: "2.7.7a"}
     org.au: {seen: "2.7.7a", exp: "2.7.7a"}
   toolshed.g2.bx.psu.edu/repos/iuc/dropletutils/dropletutils/1.10.0+galaxy1:
     eu: {seen: "1.10.0+galaxy1", exp: "1.10.0+galaxy1"}
@@ -1000,7 +1000,7 @@ topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html:
     org.au: {seen: "1.8+galaxy0", exp: "1.8+galaxy0"}
   toolshed.g2.bx.psu.edu/repos/iuc/rna_starsolo/rna_starsolo/2.7.7a:
     eu: {seen: "2.7.7a", exp: "2.7.7a"}
-    org: {seen: "2.7.5b", exp: "2.7.7a"}
+    org: {seen: "2.7.7a", exp: "2.7.7a"}
     org.au: {seen: "2.7.7a", exp: "2.7.7a"}
   overall:
     emea: 1
