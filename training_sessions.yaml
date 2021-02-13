@@ -666,11 +666,11 @@ day5a:
     - name: "Climate: Functionally Assembled Terrestrial Ecosystem Simulator (FATES): Lecture"
       speaker: awspolly
       type: Lecture
-      description: "Terrestrial ecosystem models have been widely used to study the impact of climate changes on vegetation and terrestrial biogeochemical cycles in climate modelling community. They are also more and more applied in ecological studies to help ecologists to better understand the processes. But the technical challenges are still too high for most of the ecologists to use them. This practical aims at familiarizing you (especially ecologists) with running a terrestrial ecosystem model (i.e., CLM-FATES) at site-level in Galaxy and analyzing the model results."
+      description: "Terrestrial ecosystem models have been widely used to study the impact of climate changes on vegetation and terrestrial biogeochemical cycles in climate modelling community. They are also more and more applied in ecological studies to help ecologists to better understand the processes. But the technical challenges are still too high for most of the ecologists to use them. This practical aims at familiarizing you (especially ecologists) with running a terrestrial ecosystem model (i.e., CLM-FATES) at site-level in Galaxy and analyzing the model results. Slides by Anne Fouilloux."
       video:
         link: Z57C7MQG95s
         length: 8M
-        captions: []
+        captions: [annefou]
       material:
         - type: slides
           link: topics/climate/tutorials/fates/slides.html
@@ -686,7 +686,7 @@ day5a:
       video:
         link: TFROMsZVMQg
         length: 1H20M
-        captions: [sfou]
+        captions: [s3by01]
       material:
         - type: tutorial
           link: topics/climate/tutorials/fates/tutorial.html
