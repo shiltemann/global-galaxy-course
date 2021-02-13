@@ -396,9 +396,9 @@ day4:
       type: Lecture
       description: This lecture will provide an introduction to mass spectrometry (MS) based proteomics analysis. Slides created by Melanie Föll.
       video:
-        link: # TODO
+        link: rjXr9mRz4y8  # TODO: update when polly does better
         length: 20M
-        captions: []
+        captions: [foellmelanie]
       material:
         - type: slides
           link: topics/proteomics/slides/introduction.html
