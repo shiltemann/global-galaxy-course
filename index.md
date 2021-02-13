@@ -88,7 +88,7 @@ Are you a trainer and would you like to teach (record) a GTN training session fo
 
 This Global Galaxy course is only possible thanks to a Global network of instructors and institutes.
 
-### Presenters & Instructors & Community Caption Contributors
+### Presenters & Instructors & Facilitators & Community Caption Contributors
 
 {% include hof.html %}
 

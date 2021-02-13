@@ -96,7 +96,7 @@ links to all training materials can be found by clicking on each session
 
 This Global Galaxy course is only possible thanks to a Global network of instructors and institutes.
 
-## Presenters & Instructors & Community Caption Contributors
+## Presenters & Instructors & Facilitators & Community Caption Contributors
 
 {% include hof.html %}
 

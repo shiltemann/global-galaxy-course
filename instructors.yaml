@@ -56,6 +56,14 @@ combesf:
     name: Florence Combes
     affiliation: ifb
 
+dannon:
+    name: Dannon Baker
+    affiliation: johnshopkins
+
+davebx:
+    name: Dave Bouvier
+    affiliation: pennstate
+
 dieterbulach:
     name: Dieter Bulach
     photo: dieter.png
@@ -112,7 +120,7 @@ jj-umn:
 kpoterlowicz:
     name: Krzysztof Poterlowicz
     affiliation: bradforduni
-    
+
 ksuderman:
     name: Keith Suderman
     affiliation: johnshopkins
@@ -136,6 +144,10 @@ miaomiaozhou88:
 mtekman:
     name: Mehmet Tekman
     affiliation: freiburguni
+
+mvdbeek:
+    name: Marius van den Beek
+    affiliation: pennstate
 
 nagoue:
     name: Nadia Goué
