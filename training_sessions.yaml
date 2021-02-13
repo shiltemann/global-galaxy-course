@@ -477,6 +477,9 @@ day4:
       material:
         - type: tutorial
           link: topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html
+        - type: slides
+          link: "https://docs.google.com/presentation/d/1gAOJ7WQI1CEc3VeSm_fcvjg_GTxTCZ1N/edit#slide=id.p2"
+          external: true
       support_channel: "#4-2_protegenomics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub"
@@ -683,7 +686,7 @@ day5a:
       video:
         link: TFROMsZVMQg
         length: 1H20M
-        captions: []
+        captions: [sfou]
       material:
         - type: tutorial
           link: topics/climate/tutorials/fates/tutorial.html
@@ -747,10 +750,12 @@ day5a:
       video:
         link: B8pIQZPf21Y
         length: 20M
-        captions: []
+        captions: [abretaud]
       material:
         - type: tutorial
           link: topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html
+        - type: slides
+          link: topics/genome-annotation/videos/#video-genome-annotation-annotation-with-prokka
       support_channel: "#5-g_annotation-prokaryotic-genome"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01GTTD1BE0"
       faq: "https://docs.google.com/document/d/e/2PACX-1vSK-RjeRJC38_FSM9zC6SrfkvIz1W4uEMQkN95qk5OemvANuPF3aNEogVEvF6JEXeMomo-oMwi32Gv2/pub"
