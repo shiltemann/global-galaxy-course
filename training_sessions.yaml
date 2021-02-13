@@ -45,10 +45,32 @@ day1:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub"
 
+
+    - name: "Your First Galaxy Analysis"
+      type: Tutorial
+      description: |
+        In this tutorial, we will walk you through your first (toy) analysis in Galaxy. This tutorial is aimed at familiarizing you with the Galaxy platform, and some basic NGS concepts.
+      speaker: tnabtaf
+      video:
+        link:
+        length: 10M
+        captions: [tnabtaf]
+      material: # TODO: update after Dave sends video
+        - type: tutorial
+          link: topics/introduction/tutorials/galaxy-intro-short/tutorial.html
+          title: A Short Introduction to Galaxy
+        - type: tutorial
+          link: topics/introduction/tutorials/galaxy-intro-strands/tutorial.html
+          title: Introduction to Genomics and Galaxy
+      support_channel: "#1-1_galaxy-intro"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub"
+
+
     - name: "Intro to NGS: SARS-CoV-2 variant analysis"
       type: Demo
       description: |
-        In this tutorial, we will walk you through an NGS analysi in Galaxy using SARS-CoV-2 data.
+        In this demo video, we will show you an example NGS analysis in Galaxy using SARS-CoV-2 data.
       speaker: nekrut
       video:
         link: 9mIL0tIfZ_o
