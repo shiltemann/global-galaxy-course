@@ -23,7 +23,7 @@ intro:
 
 day1:
   title: "Day 1: Introduction to Galaxy and NGS analysis"
-  description: "Today we start by introducing the Galaxy Platform, and show you how to analyze your NGS data using Galaxy."
+  description: "Today we start by introducing the Galaxy Platform, and show you how to analyze your NGS data using Galaxy. Today we have a mixture of lecutres, demos, and hands-on tutorials."
   sessions:
 
     - name: "Icebreaker: Introduce yourself in Slack!"
@@ -67,7 +67,7 @@ day1:
       faq: "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub"
 
 
-    - name: "Intro to NGS: SARS-CoV-2 variant analysis"
+    - name: "Demo NGS Analysis: SARS-CoV-2 variant analysis"
       type: Demo
       description: |
         In this demo video, we will show you an example NGS analysis in Galaxy using SARS-CoV-2 data.
@@ -198,6 +198,7 @@ day1:
 
 day2:
   title: "Day 2: Introduction to RNA-Seq analysis with Galaxy and R"
+  description: "Today we dive into (bulk) RNA-seq analysis. We will walk you through an end-to-end analysis and Galaxy, and show you how to perform downstream analysis on the results using Rstudio in Galaxy."
   sessions:
     - name: "Icebreaker: Say Hi in Slack!"
       type: icebreaker
