@@ -1,3 +1,16 @@
+# GTN Smorgasbord Course Website
+
+
+## Structure
+
+- Training sessions defined in `training_sessions.yaml`
+- Instructors in `instructors.yaml` and `affiliations.yaml`
+  - instructors keys should be github usernames to take profile image from there
+  - alternatively, define a `photo:` key for instructors
+
+
+
+
 # minima
 
 *Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
