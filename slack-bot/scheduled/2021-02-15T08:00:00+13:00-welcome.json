@@ -29,7 +29,7 @@
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "See Today's Schedule."
+				"text": "*See Today's Schedule.*"
 			},
 			"accessory": {
 				"type": "button",
