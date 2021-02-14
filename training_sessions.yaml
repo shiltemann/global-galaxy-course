@@ -41,6 +41,10 @@ intro:
           external: true
           title: Start learning Galaxy
           link: "https://training.galaxyproject.org"
+        - type: Support
+          external: true
+          link: "https://help.galaxyproject.org/"
+          title: Galaxy Help Forum
         - type: Galaxy Publications
           external: true
           title: Zotero
