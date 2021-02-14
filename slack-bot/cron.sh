@@ -13,9 +13,12 @@ for fn in scheduled/*.json; do
 		grep -F -q "$fn" "$LOGFILE";
 		ec=$?
 		if (( ec != 0 )); then
-			echo Sending!
-			curl -X POST -H 'Content-type: application/json' --data "@$fn" "${SLACK_URL}"
-			echo "$fn" >> "$LOGFILE";
+			# Send the message
+			response=$(curl -X POST -H 'Content-type: application/json' --data "@$fn" "${SLACK_URL}")
+			# If it was received OK
+			if [[ "$response" == "ok" ]]; then
+				echo "$fn" >> "$LOGFILE";
+			fi
 		else
 			# already sent
 			true
