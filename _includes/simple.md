@@ -4,7 +4,7 @@
  {% if day[1].subday %}
  <h4 class="daystart" style="margin-top:1em;"> {{day[1].title}} </h4>
  {% else %}
- <h3 class="daystart" style="margin-top:1em;"> {{day[1].title}} </h3>
+ <h3 id="{{ day[0] }}" class="daystart" style="margin-top:1em;"> {{day[1].title}} </h3>
  {% endif %}
  <p> {{day[1].description}} </p>
 

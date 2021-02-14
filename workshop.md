@@ -20,7 +20,7 @@ links to all training materials can be found by clicking on each session
 {% if day[1].subday %}
 <h4 class="daystart" style="margin-top:2em;"> {{day[1].title}} </h4>
 {% else %}
-<h2 class="daystart" style="margin-top:2em;"> {{day[1].title}} </h2>
+<h2 id="{{ day[0] }}" class="daystart" style="margin-top:2em;"> {{day[1].title}} </h2>
 {% endif %}
 <p> {{day[1].description}} </p>
 <div class="accordion" id="accordion{{daynum}}">
