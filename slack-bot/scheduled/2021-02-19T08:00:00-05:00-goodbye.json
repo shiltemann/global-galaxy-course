@@ -16,6 +16,24 @@
 			}
 		},
 		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Choose Your OWN Schedule Today!"
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "CYOA Schedule",
+					"emoji": true
+				},
+				"value": "schedule",
+				"url": "https://shiltemann.github.io/global-galaxy-course/workshop#day5",
+				"action_id": "button-action"
+			}
+		},
+		{
 			"type": "divider"
 		},
 		{

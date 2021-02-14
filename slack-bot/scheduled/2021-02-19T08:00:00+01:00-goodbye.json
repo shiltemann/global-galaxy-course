@@ -4,7 +4,7 @@
 			"type": "header",
 			"text": {
 				"type": "plain_text",
-				"text": "The Last Day! Welcome Asia/Pacific :earth_asia:",
+				"text": "The Last Day! Welcome Europe, Middle East, and Africa! :earth_africa:",
 				"emoji": true
 			}
 		},
@@ -13,6 +13,24 @@
 			"text": {
 				"type": "mrkdwn",
 				"text": "Today is the last day of the course, but the adventure doesn't stop here! Read on to find out how to stay connected with the Galaxy Community"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Choose Your OWN Schedule Today!"
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "CYOA Schedule",
+					"emoji": true
+				},
+				"value": "schedule",
+				"url": "https://shiltemann.github.io/global-galaxy-course/workshop#day5",
+				"action_id": "button-action"
 			}
 		},
 		{
