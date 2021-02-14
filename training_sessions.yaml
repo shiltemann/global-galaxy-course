@@ -288,7 +288,7 @@ day2:
       video:
         link: qKkS_tztw_Q
         length: 30M
-        captions: []
+        captions: [nagoue,shiltemann]
       material:
         - type: Slides
           link: topics/transcriptomics/slides/introduction.html
