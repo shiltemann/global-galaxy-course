@@ -1,11 +1,10 @@
-
 {
 	"blocks": [
 		{
 			"type": "header",
 			"text": {
 				"type": "plain_text",
-				"text": "Good Morning/Afternoon South, Central, and North America! :earth_americas:",
+				"text": "*Good morning/afternoon Asia/Pacific!* :earth_asia:",
 				"emoji": true
 			}
 		},
@@ -13,14 +12,7 @@
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "Europe/Middle East/Africa :earth_africa: region helpers are ending their workday, so it's over to the Americas :earth_americas:!"
-			}
-		},
-		{
-			"type": "section",
-			"text": {
-				"type": "mrkdwn",
-				"text": "We hope it's going well for you so far! Please let us know if you have any questions _or_ difficulties today, in the #general chat if they're general issues, and in the tutorial specific chat if they're related to the tutorials"
+				"text": "Welcome to the GTN Smörgåsbord!"
 			}
 		},
 		{
@@ -136,16 +128,6 @@
 					"url": "https://usegalaxy.org.au/join-training/smorgasbord"
 				}
 			]
-		},
-		{
-			"type": "divider"
-		},
-		{
-			"type": "section",
-			"text": {
-				"type": "mrkdwn",
-				"text": "*Social*\nDone for the day? Or just need a break? Join #social to chat with other attendees, or one of the game-specific social channels: #social-among-us, #social-codenames, #social-jackbox, #social-pictionary"
-			}
 		},
 		{
 			"type": "divider"
