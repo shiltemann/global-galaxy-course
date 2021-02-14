@@ -88,14 +88,14 @@
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "*Commnuity*\nEnjoying Galaxy? Want to become part of the community? Check out <https://youtu.be/kKN2C9dnlsQ|the community video> and join us!"
+				"text": "*Community*\nEnjoying Galaxy? Want to become part of the community? Check out <https://youtu.be/kKN2C9dnlsQ|the community video> and join us!"
 			}
 		},
 		{
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "*Commnuity Fora*\n1. https://help.galaxyproject.org/ - The place to go to ask questions about tools, servers, analyses\n2. https://gitter.im/Galaxy-Training-Network/Lobby - Join the GTN and chat with us on Gitter"
+				"text": "*Community Fora*\n1. https://help.galaxyproject.org/ - The place to go to ask questions about tools, servers, analyses\n2. https://gitter.im/Galaxy-Training-Network/Lobby - Join the GTN and chat with us on Gitter"
 			}
 		},
 		{
