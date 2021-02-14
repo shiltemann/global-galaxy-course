@@ -33,7 +33,7 @@ intro:
           external: true
           title: galaxyproject.org
           link: "https://galaxyproject.org"
-        - type: usegalaxy.* servers
+        - type: Galaxy servers
           external: true
           title: Find a Galaxy server near you!
           link: "https://galaxyproject.org/use/"
