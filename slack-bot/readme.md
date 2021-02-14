@@ -13,3 +13,8 @@ Since these are relatively automated, you can run `./build.sh` to rebuild the sh
 ## CRON
 
 There is a script, ./cron.sh that is meant to run on cron. It will send messages which are older than "now" (so run it at 5 min past the hour?) and log them so it doesn't send them again.
+
+```
+5 * * * * cd /this/directory && SLACK_URL="https://hooks.slack.com/services/T01.../B01.../uUK.." bash cron.sh
+```
+
