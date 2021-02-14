@@ -1,0 +1,94 @@
+{
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "The Last Day! Welcome Asia/Pacific :earth_asia:",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Today is the last day of the course, but the adventure doesn't stop here! Read on to find out how to stay connected with the Galaxy Community"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Don't forget to check the *FAQ document* in each channel's description (at the top of the screen on desktop)"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "When asking a question:\n1. Use threads\n2. Say which server (<https://usegalaxy.org.au|.org.au>, <https://usegalaxy.eu|.eu>, or <https://usegalaxy.org|.org>) you're using.\n3. Share all of the details (what did the tool say? what was the error? did you see more information in the bug-report icon?)"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Today*\nThis is the final day of all the teachers being here all of the time, so ask your questions! It is up to you to ask for help, we don't know if you've fallen behind or are struggling with an issue so let us know, don't be afraid to ask!"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Tomorrow*\nThe instructors will be taking some much needed rest :sleeping:"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*The next few days*\nWe'll be sending you a survey.  We need your feedback. Was this week useful to you? Say thank you by filling it out. :pray: :wave:\n\nInstructors might be around, but, less so than before. We will start directing questions to the many channels for community support."
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*The Future*\nDid you not have time to do everything you wanted to? There's a rumour parts of this event might happen again during GCC during the summer. :shushing_face:"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Commnuity*\nEnjoying Galaxy? Want to become part of the community? Check out <https://youtu.be/kKN2C9dnlsQ|the community video> and join us!"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Commnuity Fora*\n1. https://help.galaxyproject.org/ - The place to go to ask questions about tools, servers, analyses\n2. https://gitter.im/Galaxy-Training-Network/Lobby - Join the GTN and chat with us on Gitter"
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "Author: GTN Smörgåsbord Organisers",
+					"emoji": true
+				}
+			]
+		}
+	]
+}
