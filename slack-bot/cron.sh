@@ -18,6 +18,8 @@ for fn in scheduled/*.json; do
 			# If it was received OK
 			if [[ "$response" == "ok" ]]; then
 				echo "$fn" >> "$LOGFILE";
+			else
+				echo "$response"
 			fi
 		else
 			# already sent
