@@ -2,7 +2,7 @@
 intro:
   title: Welcome & Practical Information
   sessions:
-    - name: Welcome & Course Information (Click here to start)
+    - name: Welcome & Course Information
       description: "Start here; we will go over all the important things to know to get the most out of this workshop"
       speaker: shiltemann
       type: Lecture
@@ -41,6 +41,10 @@ day1:
         link: VZoz3k5EehI
         length: 10M
         captions: [nekrut]
+      material:
+        - type: slides
+          link: topics/introduction/videos/#video-introduction-galaxy-intro-short
+          title: A Slightly Longer Introduction to Galaxy
       support_channel: "#1-1_galaxy-intro"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub"
@@ -52,10 +56,10 @@ day1:
         In this tutorial, we will walk you through your first (toy) analysis in Galaxy. This tutorial is aimed at familiarizing you with the Galaxy platform, and some basic NGS concepts.
       speaker: tnabtaf
       video:
-        link:
-        length: 40M
+        link: 1UPCrQxGwcU
+        length: 1H30M
         captions: [tnabtaf]
-      material: # TODO: update after Dave sends video
+      material:
         - type: slides
           link: "https://docs.google.com/presentation/d/1rOGp4o_Dc-QIHS4YT4HizdfXTVhJB1HwPPZkSDuMhig/edit#slide=id.gbc9627d000_0_346"
           external: true
@@ -71,15 +75,18 @@ day1:
       faq: "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub"
 
 
-    - name: "Demo NGS Analysis: SARS-CoV-2 variant analysis"
+    - name: "Demo: NGS Data Logistics using SARS-CoV-2 data"
       type: Demo
       description: |
-        In this demo video, we will show you an example NGS analysis in Galaxy using SARS-CoV-2 data.
+        In this demo video, we will show how to perform an NGS data analysis, using a SARS-CoV-2 example dataset. If you would like to run the full tutorial yourself, please find the link below (duration 1h-1.5h).
       speaker: nekrut
       video:
         link: 9mIL0tIfZ_o
         length: 15M
         captions: [nekrut]
+      material:
+        - type: tutorial
+          link: topics/introduction/tutorials/galaxy-intro-ngs-data-managment/tutorial.html
       support_channel: "#1-2_ngs-intro"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01EXB3BKN1"
       faq: "https://docs.google.com/document/u/2/d/12w_KCVN7z9DKLSxX6aCRfr8__nfANoIxfLJeYM4UGQA/pub"
