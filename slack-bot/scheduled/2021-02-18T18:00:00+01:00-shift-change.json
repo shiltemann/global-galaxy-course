@@ -12,7 +12,7 @@
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "Europe/Middle East/Africa :earth_africa: region helpers are ending their workday, so it's over to the Americas :earth_americas:!"
+				"text": "Europe/Middle East/Africa :earth_africa: region helpers are ending their workday, so we're handing over to the Americas :earth_americas:!"
 			}
 		},
 		{
@@ -46,7 +46,7 @@
 					"emoji": true
 				},
 				"value": "schedule",
-				"url": "https://shiltemann.github.io/global-galaxy-course/workshop#day1",
+				"url": "https://shiltemann.github.io/global-galaxy-course/workshop#day4",
 				"action_id": "button-action"
 			}
 		},
