@@ -22,7 +22,7 @@ intro:
       type: setup
 
     - name: "Meet & Join the Galaxy Community!"
-      description: "This short video gives an overview of the worldwide Galaxy community, and different ways you can get involved!"
+      description: "This short video gives an overview of the worldwide Galaxy community, and different ways you can get involved! Video created by Beatriz Serrano-Solano."
       speaker: galaxycommunity
       video:
         link: -1MPdxmRs8U
