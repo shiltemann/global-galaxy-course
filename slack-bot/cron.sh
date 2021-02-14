@@ -10,6 +10,10 @@ if [[ -z "${SLACK_URL}" ]]; then
 	exit 1
 fi
 
+# Fetch the latest version of the messages
+git fetch origin
+git reset --hard origin/master
+
 for fn in scheduled/*.json; do
 	ds=$(echo "$fn" | sed 's|scheduled/||g' | cut -c1-25)
 	ts=$(date -d "$ds" +%s)
