@@ -5,6 +5,11 @@
 NOW=$(date +%s)
 LOGFILE=~/.config/slack-bot
 
+if [[ -z "${SLACK_URL}" ]]; then
+	echo Please set SLACK_URL
+	exit 1
+fi
+
 for fn in scheduled/*.json; do
 	ds=$(echo "$fn" | sed 's|scheduled/||g' | cut -c1-25)
 	ts=$(date -d "$ds" +%s)
