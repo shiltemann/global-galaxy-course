@@ -25,10 +25,10 @@ intro:
       description: "This short video gives an overview of the worldwide Galaxy community, and different ways you can get involved!"
       speaker: galaxycommunity
       video:
-        link: kKN2C9dnlsQ
+        link: -1MPdxmRs8U
         length: 5M
         captions: [shiltemann]
-      material:
+      material: &communitymaterial
         - type: GalaxyProject Home
           external: true
           title: galaxyproject.org
@@ -945,6 +945,16 @@ day5d:
   sessions:
     - name: "Wrap up & Socialize"
       type: wrapup
+
+    - name: "Meet & Join the Galaxy Community!"
+      description: "This short video gives an overview of the worldwide Galaxy community, and different ways you can get involved!"
+      speaker: galaxycommunity
+      video:
+        link: -1MPdxmRs8U
+        length: 5M
+        captions: [shiltemann]
+      material: *communitymaterial
+
 day6:
   title: "After the Course"
   description: |
