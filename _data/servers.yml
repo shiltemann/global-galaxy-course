@@ -3,19 +3,19 @@ topics/introduction/tutorials/r-basics/tutorial.html: {}
 topics/proteomics/tutorials/metaproteomics/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/peptide_shaker/1.16.36.3:
     eu: {seen: "1.16.36.3", exp: "1.16.36.3"}
-    org: {seen: "1.16.17", exp: "1.16.36.3"}
+    org: {seen: "2.0.9+galaxy0", exp: "1.16.36.3"}
     org.au: {seen: "1.16.36.3", exp: "1.16.36.3"}
   toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/search_gui/3.3.10.1:
     eu: {seen: "3.3.10.1", exp: "3.3.10.1"}
-    org: {seen: "3.2.13.4", exp: "3.3.10.1"}
-    org.au: {seen: "3.3.10.1", exp: "3.3.10.1"}
+    org: {seen: "4.0.12+galaxy0", exp: "3.3.10.1"}
+    org.au: {seen: "", exp: "3.3.10.1"}
   toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.3.0:
     eu: {seen: "4.3.0", exp: "4.3.0"}
-    org: {seen: "2.0.1", exp: "4.3.0"}
+    org: {seen: "4.3.0", exp: "4.3.0"}
     org.au: {seen: "4.3.0", exp: "4.3.0"}
   toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.0.0:
     eu: {seen: "3.0.0", exp: "3.0.0"}
-    org: {seen: "2.0.0", exp: "3.0.0"}
+    org: {seen: "3.1.1", exp: "3.0.0"}
     org.au: {seen: "3.1.1", exp: "3.0.0"}
   toolshed.g2.bx.psu.edu/repos/iuc/sqlite_to_tabular/sqlite_to_tabular/2.0.0:
     eu: {seen: "2.0.0", exp: "2.0.0"}
