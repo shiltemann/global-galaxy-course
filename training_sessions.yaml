@@ -11,7 +11,7 @@ intro:
         length: 25M
         captions: [shiltemann]
       material:
-        - type: slides
+        - type: Slides
           external: true
           link: "https://shiltemann.github.io/presentations//2020-12-18-smorgasbord"
       support_channel: "#general"
@@ -104,7 +104,7 @@ day1:
         length: 10M
         captions: [nekrut]
       material:
-        - type: slides
+        - type: Slides
           link: topics/introduction/videos/#video-introduction-galaxy-intro-short
           title: A Slightly Longer Introduction to Galaxy
       support_channel: "#1-1_galaxy-intro"
@@ -122,14 +122,14 @@ day1:
         length: 1H30M
         captions: [tnabtaf]
       material:
-        - type: slides
+        - type: Slides
           link: "https://docs.google.com/presentation/d/1rOGp4o_Dc-QIHS4YT4HizdfXTVhJB1HwPPZkSDuMhig/edit#slide=id.gbc9627d000_0_346"
           external: true
           title: Overview Prsentations
-        - type: tutorial
+        - type: Tutorial
           link: topics/introduction/tutorials/galaxy-intro-strands/tutorial.html
           title: Introduction to Genomics and Galaxy
-        - type: tutorial
+        - type: Tutorial
           link: topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html
           title: Extracting Workflows from Histories
       support_channel: "#1-1_galaxy-intro"
@@ -147,7 +147,7 @@ day1:
         length: 15M
         captions: [nekrut]
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/introduction/tutorials/galaxy-intro-ngs-data-managment/tutorial.html
       support_channel: "#1-2_ngs-intro"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01EXB3BKN1"
@@ -164,7 +164,7 @@ day1:
         length: 40M
         captions: [ennovytje,nagoue,hexylena]
       material:
-        - type: slides
+        - type: Slides
           link: topics/sequence-analysis/tutorials/quality-control/slides.html
           title: Introduction to Quality Control
       support_channel: "#1-3_quality-control"
@@ -183,7 +183,7 @@ day1:
         length: 1H10M
         captions: [bebatut,nagoue,shiltemann]
       material:
-        - type: tutorial
+        - type: Tutorial
           link: "topics/sequence-analysis/tutorials/quality-control/tutorial.html"
       support_channel: "#1-3_quality-control"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FQ92MB7A"
@@ -201,7 +201,7 @@ day1:
         length: 10M
         captions: [blankenberg]
       material:
-        - type: slides
+        - type: Slides
           link: topics/sequence-analysis/tutorials/mapping/slides.html
           title: Mapping
       support_channel: "#1-4_mapping"
@@ -220,7 +220,7 @@ day1:
         length: 20M
         captions: [shiltemann]
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/sequence-analysis/tutorials/mapping/tutorial.html
           title: Mapping
       support_channel: "#1-4_mapping"
@@ -240,7 +240,7 @@ day1:
         length: 25M
         captions: [shiltemann, hexylena]
       material:
-        - type: slides
+        - type: Slides
           link: topics/assembly/tutorials/general-introduction/slides.html
           title: An Introduction to Genome Assembly
       support_channel: "#1-5_assembly"
@@ -259,7 +259,7 @@ day1:
         length: 35M
         captions: [annasyme]
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/assembly/tutorials/chloroplast-assembly/tutorial.html
           title: Chloroplast genome assembly
       support_channel: "#1-5_assembly"
@@ -286,7 +286,7 @@ day2:
         length: 30M
         captions: []
       material:
-        - type: slides
+        - type: Slides
           link: topics/transcriptomics/slides/introduction.html
           title: Introduction to Transcriptomics
       support_channel: "#2-1_ref-based-rna-seq"
@@ -302,7 +302,7 @@ day2:
         length: 2H30M
         captions: []
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/transcriptomics/tutorials/ref-based/tutorial.html
           title: Reference-based RNA-Seq data analysis
       support_channel: "#2-1_ref-based-rna-seq"
@@ -331,7 +331,7 @@ day2:
         length: 50M
         captions: []
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/introduction/tutorials/r-basics/tutorial.html
           title: R basics in Galaxy
       support_channel: "#2-2_intro-to-r"
@@ -348,7 +348,7 @@ day2:
         length: 1H
         captions: []
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/introduction/tutorials/r-advanced/tutorial.html
           title: Advanced R in Galaxy
       support_channel: "#2-3_advanced_r"
@@ -365,7 +365,7 @@ day2:
         length: 30M
         captions: []
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html
           title: RNA Seq Counts to Viz in R
       support_channel: "#2-4_visualisation-with-r"
@@ -394,7 +394,7 @@ day3:
         length: 20M
         captions: [mtekman]
       material:
-        - type: slides
+        - type: Slides
           link: topics/transcriptomics/tutorials/scrna-intro/slides.html
           title: An introduction to scRNA-Seq data analysis
       support_channel: "#3-0_single-cell-rnaseq"
@@ -410,7 +410,7 @@ day3:
         length: 10M
         captions: [khanteymoori]
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/transcriptomics/tutorials/scrna-umis/tutorial.html
           title: Understanding Barcodes
       support_channel: "#3-1_understanding-barcodes"
@@ -427,7 +427,7 @@ day3:
         length: 5M
         captions: [khanteymoori]
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html
           title: Pre-processing of 10X Single-Cell RNA Datasets
       support_channel: "#3-2_preprocessing-10x-single-cell-rna-datasets"
@@ -443,7 +443,7 @@ day3:
         length: 45M
         captions: [hrhotz]
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html
           title: Clustering 3K PBMCs with Scanpy
       support_channel: "#3-3_clustering-3k-pbmcs-with-scanpy"
@@ -469,7 +469,7 @@ day4:
         length: 20M
         captions: [foellmelanie]
       material:
-        - type: slides
+        - type: Slides
           link: topics/proteomics/slides/introduction.html
           title: Introduction to proteomics, protein identification, quantification and statistical modelling
       support_channel: "#4-0_introduction-to-ms-proteomics"
@@ -485,7 +485,7 @@ day4:
         length: 45M
         captions: []
       material:
-        - type: tutorial
+        - type: Tutorial
           link:
       support_channel: "#4-1_maxquant-and-msstats"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
@@ -504,7 +504,7 @@ day4:
         length: 20M
         captions: []
       material:
-        - type: slides
+        - type: Slides
           link: "https://drive.google.com/file/d/1rqzf6Mrk9cMuQ2531tM6RpltPLrDCrgh/view?usp=sharing"
           external: true
       support_channel: "#4-2_protegenomics"
@@ -525,7 +525,7 @@ day4:
         length: 40M
         captions: [emmaleith]
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html
       support_channel: "#4-2_protegenomics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
@@ -544,9 +544,9 @@ day4:
         length: 30M
         captions: [emmaleith]
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html
-        - type: slides
+        - type: Slides
           link: "https://docs.google.com/presentation/d/1gAOJ7WQI1CEc3VeSm_fcvjg_GTxTCZ1N/edit#slide=id.p2"
           external: true
       support_channel: "#4-2_protegenomics"
@@ -566,7 +566,7 @@ day4:
         length: 40M
         captions: [subinamehta]
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html
       support_channel: "#4-2_protegenomics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
@@ -585,7 +585,7 @@ day4:
         length:
         captions: []
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/proteomics/tutorials/metaproteomics/tutorial.html
       support_channel: "#4-3_metaproteomics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD4276P3"
@@ -619,12 +619,12 @@ day5a:
         length: 20M
         captions: []
       material:
-        - type: slides
+        - type: Slides
           link: "https://docs.google.com/presentation/d/16XTMh2fRrl73WVaezNAFWET0IIMXBv0MCI2engFtdQs/edit#slide=id.g6231f48ea2_0_34"
           external: true
       support_channel: "#5-n_tuberculosis-variant-analysis"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD2WJU01"
-
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTr2X-W-2-gronZbeEqj8OGTLyLqaUW2_7mCsHHgVMAVsOQt2faSNk5IaizQlYE_0vWU26v79Oqhyy3/pub"
 
     - name: "Variant Analysis: M. Tuberculosis Variant Analysis (Hands-on!)"
       speaker: pvanheus
@@ -635,11 +635,11 @@ day5a:
         length: 40M
         captions: []
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html
       support_channel: "#5-n_tuberculosis-variant-analysis"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD2WJU01"
-
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTr2X-W-2-gronZbeEqj8OGTLyLqaUW2_7mCsHHgVMAVsOQt2faSNk5IaizQlYE_0vWU26v79Oqhyy3/pub"
 
     - name: "Metagenomics: 16S Microbial Analysis with mothur (Lecture)"
       speaker: shiltemann
@@ -650,7 +650,7 @@ day5a:
         length: 15M
         captions: []
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html
       support_channel: "#5-b_16s-microbial-analysis"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FDV16V25"
@@ -666,7 +666,7 @@ day5a:
         length: 1H40M
         captions: []
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html
       support_channel: "#5-b_16s-microbial-analysis"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FDV16V25"
@@ -693,7 +693,7 @@ day5a:
         length: 30M
         captions: []
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html
       support_channel: "#5-a_antibiotic-resistance-detection-nanopore"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX"
@@ -709,7 +709,7 @@ day5a:
         length: 45M
         captions: []
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html
       support_channel: "#5-a_antibiotic-resistance-detection-nanopore"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX"
@@ -724,9 +724,9 @@ day5a:
         length: 25M
         captions: [mtekman]
       material:
-        - type: slides
+        - type: Slides
           link: topics/assembly/tutorials/assembly-with-preprocessing/slides.html
-        - type: tutorial
+        - type: Tutorial
           link: topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html
       support_channel: "#5-h_unicycler-assembly-sars-cov2-genome"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01GJLDS01K"
@@ -741,7 +741,7 @@ day5a:
         length: 8M
         captions: [annefou]
       material:
-        - type: slides
+        - type: Slides
           link: topics/climate/tutorials/fates/slides.html
           title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
       support_channel: "#5-f_climate-fates"
@@ -757,7 +757,7 @@ day5a:
         length: 1H20M
         captions: [s3by01]
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/climate/tutorials/fates/tutorial.html
           title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
       support_channel: "#5-f_climate-fates"
@@ -774,7 +774,7 @@ day5a:
         length: 6M
         captions: []
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/visualisation/tutorials/circos/tutorial.html
           title: Visualisation with Circos
       support_channel: "#5-c_circos-visualisation"
@@ -790,7 +790,7 @@ day5a:
         length: 50M
         captions: []
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/visualisation/tutorials/circos/tutorial.html
           title: Visualisation with Circos
       support_channel: "#5-c_circos-visualisation"
@@ -806,7 +806,7 @@ day5a:
         length: 3M
         captions: [abretaud]
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/genome-annotation/tutorials/annotation-with-prokka/slides.html
       support_channel: "#5-g_annotation-prokaryotic-genome"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01GTTD1BE0"
@@ -821,9 +821,9 @@ day5a:
         length: 20M
         captions: [abretaud]
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html
-        - type: slides
+        - type: Slides
           link: topics/genome-annotation/videos/#video-genome-annotation-annotation-with-prokka
       support_channel: "#5-g_annotation-prokaryotic-genome"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01GTTD1BE0"
@@ -838,7 +838,7 @@ day5a:
         length: 30M
         captions: []
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/proteomics/tutorials/proteome_annotation/tutorial.html
           title: Annotating a protein list identified by LC-MS/MS experiments
       support_channel: "#5-i_proteore-protein-list-annotation"
@@ -857,10 +857,10 @@ day5b:
       speaker: hexylena
       description: "JBrowse is a popular Genome Browser. It can be used directly within Galaxy. You may have seen it in our Mapping tutorial on Day 1. This tutorial will go into more depth about JBrowse and how to use it to explore your genome."
       material:
-        - type: slides
+        - type: Slides
           link: topics/visualisation/tutorials/jbrowse/slides.html
           title: JBrowse
-        - type: tutorial
+        - type: Tutorial
           link: topics/visualisation/tutorials/jbrowse/tutorial.html
 
       support_channel: "#5-e_jbrowse"
@@ -872,7 +872,7 @@ day5b:
       description: "This tutorial aims to present the PAMPA Galaxy workflow, how to use it to compute common biodiversity metrics from species abundance data and analyse it through generalized linear (mixed) models (GLM and GLMM). This workflow made up of 5 tools will allow you to process temporal series data that include at least year, location and species sampled along with abundance value and, finally, generate article-ready data products."
       speaker: [colineroyaux, yvanlebras]
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html
           title: Compute and analyze biodiversity metrics with PAMPA toolsuite
       support_channel: "#5-d_ecology_pampa-toolsuite"
@@ -884,7 +884,7 @@ day5b:
       speaker: [hrhotz, lldelisle]
       description: "In many eukaryotic organisms, such as humans, the genome is tightly packed and organized with the help of nucleosomes (chromatin). A nucleosome is a complex formed by eight histone proteins that is wrapped with ~147bp of DNA. When the DNA is being actively transcribed into RNA, the DNA will be opened and loosened from the nucleosome complex. Many factors, such as the chromatin structure, the position of the nucleosomes, and histone modifications, play an important role in the organization and accessibility of the DNA. Consequently, these factors are also important for the activation and inactivation of genes. Assay for Transposase-Accessible Chromatin using sequencing (ATAC-Seq) is a method to investigate the accessibility of chromatin and thus a method to determine regulatory mechanisms of gene expression. The method can help identify promoter regions and potential enhancers and silencers. "
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/epigenetics/tutorials/atac-seq/tutorial.html
           title: ATAC-Seq data analysis
       support_channel: "#5-k_atac-seq"
@@ -896,7 +896,7 @@ day5b:
       type: Tutorial
       description: "A biomarker is a measurable biological component that can be routinely detected in clinical practice and reflects a disease state, response to therapeutic treatment, or other relevant biological state. In this tutorial we introduce successively the tools of this pipeline, and guide you to execute them in order to complete the entire pipeline on a concrete example."
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/proteomics/tutorials/biomarker_selection/tutorial.html
           title: Biomarker candidate identification
       support_channel: "#5-j_proteore-biomarkers-discovery"
@@ -907,7 +907,7 @@ day5b:
       speaker: simonbray
       description: "Cheminformatics is the use of computational techniques and information about molecules to solve problems in chemistry. This involves a number of steps: retrieving data on chemical compounds, sorting data for properties which are of interest, and extracting new information. This tutorial will provide a brief overview of all of these, centered around protein-ligand docking, a molecular modelling technique. "
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/computational-chemistry/tutorials/cheminformatics/tutorial.html
           title: Protein-ligand docking
       support_channel: "#5-m_cheminformatics"
@@ -920,7 +920,7 @@ day5b:
 This is a introductory guide to using GROMACS (Abraham et al. 2015) in Galaxy to prepare and perform molecular dynamics on a small protein. For the tutorial, we will perform our simulations on hen egg white lysozyme.
 "
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/computational-chemistry/tutorials/md-simulation-gromacs/tutorial.html
           title: Running molecular dynamics simulations using GROMACS
       support_channel: "#5-m_cheminformatics"
