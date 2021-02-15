@@ -302,7 +302,7 @@ day2:
       speaker: bebatut
       description: In this tutorial we will walk you through the process of an RNA-seq analysis, comparing gene expression levels between different conditions and assessing impacted gene pathways.
       video:
-        link: 37Tc1xnrHK4
+        link: j4onRSN650A # old one was  37Tc1xnrHK4
         length: 2H30M
         captions: []
       material:
