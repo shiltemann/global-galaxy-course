@@ -304,7 +304,7 @@ day2:
       video:
         link: j4onRSN650A # old one was  37Tc1xnrHK4
         length: 2H30M
-        captions: []
+        captions: [hexylena,shiltemann]
       material:
         - type: Tutorial
           link: topics/transcriptomics/tutorials/ref-based/tutorial.html
@@ -367,7 +367,7 @@ day2:
       video:
         link: rJWgnLgA2BE
         length: 30M
-        captions: []
+        captions: [hexylena, shiltemann, fpsom]
       material:
         - type: Tutorial
           link: topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html
