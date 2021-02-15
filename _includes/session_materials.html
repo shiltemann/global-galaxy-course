@@ -27,6 +27,10 @@
      <!-- support -->
      <li><a href="{{include.session.support_link }}">Ask an instructor</a> - Have question about the training? Did you run into a problem? Just wanna chat? Ask away on {{ site.support_platform }}! {% if session.support_channel %} (Channel: <a href="{{include.session.support_link}}">{{session.support_channel}}</a> ){%endif%} </li>
 
+
+     <!-- feedback -->
+     <li><strong>Finished the session?</strong> - Let us know that you've finished it, and what you thought of it! On Slack: {% if session.support_channel %} (Channel: <a href="{{include.session.support_link}}">{{session.support_channel}}</a> ){%endif%}. Thanks!</li>
+
     </ul>
    </div><!-- end card body -->
   </div><!-- end materials list -->
