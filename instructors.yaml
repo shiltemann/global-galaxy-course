@@ -125,6 +125,10 @@ khanteymoori:
     name: Alireza Khanteymoori
     affiliation: freiburguni
 
+kxk302:
+    name: Kaivan Kamali
+    affiliation: pennstate
+
 kmurat1:
     name: Katarzyna Kamieniecka
     affiliation: bradforduni
@@ -227,7 +231,7 @@ yvanlebras:
 yvesvdb:
     name: Yves Vandenbrouck
     affiliation: ifb
-    
+
 ic4f:
     name: Sergey Golitsynskiy
-    affiliation: johnshopkins    
+    affiliation: johnshopkins
