@@ -22,7 +22,7 @@ intro:
       type: setup
 
     - name: "Meet & Join the Galaxy Community!"
-      description: "This short video gives an overview of the worldwide Galaxy community, and different ways you can get involved! Video created by Beatriz Serrano-Solano."
+      description: "This short video gives an overview of the worldwide Galaxy community, and different ways you can get involved! <strong>Video created by Beatriz Serrano-Solano</strong>."
       speaker: galaxycommunity
       video:
         link: -1MPdxmRs8U
@@ -392,7 +392,7 @@ day3:
     - name: "An introduction to scRNA-seq data analysis"
       speaker: awspolly
       type: Lecture
-      description: Single-cell RNA-seq analysis is a rapidly evolving field at the forefront of transcriptomic research, used in high-throughput developmental studies and rare transcript studies to examine cell heterogeneity within a populations of cells. The cellular resolution and genome wide scope make it possible to draw new conclusions that are not otherwise possible with bulk RNA-seq. Slides created by Mehmet Tekman.
+      description: Single-cell RNA-seq analysis is a rapidly evolving field at the forefront of transcriptomic research, used in high-throughput developmental studies and rare transcript studies to examine cell heterogeneity within a populations of cells. The cellular resolution and genome wide scope make it possible to draw new conclusions that are not otherwise possible with bulk RNA-seq. <strong>Slides created by Mehmet Tekman</strong>.
       video:
         link: D3qvYWZMFa0
         length: 20M
@@ -467,9 +467,9 @@ day4:
     - name: "Introduction to mass spectrometry based proteomics data analysis"
       speaker: awspolly
       type: Lecture
-      description: This lecture will provide an introduction to mass spectrometry (MS) based proteomics analysis. Slides created by Melanie Föll.
+      description: This lecture will provide an introduction to mass spectrometry (MS) based proteomics analysis. <strong>Slides created by Melanie Föll</strong>.
       video:
-        link: rjXr9mRz4y8  # TODO: update when polly does better
+        link: 2C96AvrFT38
         length: 20M
         captions: [foellmelanie]
       material:
