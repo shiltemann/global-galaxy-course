@@ -350,7 +350,7 @@ day2:
       video:
         link: _hWBGdlICqg
         length: 1H
-        captions: []
+        captions: [ksuderman, nagoue]
       material:
         - type: Tutorial
           link: topics/introduction/tutorials/r-advanced/tutorial.html
