@@ -587,7 +587,7 @@ day4:
       video:
         link: 3_yaPp-RCFw
         length: 1H
-        captions: []
+        captions: [emmaleith]
       material:
         - type: Tutorial
           link: topics/proteomics/tutorials/metaproteomics/tutorial.html
