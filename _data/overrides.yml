@@ -8,17 +8,17 @@ topics/introduction/tutorials/r-basics/tutorial.html:
   overall:
     emea: 1
     apac: 0
-    amer: 0
+    amer: 1
 topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html:
   overall:
     emea: 1
     apac: 0
-    amer: 0
+    amer: 1
 topics/introduction/tutorials/r-advanced/tutorial.html:
   overall:
     emea: 1
     apac: 0
-    amer: 0
+    amer: 1
 topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html:
   overall:
     emea: 1
