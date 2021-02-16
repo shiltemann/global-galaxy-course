@@ -35,7 +35,7 @@
      {% endunless %}{% endunless %}{% endunless %}{% endunless %}
      <td>
       {% if session.material %}{% for m in session.material %}
-       <a href="{{site.gtn_url}}{{m.link}}{{site.analytics_suffix}}">{{ m.type | capitalize }}</a>
+       <a href="{% unless m.external %}{{site.gtn_url}}{% endunless %}{{m.link}}{{site.analytics_suffix}}">{{ m.type }}</a>
       {% endfor %}{% endif %}
 </td>
      <td> {% if session.faq %} <a href="{{session.faq}}">link</a> {% endif %} </td>
