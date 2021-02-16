@@ -652,7 +652,7 @@ day5a:
       video:
         link: 9OY1mklWuK0
         length: 15M
-        captions: []
+        captions: [shiltemann]
       material:
         - type: Tutorial
           link: topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html
