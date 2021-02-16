@@ -683,19 +683,19 @@ day5a:
       video:
         link: bZfEyd87xCE
         length: 20M
-        captions: []
+        captions: [shiltemann]
       support_channel: "#5-a_antibiotic-resistance-detection-nanopore"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub"
 
-    - name: "Metagenomics in the Clinical: Nanopore Whole Bacterial Genome Sequencing"
+    - name: "Clinical Microbiomics: Nanopore Whole Bacterial Genome Sequencing"
       speaker: aheikema
       type: Lecture
-      description: Nanopore Sequencing has many applications in a Clinical setting. In this lecture, Astrid Heikema discusses how her group at the Erasmus Medical Center uses Nanopore for sequencing of bacterial Genomes.
+      description: Nanopore Sequencing has many applications in a clinical setting. In this lecture, Astrid Heikema discusses how her group at the Erasmus Medical Center uses Nanopore for sequencing of bacterial Genomes.
       video:
         link: icXMqMut6PY
         length: 30M
-        captions: []
+        captions: [hexylena]
       material:
         - type: Tutorial
           link: topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html
@@ -711,7 +711,7 @@ day5a:
       video:
         link: ECIl8ZU1Wko
         length: 45M
-        captions: []
+        captions: [bebatut]
       material:
         - type: Tutorial
           link: topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html
