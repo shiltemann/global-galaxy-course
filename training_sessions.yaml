@@ -57,6 +57,10 @@ intro:
           external: true
           link: "https://galaxyproject.org/events/"
           title: Galaxy Event Horizon
+        - type: Mailing Lists
+          external: true
+          title: Stay informed of Galaxy activity!
+          link: "https://galaxyproject.org/mailing-lists/"
         - type: Galaxy Working Groups
           external: true
           link: "https://galaxyproject.org/community/wg/"
@@ -85,6 +89,12 @@ intro:
           external: true
           title: follow @galaxyproject
           link: "https://twitter.com/galaxyproject"
+        - type: Twitter
+          external: true
+          title: follow the GTN @gxytraining
+          link: "https://twitter.com/gxytraining"
+
+
 
 
 day1:
