@@ -469,6 +469,7 @@ day3:
 
 day4:
   title: "Day 4: Proteomics"
+  desciption: Today we explore the world of proteomics! Today we have a mixture of lectures, hands-on tutorials, and workflow demonstrations. The FAQ document provides links to example histories if you would like to explore the outputs of the demos yourself.
   sessions:
     - name: "Icebreaker: Say Hi in Slack!"
       type: icebreaker
@@ -549,12 +550,12 @@ day4:
 
     - name: "Proteogenomics 2: Database search"
       speaker: andrewr
-      type: Tutorial
+      type: Demo
       description: |
-        In this tutorial, we're continuing the process of proteogenomic analysis. Here, we search
+        In this demonstration, we're continuing the process of proteogenomic analysis. Here, we search
         mass spectrometry data against a custom proteogenomics FASTA database to create peptide
         spectral matches (PSMs) for each dataset; we also isolate non-canonical peptides from the
-        resulting data for further analysis.
+        resulting data for further analysis. <strong> If you would like to view the results yourself, we provide example histories in the FAQ document</strong>
       video:
         link: q1OjmTcbvBA
         length: 30M
@@ -572,11 +573,11 @@ day4:
 
     - name: "Proteogenomics 3: Novel peptide analysis"
       speaker: subinamehta
-      type: Tutorial
+      type: Demo
       description: |
-        In this tutorial, we will investigate the peptides that were identified during proteogenomics
+        In this demonstration, we will investigate the peptides that were identified during proteogenomics
         tutorial 2. We will identify the presence of novel proteoforms that are absent in the reference
-        database, annotate the novel peptides and visualize them using the Multi-omics Visualization Platform (MVP).
+        database, annotate the novel peptides and visualize them using the Multi-omics Visualization Platform (MVP). <strong> If you would like to view the results yourself, we provide example histories in the FAQ document</strong>
       video:
         link: Ku274KwFh1Y
         length: 40M
