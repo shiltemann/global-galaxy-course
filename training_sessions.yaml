@@ -501,6 +501,7 @@ day4:
       material:
         - type: Tutorial
           link: topics/proteomics/tutorials/maxquant-msstats-dda-lfq/tutorial.html
+          title: MaxQuant and MSstats for the analysis of label-free data
       support_channel: "#4-1_maxquant-and-msstats"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
       faq: "https://docs.google.com/document/d/e/2PACX-1vS4GuHPJrRcpGmNCXBTJ9wyUp6X33Xe6Ou8N_q0Ko5AJ-_rUy7ZsAu-x6R9yf7iRZLxK-t_e-O4Xoc6/pub"
