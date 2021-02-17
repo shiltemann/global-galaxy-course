@@ -469,7 +469,7 @@ day3:
 
 day4:
   title: "Day 4: Proteomics"
-  desciption: Today we explore the world of proteomics! Today we have a mixture of lectures, hands-on tutorials, and workflow demonstrations. The FAQ document provides links to example histories if you would like to explore the outputs of the demos yourself.
+  description: Today we explore the world of proteomics! Today we have a mixture of lectures, hands-on tutorials, and workflow demonstrations. The FAQ document provides links to example histories if you would like to explore the outputs of the demos yourself.
   sessions:
     - name: "Icebreaker: Say Hi in Slack!"
       type: icebreaker
