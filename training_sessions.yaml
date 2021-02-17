@@ -417,8 +417,8 @@ day3:
 
     - name: "Understanding Barcodes"
       speaker: nomadscientist
-      type: Tutorial
-      description: This tutorial explains the what barcodes in your sequencing data are, and how to handle them during analysis.
+      type: Demo
+      description: This tutorial demonstrates the what barcodes in your sequencing data are, and how to handle them during analysis. Please work through the full tutorial yourself to get all the details.
       video:
         link: AJ17BicjmYU
         length: 10M
@@ -434,8 +434,8 @@ day3:
 
     - name: "Pre-processing of 10X Single-Cell RNA Datasets"
       speaker: nomadscientist
-      type: Tutorial
-      description: 10x genomics has provided not only a cost-effective high-throughput solution to understanding sample heterogeneity at the individual cell level, but has defined the standards of the field that many downstream analysis packages are now scrambling to accommodate.
+      type: Demo
+      description: 10x genomics has provided not only a cost-effective high-throughput solution to understanding sample heterogeneity at the individual cell level, but has defined the standards of the field that many downstream analysis packages are now scrambling to accommodate. Please work through the full tutorial yourself to get all the details.
       video:
         link: vNBNFkF0L4U
         length: 5M
@@ -450,8 +450,8 @@ day3:
 
     - name: "Clustering 3K PBMCs with Scanpy"
       speaker: nomadscientist
-      type: Tutorial
-      description: "In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells."
+      type: Demo
+      description: "In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells. Please work through the full tutorial yourself to get all the details."
       video:
         link: nefB35Bi1l4
         length: 45M
