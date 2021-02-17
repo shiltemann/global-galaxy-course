@@ -392,7 +392,7 @@ day2:
 
 day3:
   title: "Day 3: Single-cell RNA-Seq Analysis"
-  description: "Today's videos provide a short demo of the analysis, please work through the tutorials on your own to get all the details and background information."
+  description: "Today's videos provide a short demo of the analysis, please work through the tutorials on your own first to get all the details and background information, and refer to the videos if you get stuck."
   sessions:
     - name: "Icebreaker: Let us know you've joined in Slack!"
       type: icebreaker
