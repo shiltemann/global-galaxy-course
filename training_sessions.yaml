@@ -649,7 +649,7 @@ day5a:
       video:
         link: G1DmquX6Wh8
         length: 40M
-        captions: []
+        captions: [pvanheus,nagoue,hexylena]
       material:
         - type: Tutorial
           link: topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html
@@ -680,7 +680,7 @@ day5a:
       video:
         link: mto4Nl-q7Kk
         length: 1H40M
-        captions: []
+        captions: [shiltemann]
       material:
         - type: Tutorial
           link: topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html
