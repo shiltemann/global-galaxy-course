@@ -498,7 +498,7 @@ day4:
       video:
         link: ad3E4VaTp7M
         length: 1H15M
-        captions: []
+        captions: [shiltemann]
       material:
         - type: Tutorial
           link: topics/proteomics/tutorials/maxquant-msstats-dda-lfq/tutorial.html
