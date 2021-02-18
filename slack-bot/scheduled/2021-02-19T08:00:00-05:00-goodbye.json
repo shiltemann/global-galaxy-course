@@ -1,6 +1,6 @@
 {
 	"blocks": [
-		{
+       {
 			"type": "header",
 			"text": {
 				"type": "plain_text",
@@ -19,7 +19,7 @@
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "Choose Your OWN Schedule Today!"
+				"text": "Choose Your OWN Schedule Today! And feel free to ask us for recommendations for tutorials if you are interested in a particular topic."
 			},
 			"accessory": {
 				"type": "button",
@@ -57,7 +57,7 @@
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "*Today*\nThis is the final day of all the teachers being here all of the time, so ask your questions! It is up to you to ask for help, we don't know if you've fallen behind or are struggling with an issue so let us know, don't be afraid to ask!"
+				"text": "*Today*\nThis is the final day of all the teachers being here all of the time, so ask your questions! Don't be afraid to ask! There is some information at the end of the program about certificates and a feedback survey"
 			}
 		},
 		{
@@ -71,14 +71,14 @@
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "*The next few days*\nWe'll be sending you a survey.  We need your feedback. Was this week useful to you? Say thank you by filling it out. :pray: :wave:\n\nInstructors might be around, but, less so than before. We will start directing questions to the many channels for community support."
+				"text": "*The next few days*\nWe'll be sending you a survey (also linked to from the last item in the program).  We need your feedback! Was this week useful to you? Say thank you by filling it out. :pray: :wave:\n\nInstructors might be around, but, less so than before. Feel free to keep using Slack, but you can also ask any training quesions in the <https://gitter.im/Galaxy-Training-Network/Lobby|GTN Gitter Channel>, or the <https://help.galaxyproject.org/?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2021|Galaxy Help Forum>."
 			}
 		},
 		{
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "*The Future*\nDid you not have time to do everything you wanted to? There's a rumour parts of this event might happen again during GCC during the summer. :shushing_face:"
+				"text": "*The Future*\nDid you not have time to do everything you wanted to? There's a rumour parts of this event might happen again during <https://www.vibconferences.be/events/gcc2021-virtual-edition| the Galaxy Community Conference during the summer>. :shushing_face:"
 			}
 		},
 		{
@@ -110,3 +110,4 @@
 		}
 	]
 }
+
