@@ -44,9 +44,14 @@ links to all training materials can be found by clicking on each session
     {% include setup.html %}
    {% endif %}
 
-   <!-- setup -->
+   <!-- wrapup -->
    {% if session.type == 'wrapup' %}
     {% include wrapup.html %}
+   {% endif %}
+
+    <!-- wrapup -->
+   {% if session.type == 'post-event' %}
+    {% include post-event.html %}
    {% endif %}
 
 
@@ -62,22 +67,22 @@ links to all training materials can be found by clicking on each session
    <h3 class="session-section"> Video {{session.type | default: "Tutorial" }} </h3>
    {% include video-session.html session=session %}
    {% else %}
-   {% unless session.type == 'icebreaker' %}{% unless session.type == 'setup' %}{% unless session.type == 'wrapup' %}
+   {% unless session.type == 'icebreaker' %}{% unless session.type == 'setup' %}{% unless session.type == 'wrapup' %}{% unless session.type == 'post-event' %}
    <h3 class="session-section"> Self-Study Tutorial </h3>
    {{session.description}}
 
    {% include selfstudy-session.html session=session %}
-   {% endunless %}{% endunless %}{% endunless %}
+   {% endunless %}{% endunless %}{% endunless %}{% endunless %}
    {% endif %}
 
    <!-- supported servers -->
    {% include server_support.html material=session.material %}
 
    <!-- session links  -->
-   {% unless session.type == 'icebreaker' %}{% unless session.type == 'setup' %}{% unless session.type == 'wrapup' %}
+   {% unless session.type == 'icebreaker' %}{% unless session.type == 'setup' %}{% unless session.type == 'wrapup' %}{% unless session.type == 'post-event' %}
    <h3 class="session-section">Supporting Materials </h3>
    {% include session_materials.html session=session %}
-   {% endunless %}{% endunless %}{% endunless %}
+   {% endunless %}{% endunless %}{% endunless %}{% endunless %}
 
    <!-- end session links -->
 

@@ -962,7 +962,7 @@ day5d:
     - name: "Wrap up & Socialize"
       type: wrapup
 
-    - name: "Meet & Join the Galaxy Community!"
+    - name: "Useful links: Stay involved in the Galaxy Community!"
       description: "This short video gives an overview of the worldwide Galaxy community, and different ways you can get involved!"
       speaker: galaxycommunity
       video:
@@ -970,6 +970,11 @@ day5d:
         length: 5M
         captions: [shiltemann]
       material: *communitymaterial
+
+    - name: "Feedback Survey, Certificates & GCC2021"
+      type: post-event
+
+
 
 day6:
   title: "After the Course"

@@ -31,17 +31,22 @@ image_dir: /assets/images/
 logo_dir: /assets/images/logos/
 
 
+# support
 support_platform: "Slack"
 support_link: "https://gtnsmrgsbord.slack.com/"
 support_join: "https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-l709bg1s-aM6vGpAt~E8rr0rLP2NdPA"
 icebreaker_channel: "#social"
 icebreaker_link: "https://gtnsmrgsbord.slack.com/archives/C01EDBVMHBQ"
 
+# feedback
 feedback_channel: "#feedback"
 feedback_link: "https://gtnsmrgsbord.slack.com/archives/C01NDF5SFH6"
+feedback_survey_link: "https://forms.gle/7ZQBV5Eg2twxiVRx8"
 
+#videos
 video_platform: YouTube
 video_prefix: "https://youtu.be/"
+
 
 
 # Build settings
