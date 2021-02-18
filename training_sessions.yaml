@@ -852,7 +852,7 @@ day5a:
       video:
         link: qG7GZc6BeGY
         length: 30M
-        captions: []
+        captions: [combesf]
       material:
         - type: Tutorial
           link: topics/proteomics/tutorials/proteome_annotation/tutorial.html
