@@ -726,7 +726,7 @@ day5a:
         captions: [bebatut]
       material:
         - type: Tutorial
-          link: topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html
+          link: topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html
       support_channel: "#5-a_antibiotic-resistance-detection-nanopore"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub"
