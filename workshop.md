@@ -14,6 +14,9 @@ links to all training materials can be found by clicking on each session
 
 <a href="{{site.baseurl}}/workshop"><button type="button" class="btn btn-warning btn-lg">Welcome! The course has ended, but you can still work through the materials on your own.</button></a>
 
+<br/>
+<a href="{{site.baseurl}}/workshop"><button type="button" class="btn btn-warning btn-lg">The deadline for requesting certificates has passed, but we will organize similar events in the future.</button></a>
+
 **Note:** Slack will not be as active anymore, but you can also ask your quesions on Gitter.
 
 <a href="https://gitter.im/Galaxy-Training-Network/Lobby"><button type="button" class="btn btn-info btn-lg">GTN Gitter channel</button></a>
