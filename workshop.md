@@ -15,7 +15,10 @@ links to all training materials can be found by clicking on each session
 <a href="{{site.baseurl}}/workshop"><button type="button" class="btn btn-warning btn-lg">Welcome! The course has ended, but you can still work through the materials on your own.</button></a>
 
 <br/>
-<a href="{{site.baseurl}}/workshop"><button type="button" class="btn btn-warning btn-lg">The deadline for requesting certificates has passed, but we will organize similar events in the future.</button></a>
+
+
+
+**Note:** The **deadline for requesting certificates has passed**, but we will organize similar events in the future. The next major training event will happen during the [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021-virtual-edition), and includes a week-long training event similar to this one ([preliminary program](https://galaxyproject.org/events/gcc2021/training/)). Please consider joining!
 
 **Note:** Slack will not be as active anymore, but you can also ask your quesions on Gitter.
 
