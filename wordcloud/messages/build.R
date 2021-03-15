@@ -1,5 +1,6 @@
 library(ggplot2)
-require(plyr)
+library(scales)
+library(plyr)
 
 files = list.files(pattern="*.tsv")
 head(files)
@@ -13,7 +14,8 @@ df$cpre2 = mapvalues(df$cpre,
                      to=c("Day 1 (Intro)", "Day 2 (RNASeq)", "Day 3 (ScRNA)", "Day 4 (Proteomics)", "Day 5 (CYOA)", "Announcements", "Feedback", "General", "Random", "Social"))
 freqs <- aggregate(df$day, by=list(df$day, df$cpre2), FUN=length)
 
-p = ggplot(freqs) + geom_bar(stat="identity", colour="black", aes(x=Group.1, y=x, fill=Group.2)) + theme_minimal()+ labs(title="Slack Conversations", x= "Day", y="Messages", fill="Channels")
-ggsave("messages-all.png")
-p = p + scale_x_date(labels=date_format("%B %d"), limits = as.Date(c('2021-02-14','2021-02-20')))
-ggsave("messages-during.png")
+base = ggplot(freqs) + geom_bar(stat="identity", colour="black", aes(x=Group.1, y=x, fill=Group.2)) + theme_minimal()+ labs(title="Slack Conversations", x= "Day", y="Messages", fill="Channels")
+p = base + scale_x_date(labels=date_format("%B %d"), limits = as.Date(c('2021-02-14','2021-03-08')))
+ggsave("messages-all.png", width=10, height=5, dpi=400)
+p = base + scale_x_date(labels=date_format("%B %d"), limits = as.Date(c('2021-02-14','2021-02-20')))
+ggsave("messages-during.png", width=10, height=5, dpi=400)
