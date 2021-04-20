@@ -24,6 +24,7 @@ links to all training materials can be found by clicking on each session
 
 <a href="https://gitter.im/Galaxy-Training-Network/Lobby"><button type="button" class="btn btn-info btn-lg">GTN Gitter channel</button></a>
 
+<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-oknf714k-BqDlVgL76396SfYiJ2xtXQ"><button type="button" class="btn btn-info btn-lg">GTN Slack space</button></a>
 
 
 {% for day in site.data.training_sessions %}
